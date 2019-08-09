@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from "react-router-dom";
+import Back from './back1';
 
 export default class extends React.Component {
     constructor(props) {
@@ -20,13 +20,13 @@ export default class extends React.Component {
     }
 
     getProductDetail() {
-        return this.state.data.filter(item => item.prdId == this.state.id)[0];
+        return this.state.data2.filter(item => item.prdId === this.state.id)[0];
     }
 
     render() {
         return (
             <div className="Product-detail">
-                <Link to="/list">List</Link>
+                <Back history={this.props.history} />
                 <div>{`Name: ${this.state.product.prdName}`}</div>
                 <div>{`Price: ${this.state.product.prdPrice}`}</div>
             </div>

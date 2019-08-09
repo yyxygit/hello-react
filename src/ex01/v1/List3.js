@@ -17,10 +17,11 @@ export default class extends React.Component {
     render() {
         let productList;
         if(data.length > 0) {
-            productList = data.map(ele => (<li key={`prd-${ele.prdId}`}>
-                <Link to={`/detail/${ele.prdId}`}>{ele.prdName}</Link>
-            </li>));
-        }
+            productList = data.map(ele => (
+                <li key={`prd-${ele.prdId}`}>
+                    <Link to={`/detail/${ele.prdId}`}>{ele.prdName}</Link>
+                </li>));
+            }
         return (
             <div className="Product-list">
                 <ul>

@@ -24,9 +24,13 @@ export default class extends React.Component {
         let productList;
         if(data.length > 0) {
             productList = data.map((ele) => {
+                const location = {
+                    pathname: "/detail",
+                    search: `?id=${ele.prdId}&name=${ele.prdName}&price=${ele.prdPrice}&storage=${ele.storage}`
+                };
                 return (
                     <li key={`prd-${ele.prdId}`}>
-                        <Link to={`/detail?id=${ele.prdId}&name=${ele.prdName}&price=${ele.prdPrice}&storage=${ele.storage}`}>{ele.prdName}</Link>
+                        <Link to={location}>{ele.prdName}</Link>
                     </li>
                 );
             });

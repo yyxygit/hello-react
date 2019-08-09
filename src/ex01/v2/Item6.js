@@ -2,20 +2,20 @@ import React from 'react';
 import Back from './back1';
 
 /**
- * url: http://localhost:3000/detail?id=1&name=apple&price=2&storage=0
+ * url: http://localhost:3000/detail#{%22prdId%22:%221%22,%22prdName%22:%22apple%22,%22prdPrice%22:2,%22storage%22:0}
+ *
  */
 export default class extends React.Component {
 
     constructor(props) {
         super(props);
         debugger;
-        // this.params = this.props.match.params;
-        this.search =  new URLSearchParams(this.props.location.search);
-        // this.location = window.location;
-        /**
-         * props.location hash/pathname/search 字段 和window.location相同
-         * props.location key/state 自有属性
-         */
+        // this.props.location.hash
+        // "#{%22prdId%22:%221%22,%22prdName%22:%22apple%22,%22prdPrice%22:2,%22storage%22:0}"
+        this.params = decodeURI(props.location.hash);
+        this.hash =  JSON.parse(this.params.slice(1));
+        this.nativeLocation = window.location;
+
     }
     
     componentDidMount() {
@@ -25,11 +25,11 @@ export default class extends React.Component {
     render() {
         // debugger;
         return (
-            <div className="Product-detail" id={this.search.get('id')}>
+            <div className="Product-detail" id={this.hash.id}>
                 <Back history={this.props.history} />
-                <div>{`Name: ${this.search.get('name')}`}</div>
-                <div>{`Price: ${this.search.get('price')}`}</div>
-                <div>{`storage: ${this.search.get('storage')}`}</div>
+                <div>{`Name: ${this.hash.prdName}`}</div>
+                <div>{`Price: ${this.hash.prdPrice}`}</div>
+                <div>{`storage: ${this.hash.storage}`}</div>
             </div>
         );
     }

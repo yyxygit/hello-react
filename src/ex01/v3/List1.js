@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import {data} from './data';
 
+
 export default class extends React.Component {
 
     constructor(props) {
@@ -24,9 +25,13 @@ export default class extends React.Component {
         let productList;
         if(data.length > 0) {
             productList = data.map((ele) => {
+                const path = {
+                    pathname:'/detail',
+                    state:ele
+                };
                 return (
                     <li key={`prd-${ele.prdId}`}>
-                        <Link to={`/detail?id=${ele.prdId}&name=${ele.prdName}&price=${ele.prdPrice}&storage=${ele.storage}`}>{ele.prdName}</Link>
+                        <Link to={path}>{ele.prdId + ' ' + ele.prdName}</Link>
                     </li>
                 );
             });

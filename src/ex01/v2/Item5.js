@@ -2,13 +2,13 @@ import React from 'react';
 import Back from './back1';
 
 /**
- * url: http://localhost:3000/detail?id=4&name=strawberry&price=10&storage=10
+ * url: http://localhost:3000/detail?id=1&name=apple&price=2&storage=0
  */
 export default class extends React.Component {
 
     constructor(props) {
         super(props);
-        // debugger;
+        debugger;
         // this.params = this.props.match.params;
         this.search =  new URLSearchParams(this.props.location.search);
         // this.location = window.location;

@@ -1,47 +1,30 @@
 import React from 'react';
-import Back from './back2';
-import {data} from './data';
+import Back from './back1';
 
-// const data2 = [
-//     {prdId: '1', prdName: 'apple', prdPrice: 2, storage: 0},
-//     {prdId: '2', prdName: 'orange', prdPrice: 2, storage: 2},
-//     {prdId: '3', prdName: 'melon', prdPrice: 5, storage: 7},
-//     {prdId: '4', prdName: 'strawberry', prdPrice: 10, storage: 10}
-// ];
-
+/**
+ * url: http://localhost:3000/detail/%7B%22prdId%22:%221%22,%22prdName%22:%22apple%22,%22prdPrice%22:2,%22storage%22:0%7D
+ */
 export default class extends React.Component {
 
     constructor(props) {
         super(props);
-        this.state = {
-            product: {
-                prdId: '',
-                prdName: '',
-                prdPrice: '',
-                storage: ''
-            }
-        };
-
-    }
-    componentDidMount() {
         // debugger;
-        this.setState({
-            product: this.getProductDetail()
-        })
+        this.data = JSON.parse(this.props.match.params.item);
 
     }
-
-    getProductDetail() {
-        return data.filter((item) => item.prdId === this.props.match.params.id)[0];
+    
+    componentDidMount() {
     }
+
 
     render() {
         // debugger;
         return (
             <div className="Product-detail">
                 <Back history={this.props.history} />
-                <div>{`Name: ${this.state.product.prdName}`}</div>
-                <div>{`Price: ${this.state.product.prdPrice}`}</div>
+                <div>{`Name: ${this.data2.prdName}`}</div>
+                <div>{`Price: ${this.data2.prdPrice}`}</div>
+                <div>{`storage: ${this.data2.storage}`}</div>
             </div>
         );
     }

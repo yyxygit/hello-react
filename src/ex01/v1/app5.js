@@ -1,7 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
-import List from "./List1";
-import Item from "./Item2";
+import List from "./List2";
+import Item from "./Item3";
+
 
 export default function () {
     return (

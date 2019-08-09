@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header .select {
+    position: relative;
+}
+
+.header .select .year {
+
+}
+
+/**
+ * .triangle-down <span className="triangle-down">&nbsp;</span>
+ * <div className=“”“”"header">
+ * year<span>&nbsp;<span>
+ * </div>
+ */
+.header .select .triangle-down {
+    position: absolute;
+    top: 45%;
+    transform: translateY(-45%);
+    width: 0;
+    height: 0;
+    border-top: 16px solid #333333;
+    border-left: 12px solid #333333;
+    border-right: 12px solid #333333;
+}

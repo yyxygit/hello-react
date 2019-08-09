@@ -27,7 +27,7 @@ export default class extends React.Component {
             productList = data.map((ele) => {
                 const path = {
                     pathname:'/detail',
-                    state:ele
+                    query:ele
                 };
                 return (
                     <li key={`prd-${ele.prdId}`}>

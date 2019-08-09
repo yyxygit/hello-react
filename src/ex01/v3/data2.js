@@ -1,0 +1,22 @@
+export const data = [
+    {id: '1',   name: 'apple',      price: 2,    storage: 0},
+    {id: '2',   name: 'orange',     price: 2,    storage: 2},
+    {id: '3',   name: 'melon',      price: 5,    storage: 7},
+    {id: '4',   name: 'strawberry', price: 10,   storage: 10},
+    {id: '5',   name: 'apple',      price: 4,    storage: 0},
+    {id: '6',   name: 'orange',     price: 4,    storage: 2},
+    {id: '7',   name: 'melon',      price: 10,   storage: 7},
+    {id: '8',   name: 'strawberry', price: 20,   storage: 10},
+    {id: '9',   name: 'apple',      price: 2,    storage: 4},
+    {id: '10',  name: 'orange',     price: 1,    storage: 2},
+    {id: '11',  name: 'melon',      price: 2.5,  storage: 7},
+    {id: '12',  name: 'strawberry', price: 5,    storage: 10},
+    {id: '13',  name: 'apple',      price: 3,    storage: 0},
+    {id: '14',  name: 'orange',     price: 3,    storage: 3},
+    {id: '15',  name: 'melon',      price: 6,    storage: 7},
+    {id: '16',  name: 'strawberry', price: 15,   storage: 10},
+    {id: '17',  name: 'apple',      price: 5,    storage: 0},
+    {id: '18',  name: 'orange',     price: 5,    storage: 8},
+    {id: '19',  name: 'melon',      price: 7,    storage: 7},
+    {id: '20',  name: 'strawberry', price: 25,   storage: 10}
+];

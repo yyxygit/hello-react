@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
-import List from "./List1";
-import Item from "./Item1";
+import List from "./List3";
+import Item from "./Item3";
 
 // props.params
 export default function () {
@@ -10,12 +10,12 @@ export default function () {
         <div>
 
             <Header />
-            <h1>Hello, EX02!</h1>
+            <h1>Hello, app3!</h1>
             <Switch>
                 <Route exact path="/" component={Home} />
                 <Route path="/about" component={About} />
                 <Route path="/list" component={List} />
-                <Route path='/detail/:item' component={Item} />
+                <Route path='/detail/:id/:name/:price/:storage' component={Item} />
             </Switch>
         </div>
       </Router>

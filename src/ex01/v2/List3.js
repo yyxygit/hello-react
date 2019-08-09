@@ -24,10 +24,9 @@ export default class extends React.Component {
         let productList;
         if(data.length > 0) {
             productList = data.map((ele) => {
-                const item = JSON.stringify(ele);
                 return (
                     <li key={`prd-${ele.prdId}`}>
-                        <Link to={`/detail/${item}`}>{ele.prdName}</Link>
+                        <Link to={`/detail/${ele.prdId}/${ele.prdName}/${ele.prdPrice}/${ele.storage}`}>{ele.prdName}</Link>
                     </li>
                 );
             });

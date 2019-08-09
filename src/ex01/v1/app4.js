@@ -1,14 +1,14 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 import List from "./List1";
-import Item from "./Item1";
+import Item from "./Item2";
 
 export default function () {
     return (
       <Router>
         <div>
 
-            {/*<Header />*/}
+            <Header />
             <h1>Hello, EX01!</h1>
             <Switch>
                 <Route exact path="/" component={Home} />

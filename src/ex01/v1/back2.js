@@ -17,7 +17,7 @@ export default class extends React.Component {
 
           //  <button onClick={this.handleClick}>{this.props.text ? this.props.text : 'Back'}</button>
     render() {
-        console.log('1');
+        // console.log('1');
         return (
             <button onClick={this.handleClick}>{this.text}</button>
         );

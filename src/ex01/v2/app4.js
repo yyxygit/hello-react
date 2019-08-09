@@ -1,21 +1,21 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
-import List from "./List3";
-import Item from "./Item3";
+import List from "./List4";
+import Item from "./Item4";
 
-// props.params
+// app4 & app5 相同
 export default function () {
     return (
       <Router>
         <div>
 
             <Header />
-            <h1>Hello, app3!</h1>
+            <h1>Hello, app4!</h1>
             <Switch>
                 <Route exact path="/" component={Home} />
                 <Route path="/about" component={About} />
                 <Route path="/list" component={List} />
-                <Route path='/detail/:id/:name/:price/:storage' component={Item} />
+                <Route path='/detail' component={Item} />
             </Switch>
         </div>
       </Router>

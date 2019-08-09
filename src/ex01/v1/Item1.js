@@ -20,7 +20,7 @@ export default class extends React.Component {
     }
 
     getProductDetail() {
-        return this.state.data.filter(item => item.prdId == this.state.id)[0];
+        return this.state.data2.filter(item => item.prdId == this.state.id)[0];
     }
 
     render() {

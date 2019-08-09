@@ -8,7 +8,7 @@ export default class extends React.Component {
         // mock list data
         this.state = {
             data: [
-              {prdId: '1', prdName: 'apple', prdPrice: 2},
+              {prdId: '1', prdName: 'apple', prdPrice: 2,storage: 0},
               {prdId: '2', prdName: 'orange', prdPrice: 2},
               {prdId: '3', prdName: 'melon', prdPrice: 5},
               {prdId: '4', prdName: 'strawberry', prdPrice: 10}

@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
-import List from "./List5";
-import Item from "./Item5";
+import List from "./List6";
+import Item from "./Item6";
 
 // props.params
 export default function () {
@@ -10,7 +10,7 @@ export default function () {
         <div>
 
             <Header />
-            <h1>Hello, app3!</h1>
+            <h1>Hello, app6!</h1>
             <Switch>
                 <Route exact path="/" component={Home} />
                 <Route path="/about" component={About} />

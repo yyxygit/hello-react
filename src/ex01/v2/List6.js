@@ -24,9 +24,15 @@ export default class extends React.Component {
         let productList;
         if(data.length > 0) {
             productList = data.map((ele) => {
+                // debugger;
+
+                /**
+                 * location.hash String 字符串
+                 * @type {{hash: string, pathname: string}}
+                 */
                 const location = {
                     pathname: "/detail",
-                    search: `?id=${ele.prdId}&name=${ele.prdName}&price=${ele.prdPrice}&storage=${ele.storage}`
+                    hash: JSON.stringify(ele)
                 };
                 return (
                     <li key={`prd-${ele.prdId}`}>
