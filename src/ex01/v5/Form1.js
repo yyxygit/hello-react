@@ -2,26 +2,58 @@ import React from 'react';
 import {data} from './data';
 import "./style1.css";
 
-class PopupAdd extends React.Component {
+class PopupEdit extends React.Component {
+    constructor(props) {
+        super(props);
+        this.editItemProp = JSON.parse(JSON.stringify(this.props.editItem));
+        this.state = {
+            // editKeys: {
+            //     id: this.props.editItem.id,
+            //     name: this.props.editItem.name,
+            //     price: this.props.editItem.price,
+            //     storage: this.props.editItem.storage
+            // }
+            editKeys: this.editItemProp
+        };
+    }
 
-    handleAddInputChange = (e) => {
+    handleEditInputChange = (e) => {
         e.preventDefault();
         // debugger;
         const key = e.target.name;
         const value = key !== "name" ?
             e.target.value.trim() : e.target.value;
-        this.props.onAddKeyChange(key, value);
+        this.setState((preState) => {
+            return {
+                editKeys: {...preState.editKeys, [key]:value}
+            };
+        });
     }
 
-    handleCancelAddClick = (e) => {
+    handleCancelEditClick = (e) => {
         e.preventDefault();
-        this.props.onCancelAdd();
+        this.props.onCancelEdit();
     }
 
-    handleConfirmAddClick = (e) => {
+    handleResetEditClick = (e) => {
         e.preventDefault();
-        // debugger;
-        this.props.onConfirmAdd();
+        this.setState({
+            // editKeys: {
+            //     id: this.props.editItem.id,
+            //     name: this.props.editItem.name,
+            //     price: this.props.editItem.price,
+            //     storage: this.props.editItem.storage
+            // }
+            editKeys: this.editItemProp
+        });
+    }
+
+    handleConfirmEditClick = (e) => {
+        e.preventDefault();
+        const noChange = Object.keys(this.props.editItem).every((key) => {
+            return this.props.editItem[key] == this.state.editKeys[key];
+        });
+        noChange ? this.props.onCancelEdit() : this.props.onConfirmEdit(this.state.editKeys);
     }
 
     render() {
@@ -33,21 +65,97 @@ class PopupAdd extends React.Component {
                         <input
                             type="text"
                             name="name"
-                            value={this.props.addKeys.name}
+                            value={this.state.editKeys.name}
+                            onChange={this.handleEditInputChange}
+                        />
+                        <label>price:</label>
+                        <input
+                            type="text"
+                            name="price"
+                            value={this.state.editKeys.price}
+                            onChange={this.handleEditInputChange}
+                        />
+                        <label>storage:</label>
+                        <input
+                            type="text"
+                            name="storage"
+                            value={this.state.editKeys.storage}
+                            onChange={this.handleEditInputChange}
+                        />
+                        <p>
+                            <button onClick={this.handleCancelEditClick}>cancel</button>
+                            <button onClick={this.handleResetEditClick}>reset</button>
+                            <button onClick={this.handleConfirmEditClick}>ok</button>
+                        </p>
+                    </form>
+                </div>
+            </div>
+        );
+    }
+}
+
+class PopupAdd extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            addKeys: {
+                name: "",
+                price: "",
+                storage: ""
+            }
+        };
+    }
+
+    handleAddInputChange = (e) => {
+        e.preventDefault();
+        // debugger;
+        const key = e.target.name;
+        const value = key !== "name" ?
+            e.target.value.trim() : e.target.value;
+        this.setState((preState) => {
+            return {
+              addKeys: {...preState.addKeys, [key]:value}
+            };
+        });
+    }
+
+    handleCancelAddClick = (e) => {
+        e.preventDefault();
+        this.props.onCancelAdd();
+    }
+
+    handleConfirmAddClick = (e) => {
+        e.preventDefault();
+        const isEmpty = Object.keys(this.state.addKeys).every((key) => {
+           return this.state.addKeys[key] == "";
+        });
+        isEmpty ? this.props.onCancelAdd() : this.props.onConfirmAdd(this.state.addKeys);
+    }
+
+    render() {
+        return (
+            <div className="popup">
+                <div className="popup-content">
+                    <form className="addPop">
+                        <label>name:</label>
+                        <input
+                            type="text"
+                            name="name"
+                            value={this.state.addKeys.name}
                             onChange={this.handleAddInputChange}
                         />
                         <label>price:</label>
                         <input
                             type="text"
                             name="price"
-                            value={this.props.addKeys.price}
+                            value={this.state.addKeys.price}
                             onChange={this.handleAddInputChange}
                         />
                         <label>storage:</label>
                         <input
                             type="text"
                             name="storage"
-                            value={this.props.addKeys.storage}
+                            value={this.state.addKeys.storage}
                             onChange={this.handleAddInputChange}
                         />
                         <p>
@@ -71,7 +179,7 @@ class PopupDelete extends React.Component {
     handleConfirmDelClick = (e) => {
         e.preventDefault();
         // debugger;
-        this.props.onConfirmDel(this.props.delId);
+        this.props.onConfirmDel();
     }
 
     render() {
@@ -87,14 +195,13 @@ class PopupDelete extends React.Component {
     }
 }
 
-class ResultRowsNumber extends React.Component {
-    render() {
-        return (
-            <div id="total">
-                result total: {this.props.totalNum}
-            </div>
-        );
-    }
+// 展示组件
+function ResultRowsNumber(props) {
+    return (
+        <div id="total">
+            result total: {props.totalNum}
+        </div>
+    );
 }
 
 class FruitRow extends React.Component {
@@ -102,6 +209,11 @@ class FruitRow extends React.Component {
     handleDeleteClick = (e) => {
         e.preventDefault();
         this.props.onDeleteClick(this.props.fruit.id);
+    }
+
+    handleEditClick = (e) => {
+        e.preventDefault();
+        this.props.onEditClick(this.props.fruit.id);
     }
 
     render() {
@@ -113,95 +225,93 @@ class FruitRow extends React.Component {
                 <td>{fruit.price}</td>
                 <td>{fruit.storage}</td>
                 <td><button onClick={this.handleDeleteClick}>Delete</button></td>
+                <td><button onClick={this.handleEditClick}>Edit</button></td>
             </tr>
         );
     }
 }
 
-class FruitsTable extends React.Component {
-    render() {
-        // debugger;
-        let resList = this.props.fruits;
+function FruitsTable(props) {
 
-        if(this.props.searchKeys.id) {
-            resList = resList.filter(item =>
-                item.id == this.props.searchKeys.id);
-        }
+    // debugger;
+    let resList = props.fruits;
 
-        const name = this.props.searchKeys.name;
-        if(name) {
-            resList = resList.filter(item =>
-                item.name.indexOf(name) !== -1);
-        }
+    if(props.searchKeys.id) {
+        resList = resList.filter(item =>
+            item.id == props.searchKeys.id);
+    }
 
-        if(this.props.searchKeys.price) {
-            resList = resList.filter(item =>
-                item.price == this.props.searchKeys.price);
-        }
+    const name = props.searchKeys.name;
+    if(name) {
+        resList = resList.filter(item =>
+            item.name.indexOf(name) !== -1);
+    }
 
-        if(this.props.searchKeys.storage) {
-            resList = resList.filter(item =>
-                item.storage == this.props.searchKeys.storage);
-        }
+    if(props.searchKeys.price) {
+        resList = resList.filter(item =>
+            item.price == props.searchKeys.price);
+    }
 
-        const rows = resList.map(ele => (
-            <FruitRow
-                fruit={ele}
-                key={ele.id}
-                onDeleteClick = {this.props.onDeleteClick}
-            />
-        ));
-        // debugger;
-        return (
+    if(props.searchKeys.storage) {
+        resList = resList.filter(item =>
+            item.storage == props.searchKeys.storage);
+    }
+
+    const rows = resList.map(ele => (
+        <FruitRow
+            fruit={ele}
+            key={ele.id}
+            onDeleteClick={props.onDeleteClick}
+            onEditClick={props.onEditClick}
+        />
+    ));
+    // debugger;
+    return (
+        <div>
+            <table>
+                <thead>
+                <tr>
+                    <th>id</th>
+                    <th>name</th>
+                    <th>price</th>
+                    <th>storage</th>
+                </tr>
+                </thead>
+                <tbody>
+                {rows}
+                </tbody>
+            </table>
+            <ResultRowsNumber totalNum={rows.length}  />
+        </div>
+    );
+}
+
+function SearchConditions(props) {
+    return (
+        <div id="searchKeys">
+            id: {props.searchKeys.id}
+            name: {props.searchKeys.name}
+            price: {props.searchKeys.price}
+            storage: {props.searchKeys.storage}
+        </div>
+    );
+}
+
+function SearchResult(props) {
+    return props.searchShow ?
+        (
             <div>
-                <table>
-                    <thead>
-                    <tr>
-                        <th>id</th>
-                        <th>name</th>
-                        <th>price</th>
-                        <th>storage</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    {rows}
-                    </tbody>
-                </table>
-                <ResultRowsNumber totalNum={rows.length}  />
+                <SearchConditions
+                    searchKeys = {props.searchKeys}
+                />
+                <FruitsTable
+                    fruits={props.tableData}
+                    searchKeys={props.searchKeys}
+                    onDeleteClick={props.onDeleteClick}
+                    onEditClick={props.onEditClick}
+                />
             </div>
-        );
-    }
-}
-
-class SearchConditions extends React.Component {
-    render() {
-        return (
-            <div id="searchKeys">
-                id: {this.props.searchKeys.id}
-                name: {this.props.searchKeys.name}
-                price: {this.props.searchKeys.price}
-                storage: {this.props.searchKeys.storage}
-            </div>
-        );
-    }
-}
-
-class SearchResult extends React.Component {
-    render() {
-        return this.props.searchShow ?
-            (
-                <div>
-                    <SearchConditions
-                        searchKeys = {this.props.searchKeys}
-                    />
-                    <FruitsTable
-                        fruits={this.props.tableData}
-                        searchKeys = {this.props.searchKeys}
-                        onDeleteClick = {this.props.onDeleteClick}
-                    />
-                </div>
-            ) : null;
-    }
+        ) : null;
 }
 
 class SearchBar extends React.Component {
@@ -296,11 +406,8 @@ export default  class extends React.Component {
             showPopDel: false,
             deleteId: null,
             showPopAdd: false,
-            addKeys: {
-                name: "",
-                price: "",
-                storage: ""
-            }
+            showPopEdit: false,
+            editItem: null
         };
     }
 
@@ -352,34 +459,19 @@ export default  class extends React.Component {
         });
     }
 
-    handleConfirmDel = (delId) => {
-        this.setState((preState) => {
-            const delIndex = preState.tableData.findIndex(ele => {
-                return ele.id == delId;
-            });
-            preState.tableData.splice(delIndex, 1);
-            return {
-                tableData: preState.tableData,
-                deleteId: null,
-                showPopDel: false
-            };
-        });
-        console.log("delete item: ", delId);
-    }
-
     handleConfirmDel = () => {
         this.setState((preState) => {
             const delIndex = preState.tableData.findIndex(ele => {
                 return ele.id == preState.deleteId;
             });
             preState.tableData.splice(delIndex, 1);
+            console.log("delete item: ", preState.deleteId);
             return {
                 tableData: preState.tableData,
                 deleteId: null,
                 showPopDel: false
             };
         });
-        // console.log("delete item: ", delId);
     }
 
     handleAddPopup = () => {
@@ -390,31 +482,47 @@ export default  class extends React.Component {
 
     handleCancelAdd = () => {
         this.setState({
-            showPopAdd: false//,
-            // addKeys: {
-            //     name: "",
-            //     price: "",
-            //     storage: ""
-            // }
+            showPopAdd: false
         });
     }
 
-    handleConfirmAdd = () => {
+    handleConfirmAdd = (objAdd) => {
         this.setState((preState) => {
-            // debugger;
-            const addItem = {...preState.addKeys, ['id']:preState.tableData.length + 1};
+            const addId = preState.tableData[preState.tableData.length - 1].id + 1;
+            const addItem = {...objAdd, ['id']:addId};
             preState.tableData.push(addItem);
            return {
                tableData: preState.tableData,
-               showPopAdd: false,
-               addKeys: {
-                   name: "",
-                   price: "",
-                   storage: ""
-               }
+               showPopAdd: false
            };
         });
     }
+
+    handleEditPopup = (editId) => {
+        const item = this.state.tableData.find(ele => ele.id == editId);
+        this.setState({
+            editItem: item,
+            showPopEdit: true
+        });
+    }
+
+    handleCancelEdit = () => {
+        this.setState({
+            showPopEdit: false
+        });
+    }
+
+    handleConfirmEdit = (editItem) => {
+        this.setState( (preState) => {
+            const editIdx = preState.tableData.findIndex(ele => ele.id == editItem.id);
+            preState.tableData.splice(editIdx, 1, editItem);
+            return {
+                tableData:preState.tableData,
+                editItem: null,
+                showPopEdit: false
+            };
+        });
+    };
 
     render() {
         // debugger;
@@ -433,6 +541,7 @@ export default  class extends React.Component {
                     searchKeys={this.state.searchKeys}
                     searchShow={this.state.searchShow}
                     onDeleteClick={this.handleDeletePopup}
+                    onEditClick={this.handleEditPopup}
                 />
                 {this.state.showPopDel && <PopupDelete
                     delId={this.state.deleteId}
@@ -444,6 +553,11 @@ export default  class extends React.Component {
                     onAddKeyChange={this.handleAddKeyChange}
                     onCancelAdd={this.handleCancelAdd}
                     onConfirmAdd={this.handleConfirmAdd}
+                />}
+                {this.state.showPopEdit && <PopupEdit
+                    editItem={this.state.editItem}
+                    onCancelEdit={this.handleCancelEdit}
+                    onConfirmEdit={this.handleConfirmEdit}
                 />}
             </div>
         );

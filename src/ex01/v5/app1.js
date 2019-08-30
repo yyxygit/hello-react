@@ -2,8 +2,8 @@ import React from "react";
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 import Form1 from "./Form1";
 import Form2 from "./Form2";
-import Form3 from "./Form3";
-import Form4 from "./Form4";
+// import Form3 from "./Form3";
+// import Form4 from "./Form1";
 
 // props.params
 export default function () {
@@ -12,13 +12,13 @@ export default function () {
         <div>
 
             <Header />
-            <h1>Hello, app1! - v4</h1>
+            <h1>Hello, app1! - v5</h1>
             <Switch>
                 <Route exact path="/" component={Home} />
                 <Route path='/search1' component={Form1} />
                 <Route path='/search2' component={Form2} />
-                <Route path='/search3' component={Form3} />
-                <Route path='/search4' component={Form4} />
+                {/*<Route path='/search3' component={Form3} />*/}
+                {/*<Route path='/search4' component={Form4} />*/}
             </Switch>
         </div>
       </Router>
@@ -34,12 +34,12 @@ function Header() {
             <li>
                 <Link to="/search2">search2</Link>
             </li>
-            <li>
-                <Link to="/search3">search3</Link>
-            </li>
-            <li>
-                <Link to="/search4">search4</Link>
-            </li>
+            {/*<li>*/}
+            {/*    <Link to="/search3">search3</Link>*/}
+            {/*</li>*/}
+            {/*<li>*/}
+            {/*    <Link to="/search4">search4</Link>*/}
+            {/*</li>*/}
         </ul>
     );
 }
@@ -52,13 +52,6 @@ function Home() {
     );
 }
 
-function About() {
-    return (
-        <div>
-            <h2>This is an Exercise!</h2>
-        </div>
-    );
-}
 
 
 

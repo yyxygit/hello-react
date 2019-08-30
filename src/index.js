@@ -17,10 +17,13 @@ import ReactDOM from 'react-dom';
 // import AppRouter from "./reacttraining/react-router/basic/QueryParameters";
 // import AppRouter from "./reacttraining/react-router/basic/Redirects";
 // import Ex01 from './ex01/v3/app1';
-import Ex01 from './ex01/v4/app1';
+// import Ex01 from './ex01/v4/app1';
+// import Ex01 from './ex01/v5/app1';
 
 // import './index.css';
 // import Game from './site/official/game2';
+
+import Formio from './formio/hello/test1';
 
 /*
 ReactDOM.render(
@@ -167,12 +170,18 @@ ReactDOM.render(
 //     document.getElementById('root')
 // );
 
-ReactDOM.render(
-  <Ex01/>,
-  document.getElementById('root')
-);
+// ReactDOM.render(
+//   <Ex01/>,
+//   document.getElementById('root')
+// );
 
 // ReactDOM.render(
 //     <Game />,
 //     document.getElementById('root')
 // );
+
+/**/
+ReactDOM.render(
+    <Formio />,
+    document.getElementById('root')
+);
