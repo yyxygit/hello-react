@@ -1,6 +1,7 @@
 import React from 'react';
 // import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import ReactDOM from 'react-dom';
+
 // import App from './basic/example';
 // import App from './hello/helloworld';
 // import HelloMessage from './site/official/simple-component';
@@ -20,10 +21,14 @@ import ReactDOM from 'react-dom';
 // import Ex01 from './ex01/v4/app1';
 // import Ex01 from './ex01/v5/app1';
 
+// import Ex01 from './ex01/v6-antd/app1';
+
 // import './index.css';
 // import Game from './site/official/game2';
 
-import Formio from './formio/hello/test1';
+// import Test01 from './example-web/props-update-1/test01';
+
+import Sider from './antd/menu/onOpenChange1';
 
 /*
 ReactDOM.render(
@@ -180,8 +185,12 @@ ReactDOM.render(
 //     document.getElementById('root')
 // );
 
-/**/
+// ReactDOM.render(
+//     <Test01/>,
+//     document.getElementById('root')
+// );
+
 ReactDOM.render(
-    <Formio />,
+    <Sider />,
     document.getElementById('root')
 );
