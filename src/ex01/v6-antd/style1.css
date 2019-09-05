@@ -60,3 +60,8 @@ label, input, button {
     margin-right: 10px;
 }
 
+/*From6.js*/
+.table-contain {
+    margin: 10px auto;
+    width: 80%;
+}

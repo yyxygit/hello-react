@@ -12,6 +12,21 @@ import "./style1.css";
 
 const {confirm} = Modal;
 
+/**
+ * 尝试字组件自主控制状态
+ * searchBar可以
+ * searchRes table 操作不行
+ * 需与searchBar Add button等action互动
+ * 子组件可以通过事件回调函数，向父组件传递状态（数据）
+ * 但父组件事件触发，要更新子组件，或其他子组件间要传递数据
+ * 只能通过父组件统一更新状态或props
+ * 官网建议，如果有公用的数据联动，将状态提升到共同的父组件
+ * 子组件，只放完全由其控制的数据状态，比如searchBar内的输入值，
+ * 不会受到其他组件的更改，只有它们更改后触发其他组件更新，可以回调传出状态
+ * tableData的数据，会受到search/add/clear等其他外部组件的更新
+ * 如果数据在父组件和子组件内，都存在，出现派生状态，情况复杂化，有待学习
+ */
+
 // 显示table记录条数
 class ResultRowsNumber extends React.PureComponent {
     constructor(props) {

@@ -28,7 +28,7 @@ import Ex01 from './ex01/v6-antd/app';
 
 // import Test01 from './example-web/props-update-1/test01';
 
-import Sider from './antd/menu/onOpenChange1';
+// import Sider from './antd/menu/onOpenChange1';
 
 /*
 ReactDOM.render(

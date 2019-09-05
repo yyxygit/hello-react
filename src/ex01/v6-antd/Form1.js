@@ -54,7 +54,7 @@ class FruitRow extends React.Component {
 }
 
 function FruitsTable(props) {
-
+    console.log('r FruitsTable');
     // debugger;
     let resList = props.fruits;
 
@@ -109,6 +109,7 @@ function FruitsTable(props) {
 }
 
 function SearchConditions(props) {
+    console.log('r SearchConditions');
     return (
         <div id="searchKeys">
             id: {props.searchKeys.id}
@@ -133,6 +134,8 @@ class SearchResult extends React.Component {
             onDeleteClick,
             onEditClick
         } = this.props;
+
+        console.log('r SearchResult', searchShow);
 
         return searchShow ?
             (
@@ -180,6 +183,7 @@ class SearchBar extends React.Component {
     render() {
         const {searchKeys} = this.props;
         // debugger;
+        console.log('r SearchBar');
         return (
             <form className="search-form">
                 <label>id:</label>
@@ -396,6 +400,7 @@ export default  class extends React.Component {
     };
 
     render() {
+        console.log('r default');
         // debugger;
         const {
             searchKeys,

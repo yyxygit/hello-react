@@ -4,9 +4,11 @@ import {data} from './data';
 import 'antd/es/button/style/css';
 import 'antd/es/input/style/css';
 import 'antd/es/modal/style/css';
+import 'antd/es/table/style/css';
 import Button from 'antd/es/button';
 import Input from 'antd/es/input';
 import Modal from 'antd/es/modal';
+import Table from 'antd/es/table';
 import "./style1.css";
 
 const {confirm} = Modal;
@@ -110,12 +112,59 @@ class SearchResult extends React.Component {
         super(props);
         //内部保存显示table的记录条数
         this.dataLength = this.props.tableData.length;
-        /**
-         * 与父组件editUpdate标志位对比，决定是否需要更新table
-         * this.props.editUpdate == true 更新 false 不更新
-         * 每次更新后，重置子组件与父组件的editUpdate标志位
-         */
-        this.editUpdate = this.props.editUpdate;
+
+        this.columns = [
+            {
+                title: 'Id',
+                dataIndex: 'id',
+                key: 'id'
+            },
+            {
+                title: 'Name',
+                dataIndex: 'name',
+                key: 'name'
+            },
+            {
+                title: 'Price',
+                dataIndex: 'price',
+                key: 'price'
+            },
+            {
+                title: 'Storage',
+                dataIndex: 'storage',
+                key: 'storage'
+            },
+            {
+                title: 'Action',
+                key: 'action',
+                render: (text, record, index) => {
+                    return (
+                        <span>
+                            <Button
+                                name={record.id}
+                                onClick={this.handleDeleteClick}>
+                                Delete
+                            </Button>
+                            <Button
+                                name={record.id}
+                                onClick={this.handleEditClick}>
+                                Edit
+                            </Button>
+                        </span>
+                    );
+                }
+            }
+        ];
+    }
+
+    handleDeleteClick = (e) => {
+        e.preventDefault();
+        this.props.onDeleteClick(e.target.name);
+    }
+
+    handleEditClick = (e) => {
+        e.preventDefault();
+        this.props.onEditClick(e.target.name);
     }
 
     /**
@@ -126,7 +175,7 @@ class SearchResult extends React.Component {
      * @returns {boolean}
      */
     shouldComponentUpdate(nextProps, nextState, nextContext) {
-        debugger;
+        // debugger;
         if(this.props.searchShow != nextProps.searchShow) {
             return true;
         }
@@ -137,16 +186,11 @@ class SearchResult extends React.Component {
         /**
          * editUpdate用来阻止弹出编辑框内，输入时，渲染table
          * 仅当edit button按下后，数据更新再渲染table
-         * editUpdate通过 父组件的普通属性，不是status，作为参数传给子组件的 普通属性
-         * 父组件属性更新后，子组件render时，nextProps.editUpdate传入新值true
-         * 和编辑之前传入的属性false，区别，编辑单条记录提交后，更新表格
-         * 子组件的 editUpdate之前未编辑状态，由子组件自己维护，作为私有属性
          * click edit btn > 触发更新记录 > 触发父组件标志位editUpdate=true
          * setStatus更新tableData > 触发父组件更新render > 触发子组件render update > 传入新props editUpdate=true
-         * table组件更新， 并将父子组件的标志位复位
+         * table组件更新， 并将父组件的标志位复位
          */
-        if(this.editUpdate != nextProps.editUpdate) {
-            this.editUpdate = false;
+        if(nextProps.editUpdate) {
             this.props.resetEditUpdate();
             return true;
         }
@@ -157,19 +201,23 @@ class SearchResult extends React.Component {
         const {
             searchShow,
             tableData,
-            onDeleteClick,
-            onEditClick
         } = this.props;
+
+        const tableWithKey = tableData.map((item) => {
+            return {...item, 'key':item.id};
+        });
 
         console.log('r SearchResult', searchShow);
 
         return searchShow ?
             (
-                <FruitsTable
-                    fruits={tableData}
-                    onDeleteClick={onDeleteClick}
-                    onEditClick={onEditClick}
-                />
+                <div className="table-contain">
+                    <Table
+                        columns={this.columns}
+                        dataSource={tableWithKey}
+                        pagination={{showTotal: total => `Total ${total} items`}}
+                    />
+                </div>
             ) : null;
     }
 }
