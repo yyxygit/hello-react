@@ -21,7 +21,7 @@ import ReactDOM from 'react-dom';
 // import Ex01 from './ex01/v4/app1';
 // import Ex01 from './ex01/v5/app1';
 
-// import Ex01 from './ex01/v6-antd/app1';
+import Ex01 from './ex01/v6-antd/app';
 
 // import './index.css';
 // import Game from './site/official/game2';
@@ -175,10 +175,10 @@ ReactDOM.render(
 //     document.getElementById('root')
 // );
 
-// ReactDOM.render(
-//   <Ex01/>,
-//   document.getElementById('root')
-// );
+ReactDOM.render(
+  <Ex01/>,
+  document.getElementById('root')
+);
 
 // ReactDOM.render(
 //     <Game />,
@@ -190,7 +190,7 @@ ReactDOM.render(
 //     document.getElementById('root')
 // );
 
-ReactDOM.render(
-    <Sider />,
-    document.getElementById('root')
-);
+// ReactDOM.render(
+//     <Sider />,
+//     document.getElementById('root')
+// );

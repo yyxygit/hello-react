@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a0a26dd-9acb-48d9-b83e-2218a4e3dc8e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/package.json.bak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/antd/menu/onOpenChange1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex01/v6-antd/Form1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex01/v6-antd/Form2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex01/v6-antd/app1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex01/v6-antd/data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex01/v6-antd/style1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example-web/props-update-1/test01.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex01/v6-antd/Form3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex01/v6-antd/Form4.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/formio/hello/test1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex01/v6-antd/Form2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex01/v6-antd/Form2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex01/v6-antd/app1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex01/v6-antd/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex01/v6-antd/style1.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex01/v6-antd/style1.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,34 +17,80 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.js">
+        <entry file="file://$PROJECT_DIR$/src/ex01/v6-antd/Form2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="772">
-              <caret line="194" column="23" selection-start-line="194" selection-start-column="23" selection-end-line="194" selection-end-column="23" />
+            <state relative-caret-position="219">
+              <caret line="260" column="35" selection-start-line="260" selection-start-column="8" selection-end-line="260" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#192#228#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/antd/menu/onOpenChange1.js">
+        <entry file="file://$PROJECT_DIR$/src/ex01/v6-antd/Form3.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+            <state relative-caret-position="216">
+              <caret line="167" column="33" lean-forward="true" selection-start-line="166" selection-start-column="8" selection-end-line="167" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ex01/v6-antd/Form2.js">
+        <entry file="file://$PROJECT_DIR$/src/ex01/v6-antd/Form4.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="122" column="33" lean-forward="true" selection-start-line="122" selection-start-column="33" selection-end-line="122" selection-end-column="33" />
+            <state relative-caret-position="297">
+              <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
-                <element signature="e#192#228#0" expanded="true" />
+                <element signature="e#2648#2703#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ex01/v6-antd/style1.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="522">
+              <caret line="58" column="1" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="536">
+              <caret line="178" column="5" selection-start-line="178" selection-start-column="5" selection-end-line="178" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ex01/v6-antd/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="37" column="46" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ex01/v6-antd/data.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="11" column="59" lean-forward="true" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -68,10 +108,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>BrowserRouter</find>
-      <find>$schema</find>
-      <find>EX01</find>
-      <find>AuthButton</find>
       <find>resShow</find>
       <find>tableRes</find>
       <find>searchRes</find>
@@ -87,7 +123,6 @@
       <find>onCancelDel</find>
       <find>=</find>
       <find>onDeleteClick</find>
-      <find>debugger</find>
       <find>onAddClick</find>
       <find>search</find>
       <find>handleAdd</find>
@@ -97,6 +132,12 @@
       <find>babel-plugin-import</find>
       <find>onAddKeyChange</find>
       <find>editItem</find>
+      <find>debugger</find>
+      <find>FruitsTable</find>
+      <find>console.log(`r</find>
+      <find>searchKeys.</find>
+      <find>props.searchKeys.</find>
+      <find>console.log</find>
     </findStrings>
     <replaceStrings>
       <replace>fruit</replace>
@@ -105,6 +146,7 @@
       <replace>add</replace>
       <replace>price</replace>
       <replace>editKeys</replace>
+      <replace>// console.log(`r</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -115,14 +157,17 @@
       <list>
         <option value="$PROJECT_DIR$/src/ex01/v5/Form1.js" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/src/ex01/v6-antd/style1.css" />
         <option value="$PROJECT_DIR$/src/formio/hello/test1.js" />
         <option value="$PROJECT_DIR$/src/ex01/v6-antd/app1.js" />
         <option value="$PROJECT_DIR$/src/ex01/v6-antd/Form1.js" />
-        <option value="$PROJECT_DIR$/src/ex01/v6-antd/Form2.js" />
         <option value="$PROJECT_DIR$/src/example-web/props-update-1/test01.js" />
-        <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/antd/menu/onOpenChange1.js" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/ex01/v6-antd/style1.css" />
+        <option value="$PROJECT_DIR$/src/ex01/v6-antd/app.js" />
+        <option value="$PROJECT_DIR$/src/ex01/v6-antd/Form2.js" />
+        <option value="$PROJECT_DIR$/src/ex01/v6-antd/Form3.js" />
+        <option value="$PROJECT_DIR$/src/ex01/v6-antd/Form4.js" />
       </list>
     </option>
   </component>
@@ -133,8 +178,8 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
+    <option name="x" value="2647" />
+    <option name="y" value="-17" />
     <option name="width" value="1400" />
     <option name="height" value="992" />
   </component>
@@ -150,43 +195,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="hello-react" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="D:\dev\project\hello-react" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-            <path>
-              <item name="hello-react" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="D:\dev\project\hello-react" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="hello-react" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="D:\dev\project\hello-react" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="reacttraining" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="hello-react" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="D:\dev\project\hello-react" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="reacttraining" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="react-router" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="hello-react" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="D:\dev\project\hello-react" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="reacttraining" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="react-router" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="basic" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -303,13 +311,50 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="hello-react" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\dev\project\hello-react" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="hello-react" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\dev\project\hello-react" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="hello-react" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\dev\project\hello-react" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="reacttraining" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="hello-react" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\dev\project\hello-react" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="reacttraining" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="react-router" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="hello-react" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\dev\project\hello-react" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="reacttraining" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="react-router" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="basic" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/ex01/v6-antd" />
     <property name="list.type.of.created.stylesheet" value="Sass" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -324,17 +369,17 @@
     <property name="ts.external.directory.path" value="C:\Program64\JetBrains\WebStorm 2019.1.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\dev\project\hello-react\src\ex01\v6-antd" />
+      <recent name="D:\dev\project\hello-react" />
+      <recent name="D:\dev\project\hello-react\src\ex01\v4" />
+      <recent name="D:\dev\project\hello-react\src\ex01\v3" />
+      <recent name="D:\dev\project\hello-react\src\site\official" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\dev\project\hello-react\src\example" />
       <recent name="D:\dev\project\hello-react\src" />
       <recent name="D:\dev\project\hello-react\src\origin" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\dev\project\hello-react" />
-      <recent name="D:\dev\project\hello-react\src\ex01\v6-antd" />
-      <recent name="D:\dev\project\hello-react\src\ex01\v4" />
-      <recent name="D:\dev\project\hello-react\src\ex01\v3" />
-      <recent name="D:\dev\project\hello-react\src\site\official" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -432,7 +477,9 @@
       <workItem from="1566020015802" duration="2734000" />
       <workItem from="1567310893237" duration="20715000" />
       <workItem from="1567385748589" duration="11555000" />
-      <workItem from="1567472611585" duration="11607000" />
+      <workItem from="1567472611585" duration="11718000" />
+      <workItem from="1567558303249" duration="10316000" />
+      <workItem from="1567649322907" duration="14503000" />
     </task>
     <task id="LOCAL-00001" summary="ex01 draft">
       <created>1563022629692</created>
@@ -441,11 +488,18 @@
       <option name="project" value="LOCAL" />
       <updated>1563022629692</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ex01 v6">
+      <created>1567504773536</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1567504773536</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44437000" />
+    <option name="totallyTimeSpent" value="69367000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -457,17 +511,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <frame x="1911" y="-9" width="1938" height="1098" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="npm" order="0" sideWeight="0.40632054" side_tool="true" weight="0.10676533" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info active="true" id="Structure" order="2" sideWeight="0.66027087" visible="true" weight="0.11892178" />
-      <window_info content_ui="combo" id="Project" order="3" sideWeight="0.33972913" side_tool="true" visible="true" weight="0.11892178" />
+      <window_info id="Structure" order="2" sideWeight="0.63062096" visible="true" weight="0.11892178" />
+      <window_info active="true" content_ui="combo" id="Project" order="3" sideWeight="0.369379" side_tool="true" visible="true" weight="0.11892178" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.3295711" />
       <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.33747178" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.30586907" />
+      <window_info anchor="bottom" id="Find" order="2" visible="true" weight="0.32012847" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.30513918" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.31489843" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -518,9 +572,11 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="ex01 draft" />
     <MESSAGE value="ex01 v4" />
-    <option name="LAST_COMMIT_MESSAGE" value="ex01 v4" />
+    <MESSAGE value="ex01 v6" />
+    <option name="LAST_COMMIT_MESSAGE" value="ex01 v6" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/hello/helloworld.js">
@@ -610,16 +666,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/formio/hello/test1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/formio/hello/test1.js" />
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-152" />
@@ -632,36 +679,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ex01/v6-antd/app1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="34" column="51" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/antd/es/button/style/css.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ex01/v6-antd/style1.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ex01/v6-antd/data.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" selection-start-column="21" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -672,6 +695,13 @@
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/antd/menu/onOpenChange1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -687,25 +717,63 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="772">
-          <caret line="194" column="23" selection-start-line="194" selection-start-column="23" selection-end-line="194" selection-end-column="23" />
+        <state relative-caret-position="536">
+          <caret line="178" column="5" selection-start-line="178" selection-start-column="5" selection-end-line="178" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/antd/menu/onOpenChange1.js">
+    <entry file="file://$PROJECT_DIR$/src/ex01/v6-antd/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+        <state relative-caret-position="513">
+          <caret line="37" column="46" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ex01/v6-antd/data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="59" lean-forward="true" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ex01/v6-antd/style1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="58" column="1" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ex01/v6-antd/Form3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="167" column="33" lean-forward="true" selection-start-line="166" selection-start-column="8" selection-end-line="167" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ex01/v6-antd/Form2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="122" column="33" lean-forward="true" selection-start-line="122" selection-start-column="33" selection-end-line="122" selection-end-column="33" />
+        <state relative-caret-position="219">
+          <caret line="260" column="35" selection-start-line="260" selection-start-column="8" selection-end-line="260" selection-end-column="35" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
             <element signature="e#192#228#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ex01/v6-antd/Form4.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#2648#2703#0" />
           </folding>
         </state>
       </provider>
