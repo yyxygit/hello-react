@@ -13,6 +13,16 @@ import "./style1.css";
 
 const {confirm} = Modal;
 
+/**
+ * form6 测试，当没有任何table记录显示时，
+ * 添加记录，报错
+ * 问题：
+ * add/edit/delete 要分两步走
+ * 1）和无服务器交互更新服务端数据，即 mock data数据
+ * 2）得到服务器更新成功，返回结果后，根据返回的结果，更新页面上tableData数据
+ * 例外情况是，tableData没有显示任何数据时，新添加到记录push进去
+ */
+
 class SearchResult extends React.Component {
 
     constructor(props) {
@@ -117,14 +127,18 @@ class SearchResult extends React.Component {
         console.log('r SearchResult', searchShow);
 
         return searchShow ? (
-                <div className="table-contain">
-                    <Table
-                        columns={this.columns}
-                        dataSource={tableWithKey}
-                        pagination={{showTotal: total => `Total ${total} items`}}
-                    />
-                </div>
-            ) : null;
+            <div className="table-contain">
+                <Table
+                    columns={this.columns}
+                    dataSource={tableWithKey}
+                    pagination={{
+                        showTotal: (total) => {
+                            return `Total ${total} items`;
+                        }
+                    }}
+                />
+            </div>
+        ) : null;
     }
 }
 
@@ -337,7 +351,8 @@ export default  class extends React.Component {
                 // mock ajax response return delete id
                 _this.setState((prState) => {
                     const {tableData} = prState;
-                    tableData.splice(delIndex, 1);
+                    const delTableIndex = tableData.findIndex(ele => ele.id == delId);
+                    tableData.splice(delTableIndex, 1);
                     return {
                         tableData
                     };
@@ -368,26 +383,38 @@ export default  class extends React.Component {
 
     handleConfirmAdd = () => {
         // debugger;
-        const {addKeys, tableData} = this.state;
+        const {addKeys} = this.state;
         const isEmpty = Object.keys(addKeys).every(key => addKeys[key] == "");
         if(isEmpty) {
             console.log('add key cannot be empty!');
             this.handleCancelAdd();
         } else {
-            const id = tableData.length == 0 ?
-                (data[data.length - 1].id + 1) : (tableData[tableData.length - 1].id + 1);
-            const addItem = {...addKeys, id};
             // mock ajax add record
+            const id = data[data.length - 1].id + 1;
+            const addItem = {...addKeys, id};
             data.push(addItem);
-            this.setState({
-                tableData: JSON.parse(JSON.stringify(data)),
-                // 清空add popup 输入框
-                addKeys: {
-                    name: "",
-                    price: "",
-                    storage: ""
-                },
-                showPopAdd: false
+            // 假设添加记录后服务端返回被添加的记录
+
+            this.setState((preState) => {
+                const { tableData } = preState;
+                const addTableIdx = tableData.findIndex(ele => ele.id == id);
+
+                if(addTableIdx === -1) {
+                    tableData.push(addItem);
+                } else {
+                    tableData[addTableIdx] = addItem;
+                }
+                return {
+                    tableData,
+                    // 清空add popup 输入框
+                    addKeys: {
+                        name: "",
+                        price: "",
+                        storage: ""
+                    },
+                    showPopAdd: false,
+                    searchShow: true
+                };
             });
         }
     }
@@ -432,8 +459,9 @@ export default  class extends React.Component {
         // mock ajax response updated record
         const returnItem = {...editKeys};
         this.setState((preState) => {
-            const {tableData} = preState;
-            tableData.splice(editIdx, 1, returnItem);
+            let {tableData} = preState;
+            const editTableIdx = tableData.findIndex(ele => ele.id == editKeys.id);
+            tableData[editTableIdx] = returnItem;
             return {
                 tableData,
                 editKeys: {
@@ -469,7 +497,7 @@ export default  class extends React.Component {
 
         return (
             <div className="container">
-                <h2>from 4 - antd</h2>
+                <h2>from 8 - Popup Component 1</h2>
                 <SearchBar
                     onSearchClick={this.handleSearch}
                     onClearClick={this.handleClear}
