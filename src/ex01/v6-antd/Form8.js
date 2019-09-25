@@ -13,15 +13,79 @@ import "./style1.css";
 
 const {confirm} = Modal;
 
-/**
- * form6 测试，当没有任何table记录显示时，
- * 添加记录，报错
- * 问题：
- * add/edit/delete 要分两步走
- * 1）和无服务器交互更新服务端数据，即 mock data数据
- * 2）得到服务器更新成功，返回结果后，根据返回的结果，更新页面上tableData数据
- * 例外情况是，tableData没有显示任何数据时，新添加到记录push进去
- */
+class PopupForm extends React.PureComponent {
+    state = {
+        id: "",
+        name: "",
+        price : "",
+        storage: ""
+    }
+
+    handleInputChange = (e) => {
+        e.preventDefault();
+        const {target} = e;
+        // debugger;
+        const key = target.name;
+        const value = key !== "name" ?
+            target.value.trim() : target.value;
+        this.setState({
+            [key]: value
+        });
+    }
+
+    handleCancel = () => {
+        this.props.onPopupCancel();
+    }
+
+    handleConfirm = () => {
+        this.props.onPopupConfirm();
+    }
+
+
+    render() {
+        const {name, price, storage} = this.state;
+        const {showPopup, isAdd} = this.props;
+        // debugger;
+        console.log('r PopupForm');
+        return (
+            <div className="popup">
+                <Modal
+                    title={isAdd ? "Add Item" : "Edit Item"}
+                    visible={showPopup}
+                    onOk={this.handleConfirm}
+                    onCancel={this.handleCancel}
+                >
+                    <div className="popup-content">
+                        <form>
+                            <label>name:</label>
+                            <Input
+                                type="text"
+                                name="name"
+                                value={name}
+                                onChange={this.handleInputChange}
+                            />
+                            <label>price:</label>
+                            <Input
+                                type="text"
+                                name="price"
+                                value={price}
+                                onChange={this.handleInputChange}
+                            />
+                            <label>storage:</label>
+                            <Input
+                                type="text"
+                                name="storage"
+                                value={storage}
+                                onChange={this.handleInputChange}
+                            />
+                        </form>
+                </div>
+                </Modal>
+            </div>
+        );
+    }
+
+}
 
 class SearchResult extends React.Component {
 
@@ -265,8 +329,9 @@ export default  class extends React.Component {
                 price: "",
                 storage: ""
             },
-            showPopAdd: false,
             showPopEdit: false,
+            showPopup: false,
+            isAdd: false,
             editKeys: {
                 id: "",
                 name: "",
@@ -482,6 +547,17 @@ export default  class extends React.Component {
         this.editUpdate = false;
     }
 
+    handlePopupCancel = () => {
+        this.setState({
+           showPopup: false
+        });
+    }
+
+    handlePopupConfirm = () => {
+
+    }
+
+
     render() {
         console.log('r default');
         // debugger;
@@ -490,9 +566,10 @@ export default  class extends React.Component {
             tableData,
             searchShow,
             addKeys,
-            showPopAdd,
-            editKeys,
-            showPopEdit
+            showPopup,
+            isAdd,
+            showPopEdit,
+            editKeys
         } = this.state;
 
         return (
@@ -511,41 +588,13 @@ export default  class extends React.Component {
                     editUpdate={this.editUpdate}
                     resetEditUpdate={this.resetEditUpdate}
                 />
+                <PopupForm
+                    showPopup={showPopup}
+                    isAdd={isAdd}
+                    onPopupCancel={this.handlePopupCancel}
+                    onPopupConfirm={this.handlePopupConfirm}
+                />
 
-                <Modal
-                    title="Add Item"
-                    visible={showPopAdd}
-                    onOk={this.handleConfirmAdd}
-                    onCancel={this.handleCancelAdd}
-                >
-                    <div className="popup">
-                        <div className="popup-content">
-                            <form className="addPop">
-                                <label>name:</label>
-                                <Input
-                                    type="text"
-                                    name="name"
-                                    value={addKeys.name}
-                                    onChange={this.handleAddKeyChange}
-                                />
-                                <label>price:</label>
-                                <Input
-                                    type="text"
-                                    name="price"
-                                    value={addKeys.price}
-                                    onChange={this.handleAddKeyChange}
-                                />
-                                <label>storage:</label>
-                                <Input
-                                    type="text"
-                                    name="storage"
-                                    value={addKeys.storage}
-                                    onChange={this.handleAddKeyChange}
-                                />
-                            </form>
-                        </div>
-                    </div>
-                </Modal>
 
                 <Modal
                     title="Edit Item"
