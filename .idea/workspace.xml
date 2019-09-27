@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a0a26dd-9acb-48d9-b83e-2218a4e3dc8e" name="Default Changelist" comment="add bug fix - ex01 v6">
+    <list default="true" id="4a0a26dd-9acb-48d9-b83e-2218a4e3dc8e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ex01/v6-antd/Form8.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex01/v6-antd/Form8.js" afterDir="false" />
     </list>
@@ -12,14 +12,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.40058824">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/ex01/v6-antd/Form8.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="516">
-                  <caret line="564" column="26" lean-forward="true" selection-start-line="564" selection-start-column="26" selection-end-line="564" selection-end-column="26" />
+                <state relative-caret-position="188">
+                  <caret line="338" column="43" selection-start-line="338" selection-start-column="43" selection-end-line="338" selection-end-column="43" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
@@ -36,11 +36,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/ex01/v6-antd/data.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="540">
-                  <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+                <state>
+                  <caret column="21" selection-start-column="21" selection-end-column="21" />
                 </state>
               </provider>
             </entry>
@@ -48,8 +48,20 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/ex01/v6-antd/app.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="216">
+                <state relative-caret-position="135">
                   <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+                  <folding>
+                    <element signature="e#0#26#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/ex01/v6-antd/Form7.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-51">
+                  <caret line="251" column="4" selection-start-line="251" selection-start-column="4" selection-end-line="251" selection-end-column="4" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
@@ -64,8 +76,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/ex01/v6-antd/Form8.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-346">
-                  <caret line="559" column="4" selection-start-line="559" selection-start-column="4" selection-end-line="559" selection-end-column="4" />
+                <state relative-caret-position="388">
+                  <caret line="172" column="7" selection-start-line="172" selection-start-column="7" selection-end-line="172" selection-end-column="7" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
@@ -88,7 +100,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>handleSearchClick</find>
       <find>handleSearchKeyChange</find>
       <find>onSearchKeyChange</find>
       <find>this.</find>
@@ -99,7 +110,6 @@
       <find>onAddClick</find>
       <find>search</find>
       <find>handleAdd</find>
-      <find>addKeys</find>
       <find>pirce</find>
       <find>totalNum</find>
       <find>babel-plugin-import</find>
@@ -116,8 +126,10 @@
       <find>FruitRow</find>
       <find>SearchResult</find>
       <find>handleSearch</find>
-      <find>debugger</find>
       <find>tableData.splice</find>
+      <find>addKeys</find>
+      <find>debugger</find>
+      <find>searchKeys</find>
     </findStrings>
     <replaceStrings>
       <replace>fruit</replace>
@@ -167,9 +179,9 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="372" />
-    <option name="y" value="20" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="178" />
+    <option name="y" value="53" />
     <option name="width" value="1400" />
     <option name="height" value="992" />
   </component>
@@ -433,7 +445,8 @@
       <workItem from="1569230700811" duration="1813000" />
       <workItem from="1569292196963" duration="4467000" />
       <workItem from="1569373456408" duration="2807000" />
-      <workItem from="1569396789857" duration="2369000" />
+      <workItem from="1569396789857" duration="2511000" />
+      <workItem from="1569565803688" duration="8097000" />
     </task>
     <task id="LOCAL-00001" summary="ex01 draft">
       <created>1563022629692</created>
@@ -470,11 +483,18 @@
       <option name="project" value="LOCAL" />
       <updated>1568720712292</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="popup modal - ex01 v6">
+      <created>1569405620610</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1569405620610</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102177000" />
+    <option name="totallyTimeSpent" value="110416000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -486,17 +506,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="372" y="20" width="1400" height="992" extended-state="0" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="npm" order="0" sideWeight="0.40632054" side_tool="true" weight="0.10676533" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info active="true" id="Structure" order="2" sideWeight="0.66183573" visible="true" weight="0.09822747" />
-      <window_info content_ui="combo" id="Project" order="3" sideWeight="0.33816424" side_tool="true" visible="true" weight="0.09822747" />
+      <window_info id="Structure" order="2" sideWeight="0.66027087" visible="true" weight="0.1781184" />
+      <window_info content_ui="combo" id="Project" order="3" sideWeight="0.33972913" side_tool="true" visible="true" weight="0.1781184" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.3295711" />
       <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.32012847" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.28893906" />
+      <window_info active="true" anchor="bottom" id="Find" order="2" visible="true" weight="0.29909706" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.28800857" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.33182845" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -504,7 +524,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49937811" weight="0.32869378" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5006219" side_tool="true" weight="0.3295711" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.30699775" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.20770878" />
       <window_info anchor="bottom" id="TypeScript" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -554,7 +574,8 @@
     <MESSAGE value="render优化2 - ex01 v6" />
     <MESSAGE value="antd table 1 - ex01 v6" />
     <MESSAGE value="add bug fix - ex01 v6" />
-    <option name="LAST_COMMIT_MESSAGE" value="add bug fix - ex01 v6" />
+    <MESSAGE value="popup modal - ex01 v6" />
+    <option name="LAST_COMMIT_MESSAGE" value="popup modal - ex01 v6" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/hello/helloworld.js">
@@ -750,16 +771,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ex01/v6-antd/Form7.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-49">
-          <caret line="250" column="16" selection-start-line="250" selection-start-column="16" selection-end-line="250" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3915">
@@ -774,16 +785,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ex01/v6-antd/data.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ex01/v6-antd/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
+        <state relative-caret-position="135">
           <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
@@ -791,10 +795,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ex01/v6-antd/Form7.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="251" column="4" selection-start-line="251" selection-start-column="4" selection-end-line="251" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ex01/v6-antd/data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ex01/v6-antd/Form8.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-346">
-          <caret line="559" column="4" selection-start-line="559" selection-start-column="4" selection-end-line="559" selection-end-column="4" />
+        <state relative-caret-position="388">
+          <caret line="172" column="7" selection-start-line="172" selection-start-column="7" selection-end-line="172" selection-end-column="7" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>

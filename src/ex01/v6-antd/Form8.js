@@ -14,11 +14,12 @@ import "./style1.css";
 const {confirm} = Modal;
 
 class PopupForm extends React.PureComponent {
-    state = {
-        id: "",
-        name: "",
-        price : "",
-        storage: ""
+
+    constructor(props) {
+        super(props);
+        // debugger;
+        const {id, name, price, storage} = this.props;
+        this.state = {id, name, price, storage};
     }
 
     handleInputChange = (e) => {
@@ -38,20 +39,27 @@ class PopupForm extends React.PureComponent {
     }
 
     handleConfirm = () => {
-        this.props.onPopupConfirm();
+        const {isAdd, onPopupConfirm} = this.props;
+        const item = JSON.parse(JSON.stringify(this.state));
+        if(isAdd) {
+            delete item.id;
+            onPopupConfirm(item);
+        } else {
+            onPopupConfirm(item);
+        }
     }
 
 
     render() {
         const {name, price, storage} = this.state;
-        const {showPopup, isAdd} = this.props;
+        const {isAdd} = this.props;
         // debugger;
         console.log('r PopupForm');
         return (
             <div className="popup">
                 <Modal
                     title={isAdd ? "Add Item" : "Edit Item"}
-                    visible={showPopup}
+                    visible={true}
                     onOk={this.handleConfirm}
                     onCancel={this.handleCancel}
                 >
@@ -154,29 +162,15 @@ class SearchResult extends React.Component {
      * @param nextState
      * @param nextContext
      * @returns {boolean}
-     */
+
     shouldComponentUpdate(nextProps, nextState, nextContext) {
         // debugger;
-        if(this.props.searchShow != nextProps.searchShow) {
-            return true;
-        }
         if(this.dataLength != nextProps.tableData.length) {
             this.dataLength = nextProps.tableData.length;
             return true;
         }
-        /**
-         * editUpdate用来阻止弹出编辑框内，输入时，渲染table
-         * 仅当edit button按下后，数据更新再渲染table
-         * click edit btn > 触发更新记录 > 触发父组件标志位editUpdate=true
-         * setStatus更新tableData > 触发父组件更新render > 触发子组件render update > 传入新props editUpdate=true
-         * table组件更新， 并将父组件的标志位复位
-         */
-        if(nextProps.editUpdate) {
-            this.props.resetEditUpdate();
-            return true;
-        }
         return false;
-    }
+    }*/
 
     render() {
         const {
@@ -190,7 +184,7 @@ class SearchResult extends React.Component {
 
         console.log('r SearchResult', searchShow);
 
-        return searchShow ? (
+        return (
             <div className="table-contain">
                 <Table
                     columns={this.columns}
@@ -202,7 +196,7 @@ class SearchResult extends React.Component {
                     }}
                 />
             </div>
-        ) : null;
+        );
     }
 }
 
@@ -316,45 +310,25 @@ export default  class extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            searchKeys: {
-                id: "",
-                name: "",
-                price : "",
-                storage: ""
-            },
-            searchShow: false,
+            // 搜索结果列表
             tableData: [],
-            addKeys: {
-                name: "",
-                price: "",
-                storage: ""
-            },
-            showPopEdit: false,
-            showPopup: false,
-            isAdd: false,
-            editKeys: {
+            // 是否显示搜索结果
+            searchShow: false,
+            // 添加&编辑弹出框键值对象
+            popupKeys: {
                 id: "",
                 name: "",
                 price: "",
                 storage: ""
-            }
+            },
+            // 是否显示添加或编辑弹出框
+            showPopup: false,
+            // 是否添加弹出框，true添加弹出框，false编辑弹出框
+            isAdd: false,
         };
         // 标志位，控制是否更新单条 table record
         // 重新渲染  SearchResult 组件前，置为true，更新显示后，复位false
-        this.editUpdate = false;
-    }
-
-    handleAddKeyChange = (e) => {
-        e.preventDefault();
-        // debugger;
-        const key = e.target.name;
-        const value = key !== "name" ?
-            e.target.value.trim() : e.target.value;
-        this.setState((preState) => {
-            return {
-                addKeys: {...preState.addKeys, [key]:value}
-            };
-        });
+        // this.editUpdate = false;
     }
 
     handleSearch = (searchKeys) => {
@@ -385,7 +359,6 @@ export default  class extends React.Component {
         }
 
         this.setState({
-            searchKeys,
             tableData,
             searchShow: true
         });
@@ -393,12 +366,7 @@ export default  class extends React.Component {
 
     handleClear = () => {
         this.setState({
-            searchKeys: {
-                id: "",
-                name: "",
-                price : "",
-                storage: ""
-            },
+            tableData: [],
             searchShow: false
         });
     }
@@ -431,25 +399,15 @@ export default  class extends React.Component {
 
     handleAddPopup = () => {
         this.setState({
-            showPopAdd: true
+            isAdd: true,
+            showPopup: true
         });
     }
 
-    handleCancelAdd = () => {
-        this.setState({
-            // addKeys: {
-            //     name: "",
-            //     price: "",
-            //     storage: ""
-            // },
-            showPopAdd: false
-        });
-    }
-
-    handleConfirmAdd = () => {
+    handleConfirmAdd = (addKeys) => {
         // debugger;
-        const {addKeys} = this.state;
-        const isEmpty = Object.keys(addKeys).every(key => addKeys[key] == "");
+        const isEmpty = Object.keys(addKeys).
+        every(key => addKeys[key] == "");
         if(isEmpty) {
             console.log('add key cannot be empty!');
             this.handleCancelAdd();
@@ -471,13 +429,7 @@ export default  class extends React.Component {
                 }
                 return {
                     tableData,
-                    // 清空add popup 输入框
-                    addKeys: {
-                        name: "",
-                        price: "",
-                        storage: ""
-                    },
-                    showPopAdd: false,
+                    showPopup: false,
                     searchShow: true
                 };
             });
@@ -485,39 +437,17 @@ export default  class extends React.Component {
     }
 
     handleEditPopup = (editId) => {
-        const item = this.state.tableData.find(ele => ele.id == editId);
+        const item = this.state.tableData
+            .find(ele => ele.id == editId);
         this.setState({
-            // setState时，需小心引用类型属性，
-            // 避免更新editKeys时，同步更改tableData中对应的item数据
-            // 需要深拷贝，传递一个和原件没有关联的全新对象
-            editKeys: JSON.parse(JSON.stringify(item)),
-            showPopEdit: true
+            popupKeys: JSON.parse(JSON.stringify(item)),
+            isAdd: false,
+            showPopup: true
         });
     }
 
-
-    handleEditInputChange = (e) => {
-        e.preventDefault();
+    handleConfirmEdit = (editKeys) => {
         // debugger;
-        const key = e.target.name;
-        const value = key !== "name" ?
-            e.target.value.trim() : e.target.value;
-        this.setState((preState) => {
-            return {
-                editKeys: {...preState.editKeys, [key]:value}
-            };
-        });
-    }
-
-    handleCancelEdit = () => {
-        this.setState({
-            showPopEdit: false
-        });
-    }
-
-    handleConfirmEdit = () => {
-        // debugger;
-        const {editKeys} = this.state;
         // mock ajax update record on server
         const editIdx = data.findIndex(ele => ele.id == editKeys.id);
         data.splice(editIdx, 1, editKeys);
@@ -529,47 +459,53 @@ export default  class extends React.Component {
             tableData[editTableIdx] = returnItem;
             return {
                 tableData,
-                editKeys: {
+                popupKeys: {
                     id: "",
                     name: "",
                     price: "",
                     storage: ""
                 },
-                showPopEdit: false
+                showPopup: false
             };
         });
         // 通知 SearchResult 组件，table记录更新
-        this.editUpdate = true;
+        // this.editUpdate = true;
     };
 
-    resetEditUpdate = () => {
-        // 完成SearchResult 组件更新后，重置editUpdate状态
-        this.editUpdate = false;
-    }
+    // resetEditUpdate = () => {
+    //     // 完成SearchResult 组件更新后，重置editUpdate状态
+    //     // this.editUpdate = false;
+    // }
 
     handlePopupCancel = () => {
         this.setState({
+            // 清空弹出窗内数据
+            popupKeys: {
+                id: "",
+                name: "",
+                price: "",
+                storage: ""
+            },
            showPopup: false
         });
     }
 
-    handlePopupConfirm = () => {
-
+    handlePopupConfirm = (item) => {
+        // debugger;
+        const {isAdd} = this.state;
+        isAdd ? this.handleConfirmAdd(item) :
+            this.handleConfirmEdit(item);
     }
-
 
     render() {
         console.log('r default');
         // debugger;
         const {
-            // searchKeys,
             tableData,
             searchShow,
-            addKeys,
+            popupKeys,
             showPopup,
-            isAdd,
-            showPopEdit,
-            editKeys
+            isAdd
         } = this.state;
 
         return (
@@ -580,57 +516,19 @@ export default  class extends React.Component {
                     onClearClick={this.handleClear}
                     onAddClick={this.handleAddPopup}
                 />
-                <SearchResult
+                {searchShow && <SearchResult
                     tableData={tableData}
-                    searchShow={searchShow}
                     onDeleteClick={this.handleDeletePopup}
                     onEditClick={this.handleEditPopup}
                     editUpdate={this.editUpdate}
                     resetEditUpdate={this.resetEditUpdate}
-                />
-                <PopupForm
-                    showPopup={showPopup}
+                />}
+                {showPopup && <PopupForm
+                    {...popupKeys}
                     isAdd={isAdd}
                     onPopupCancel={this.handlePopupCancel}
                     onPopupConfirm={this.handlePopupConfirm}
-                />
-
-
-                <Modal
-                    title="Edit Item"
-                    visible={showPopEdit}
-                    onOk={this.handleConfirmEdit}
-                    onCancel={this.handleCancelEdit}
-                >
-                    <div className="popup">
-                        <div className="popup-content">
-                            <form className="addPop">
-                                <label>name:</label>
-                                <Input
-                                    type="text"
-                                    name="name"
-                                    value={editKeys.name}
-                                    onChange={this.handleEditInputChange}
-                                />
-                                <label>price:</label>
-                                <Input
-                                    type="text"
-                                    name="price"
-                                    value={editKeys.price}
-                                    onChange={this.handleEditInputChange}
-                                />
-                                <label>storage:</label>
-                                <Input
-                                    type="text"
-                                    name="storage"
-                                    value={editKeys.storage}
-                                    onChange={this.handleEditInputChange}
-                                />
-                            </form>
-                        </div>
-                    </div>
-                </Modal>
-
+                />}
             </div>
         );
     }
