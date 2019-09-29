@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a0a26dd-9acb-48d9-b83e-2218a4e3dc8e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ex01/v7/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex01/v7/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex01/v7/style1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex01/v7/t1/Form1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex01/v7/t1/PopupFrom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex01/v7/t1/SearchBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex01/v7/t1/SearchTable.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ex01/v6-antd/Form8.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex01/v6-antd/Form8.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,82 +18,65 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.40058824">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/ex01/v6-antd/Form8.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="188">
-                  <caret line="338" column="43" selection-start-line="338" selection-start-column="43" selection-end-line="338" selection-end-column="43" />
-                  <folding>
-                    <element signature="e#0#26#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/ex01/v6-antd/style1.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="216">
-                  <caret line="8" column="8" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="8" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/ex01/v6-antd/data.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="21" selection-start-column="21" selection-end-column="21" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/ex01/v6-antd/app.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="135">
-                  <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-                  <folding>
-                    <element signature="e#0#26#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/ex01/v6-antd/Form7.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-51">
-                  <caret line="251" column="4" selection-start-line="251" selection-start-column="4" selection-end-line="251" selection-end-column="4" />
-                  <folding>
-                    <element signature="e#0#26#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/ex01/v6-antd/Form8.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="388">
-                  <caret line="172" column="7" selection-start-line="172" selection-start-column="7" selection-end-line="172" selection-end-column="7" />
-                  <folding>
-                    <element signature="e#0#26#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ex01/v7/t1/Form1.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="164" column="13" selection-start-line="164" selection-start-column="13" selection-end-line="164" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ex01/v7/t1/SearchBar.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ex01/v7/t1/SearchTable.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ex01/v7/t1/PopupFrom.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ex01/v7/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -170,6 +159,13 @@
         <option value="$PROJECT_DIR$/src/ex01/v6-antd/app.js" />
         <option value="$PROJECT_DIR$/src/ex01/v6-antd/Form7.js" />
         <option value="$PROJECT_DIR$/src/ex01/v6-antd/Form8.js" />
+        <option value="$PROJECT_DIR$/src/ex01/v7/PopupFrom.js" />
+        <option value="$PROJECT_DIR$/src/ex01/v7/Form1.js" />
+        <option value="$PROJECT_DIR$/src/ex01/v7/SearchTable.js" />
+        <option value="$PROJECT_DIR$/src/ex01/v7/SearchBar.js" />
+        <option value="$PROJECT_DIR$/src/ex01/v7/app.js" />
+        <option value="$PROJECT_DIR$/src/ex01/v7/t1/PopupFrom.js" />
+        <option value="$PROJECT_DIR$/src/ex01/v7/t1/Form1.js" />
       </list>
     </option>
   </component>
@@ -197,43 +193,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="hello-react" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="D:\dev\project\hello-react" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-            <path>
-              <item name="hello-react" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="D:\dev\project\hello-react" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="hello-react" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="D:\dev\project\hello-react" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="reacttraining" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="hello-react" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="D:\dev\project\hello-react" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="reacttraining" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="react-router" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="hello-react" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="D:\dev\project\hello-react" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="reacttraining" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="react-router" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="basic" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -300,7 +259,52 @@
               <item name="hello-react" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ex01" type="462c0819:PsiDirectoryNode" />
-              <item name="v6-antd" type="462c0819:PsiDirectoryNode" />
+              <item name="v7" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ex01" type="462c0819:PsiDirectoryNode" />
+              <item name="v7" type="462c0819:PsiDirectoryNode" />
+              <item name="t1" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="hello-react" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\dev\project\hello-react" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="hello-react" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\dev\project\hello-react" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="hello-react" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\dev\project\hello-react" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="reacttraining" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="hello-react" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\dev\project\hello-react" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="reacttraining" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="react-router" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="hello-react" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\dev\project\hello-react" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="reacttraining" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="react-router" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="basic" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -312,7 +316,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/ex01/v6-antd" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/ex01/v7" />
     <property name="list.type.of.created.stylesheet" value="Sass" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -327,17 +331,18 @@
     <property name="ts.external.directory.path" value="C:\Program64\JetBrains\WebStorm 2019.1.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\dev\project\hello-react\src\ex01\v7\t1" />
+      <recent name="D:\dev\project\hello-react\src\example" />
+      <recent name="D:\dev\project\hello-react\src" />
+      <recent name="D:\dev\project\hello-react\src\origin" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\dev\project\hello-react\src\ex01\v7" />
       <recent name="D:\dev\project\hello-react\src\ex01\v6-antd" />
       <recent name="D:\dev\project\hello-react" />
       <recent name="D:\dev\project\hello-react\src\ex01\v4" />
       <recent name="D:\dev\project\hello-react\src\ex01\v3" />
-      <recent name="D:\dev\project\hello-react\src\site\official" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\dev\project\hello-react\src\example" />
-      <recent name="D:\dev\project\hello-react\src" />
-      <recent name="D:\dev\project\hello-react\src\origin" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -446,7 +451,9 @@
       <workItem from="1569292196963" duration="4467000" />
       <workItem from="1569373456408" duration="2807000" />
       <workItem from="1569396789857" duration="2511000" />
-      <workItem from="1569565803688" duration="8097000" />
+      <workItem from="1569565803688" duration="8142000" />
+      <workItem from="1569719369103" duration="2876000" />
+      <workItem from="1569724553574" duration="1184000" />
     </task>
     <task id="LOCAL-00001" summary="ex01 draft">
       <created>1563022629692</created>
@@ -490,11 +497,18 @@
       <option name="project" value="LOCAL" />
       <updated>1569405620610</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="popup modal - ex01 v6 - v2">
+      <created>1569577346058</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1569577346058</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110416000" />
+    <option name="totallyTimeSpent" value="114521000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -511,8 +525,8 @@
     <layout>
       <window_info id="npm" order="0" sideWeight="0.40632054" side_tool="true" weight="0.10676533" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info id="Structure" order="2" sideWeight="0.66027087" visible="true" weight="0.1781184" />
-      <window_info content_ui="combo" id="Project" order="3" sideWeight="0.33972913" side_tool="true" visible="true" weight="0.1781184" />
+      <window_info active="true" id="Structure" order="2" sideWeight="0.6580135" visible="true" weight="0.1781184" />
+      <window_info content_ui="combo" id="Project" order="3" sideWeight="0.34198645" side_tool="true" visible="true" weight="0.1781184" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.3295711" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info active="true" anchor="bottom" id="Find" order="2" visible="true" weight="0.29909706" />
@@ -575,7 +589,8 @@
     <MESSAGE value="antd table 1 - ex01 v6" />
     <MESSAGE value="add bug fix - ex01 v6" />
     <MESSAGE value="popup modal - ex01 v6" />
-    <option name="LAST_COMMIT_MESSAGE" value="popup modal - ex01 v6" />
+    <MESSAGE value="popup modal - ex01 v6 - v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="popup modal - ex01 v6 - v2" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/hello/helloworld.js">
@@ -785,19 +800,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ex01/v6-antd/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ex01/v6-antd/Form7.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
+        <state relative-caret-position="6480">
           <caret line="251" column="4" selection-start-line="251" selection-start-column="4" selection-end-line="251" selection-end-column="4" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
@@ -814,8 +819,71 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ex01/v6-antd/Form8.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="172" column="7" selection-start-line="172" selection-start-column="7" selection-end-line="172" selection-end-column="7" />
+        <state relative-caret-position="-1264">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ex01/v6-antd/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ex01/v7/data.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ex01/v7/style1.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ex01/v7/t1/Form1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="164" column="13" selection-start-line="164" selection-start-column="13" selection-end-line="164" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ex01/v7/t1/SearchBar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ex01/v7/t1/SearchTable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ex01/v7/t1/PopupFrom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ex01/v7/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
