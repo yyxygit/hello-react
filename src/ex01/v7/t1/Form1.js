@@ -34,7 +34,7 @@ export default  class extends React.Component {
         };
         // 标志位，控制是否更新单条 table record
         // 重新渲染  SearchResult 组件前，置为true，更新显示后，复位false
-        // this.editUpdate = false;
+        this.editUpdate = false;
     }
 
     handleSearch = (searchKeys) => {
@@ -175,13 +175,8 @@ export default  class extends React.Component {
             };
         });
         // 通知 SearchResult 组件，table记录更新
-        // this.editUpdate = true;
+        this.editUpdate = true;
     };
-
-    // resetEditUpdate = () => {
-    //     // 完成SearchResult 组件更新后，重置editUpdate状态
-    //     // this.editUpdate = false;
-    // }
 
     handlePopupCancel = () => {
         this.setState({
@@ -203,6 +198,11 @@ export default  class extends React.Component {
             this.handleConfirmEdit(item);
     }
 
+    resetEditUpdate = () => {
+        // 完成SearchResult 组件更新后，重置editUpdate状态
+        this.editUpdate = false;
+    }
+
     render() {
         console.log('r default');
         // debugger;
@@ -216,7 +216,7 @@ export default  class extends React.Component {
 
         return (
             <div className="container">
-                <h2>from 8 - Popup Component 1</h2>
+                <h2>from 1 - v7 splice files</h2>
                 <SearchBar
                     onSearchClick={this.handleSearch}
                     onClearClick={this.handleClear}

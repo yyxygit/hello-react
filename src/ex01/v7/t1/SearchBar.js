@@ -101,7 +101,7 @@ export default class extends React.PureComponent {
                         add
                     </Button>
                 </form>
-                <div className="condistions-search">
+                <div className="conditions-search">
                     <span>id:</span><span>{id}</span>
                     <span>name:</span><span>{name}</span>
                     <span>price:</span><span>{price}</span>

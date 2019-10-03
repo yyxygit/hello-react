@@ -9,7 +9,7 @@ export default function () {
         <div>
 
             <Header />
-            <h1>Hello, app1! - v6-antd</h1>
+            <h1>Hello, app! - v6-antd</h1>
             <Switch>
                 <Route exact path="/" component={Home} />
                 <Route path='/Form1' component={Form1} />
@@ -28,7 +28,7 @@ function Header() {
     return (
         <ul className="Menu-list">
             <li>
-                <Link to="/Form6">form 1</Link>
+                <Link to="/Form1">form 1</Link>
             </li>
             {/*<li>*/}
             {/*    <Link to="/Form7">form 7 无记录添加bug</Link>*/}

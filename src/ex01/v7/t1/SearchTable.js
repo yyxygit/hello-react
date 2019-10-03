@@ -74,27 +74,31 @@ export default class extends React.Component {
      * @param nextState
      * @param nextContext
      * @returns {boolean}
-
+     */
      shouldComponentUpdate(nextProps, nextState, nextContext) {
         // debugger;
+        // 当删除或添加记录，数据表格长度变化时，更新表格
         if(this.dataLength != nextProps.tableData.length) {
             this.dataLength = nextProps.tableData.length;
             return true;
         }
+        // 当确定更新记录成功后，更新表格
+        if(nextProps.editUpdate) {
+            this.props.resetEditUpdate();
+            return true;
+        }
+
         return false;
-    }*/
+    }
 
     render() {
-        const {
-            searchShow,
-            tableData,
-        } = this.props;
+        const {tableData} = this.props;
 
         const tableWithKey = tableData.map((item) => {
             return {...item, 'key':item.id};
         });
 
-        console.log('r SearchResult', searchShow);
+        console.log('r SearchResult');
 
         return (
             <div className="table-contain">

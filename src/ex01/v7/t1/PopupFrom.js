@@ -37,10 +37,8 @@ export default class extends React.PureComponent {
         const item = JSON.parse(JSON.stringify(this.state));
         if(isAdd) {
             delete item.id;
-            onPopupConfirm(item);
-        } else {
-            onPopupConfirm(item);
         }
+        onPopupConfirm(item);
     }
 
 
