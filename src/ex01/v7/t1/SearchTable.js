@@ -12,6 +12,8 @@ export default class extends React.Component {
     constructor(props) {
         super(props);
         //内部保存显示table的记录条数
+        // dataLength 用来判断是否要更新，不放在state或props里
+        // state/props 改变后都会触发render
         this.dataLength = this.props.tableData.length;
 
         this.columns = [
@@ -92,6 +94,7 @@ export default class extends React.Component {
     }
 
     render() {
+         // 引用对象数据，不适合做纯组件
         const {tableData} = this.props;
 
         const tableWithKey = tableData.map((item) => {

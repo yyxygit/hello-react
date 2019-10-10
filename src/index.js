@@ -21,17 +21,17 @@ import ReactDOM from 'react-dom';
 // import Ex01 from './ex01/v4/app1';
 // import Ex01 from './ex01/v5/app1';
 // import Ex01 from './ex01/v6-antd/app';
-import Ex01 from './ex01/v7/app';
+// import Ex01 from './ex01/v7/app';
 
-
-// import './index.css';
-// import Game from './site/official/game2';
+// import Game from './site/game01/game3';
 
 // import Test01 from './example-web/props-update-1/test01';
 
 // import Sider from './antd/menu/onOpenChange1';
 
 // import App from './crypto-js/hello/test1'
+
+import Date from './antd/DatePicker/dateCanNotChoose/t20191010_a';
 
 /**/
 // ReactDOM.render(
@@ -86,10 +86,10 @@ import Ex01 from './ex01/v7/app';
 //     document.getElementById('root')
 // );
 
-ReactDOM.render(
-  <Ex01/>,
-  document.getElementById('root')
-);
+// ReactDOM.render(
+//   <Ex01/>,
+//   document.getElementById('root')
+// );
 
 // https://zh-hans.reactjs.org/docs/lists-and-keys.html
 // const numbers = [1, 2, 3, 4, 5];
@@ -197,3 +197,8 @@ ReactDOM.render(
 //     <Sider />,
 //     document.getElementById('root')
 // );
+
+ReactDOM.render(
+    <Date />,
+    document.getElementById('root')
+);
