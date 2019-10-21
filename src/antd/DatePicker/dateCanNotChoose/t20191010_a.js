@@ -59,6 +59,7 @@ function testMoment(bStatus) {
      * @type {moment.Moment}
      */
     const midNightOfNextDay = moment(dateString + ' 24:00:00.000');
+    console.log('midNightOfNextDay:', midNightOfNextDay.format());
     console.log('endDay ms:', endDay.valueOf());
     console.log('midNightOf endDay ms', midNightOfNextDay.valueOf());
     console.log(endDay + 1 == midNightOfNextDay); // true 距离第二天零点差1毫秒
@@ -79,8 +80,8 @@ export default function () {
     return (
       <div className="date">
           <DatePicker
-              disabledDate={disabledDate1}
-              // onOpenChange={testMoment}
+              // disabledDate={disabledDate1}
+              onOpenChange={testMoment}
               // disabledDate={disabledDate2}
           />
       </div>

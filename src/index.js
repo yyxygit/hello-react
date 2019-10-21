@@ -1,5 +1,5 @@
 import React from 'react';
-// import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import ReactDOM from 'react-dom';
 
 // import App from './basic/example';
@@ -21,7 +21,7 @@ import ReactDOM from 'react-dom';
 // import Ex01 from './ex01/v4/app1';
 // import Ex01 from './ex01/v5/app1';
 // import Ex01 from './ex01/v6-antd/app';
-// import Ex01 from './ex01/v7/app';
+import Ex01 from './ex01/v7/app';
 
 // import Game from './site/game01/game3';
 
@@ -29,15 +29,37 @@ import ReactDOM from 'react-dom';
 
 // import Sider from './antd/menu/onOpenChange1';
 
-// import App from './crypto-js/hello/test1'
+// import App from './crypto-js/hello/t5-AES-2';
 
-import Date from './antd/DatePicker/dateCanNotChoose/t20191010_a';
+// import Date from './antd/DatePicker/dateCanNotChoose/t20191010_a';
 
+// import App from './the-road-to-learn-react/introduce-to-react/Complex-JavaScript-in-JSX/t20191012a';
+// import App from './the-road-to-learn-react/introduce-to-react/Bindings/t20191014c';
+// import App from './the-road-to-learn-react/introduce-to-react/Interactions-with-Forms-and-Events/t20191014a';
+// import App from './the-road-to-learn-react/introduce-to-react/Split-Up-Components/t20191014a';
+// import App from './the-road-to-learn-react/introduce-to-react/Composable-Components/t20191016a';
+// import App from './the-road-to-learn-react/introduce-to-react/Reusable-Components/t20191016b';
+// import App from './the-road-to-learn-react/introduce-to-react/Styling-Components/t2';
+import TRTLR from './the-road-to-learn-react/app';
+
+// import MomentJS from './moment-js/app';
+
+// alert('aaa');
 /**/
 // ReactDOM.render(
 //     <App />,
 //     document.getElementById('root')
 // );
+
+// ReactDOM.render(
+//     <MomentJS />,
+//     document.getElementById('root')
+// );
+
+ReactDOM.render(
+    <TRTLR />,
+    document.getElementById('root')
+);
 
 
 // ReactDOM.render(
@@ -198,7 +220,15 @@ import Date from './antd/DatePicker/dateCanNotChoose/t20191010_a';
 //     document.getElementById('root')
 // );
 
-ReactDOM.render(
-    <Date />,
-    document.getElementById('root')
-);
+// ReactDOM.render(
+//     <Date />,
+//     document.getElementById('root')
+// );
+
+
+/**
+ * 开启模块热替换HMR
+ */
+if(module.hot) {
+    module.hot.accept();
+}

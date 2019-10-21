@@ -1,0 +1,8 @@
+body {
+    /* 等宽字体很重要 */
+    font-family: Consolas, Monaco, monospace;
+}
+
+td {
+    padding: 5px;
+}
