@@ -30,6 +30,7 @@ import Ex01 from './ex01/v7/app';
 // import Sider from './antd/menu/onOpenChange1';
 
 // import App from './crypto-js/hello/t5-AES-2';
+// import App from './crypto-js/jsentrypt/t1';
 
 // import Date from './antd/DatePicker/dateCanNotChoose/t20191010_a';
 
