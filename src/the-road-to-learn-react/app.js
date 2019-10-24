@@ -4,6 +4,8 @@ import StylingComponents from './introduce-to-react/Styling-Components/t3';
 import FetchingData from './Getting-Real-with-APIs/Client-Cache/t1';
 import AxiosFetching from './Getting-Real-with-APIs/Axios-instead-of-Fetch/t1';
 import ImportExport from './Code-Organization-and-Testing/Import-and-Export/t4/file2';
+import PropTypesInterface from './Code-Organization-and-Testing/Component-Interface-with-PropTypes/t1';
+import RefDomElement from './Advanced-React-Components/Ref-a-DOM-Element/t4/parent';
 
 export default function () {
     // alert('aaa');
@@ -17,6 +19,8 @@ export default function () {
                     <Route path='/fetching-data/test' component={FetchingData} />
                     <Route path='/axios-instead-of-fetch/test' component={AxiosFetching} />
                     <Route path='/import-export/test' component={ImportExport} />
+                    <Route path='/proptypes/test' component={PropTypesInterface} />
+                    <Route path='/ref/test' component={RefDomElement} />
                 </Switch>
             </div>
         </Router>
@@ -39,6 +43,12 @@ function Home() {
                 </li>
                 <li>
                     <Link to="/import-export/test">import-export</Link>
+                </li>
+                <li>
+                    <Link to="/proptypes/test">proptypes</Link>
+                </li>
+                <li>
+                    <Link to="/ref/test">RefDomElement</Link>
                 </li>
             </ul>
         </div>
