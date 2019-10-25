@@ -316,7 +316,7 @@ class App extends Component {
                   <div>
                       <Table
                           list={list}
-                          pattern={searchTerm}
+
                           onDismiss={this.onDismiss}
                       ></Table>
                       <div className="interactions">

@@ -5,7 +5,11 @@ import FetchingData from './Getting-Real-with-APIs/Client-Cache/t1';
 import AxiosFetching from './Getting-Real-with-APIs/Axios-instead-of-Fetch/t1';
 import ImportExport from './Code-Organization-and-Testing/Import-and-Export/t4/file2';
 import PropTypesInterface from './Code-Organization-and-Testing/Component-Interface-with-PropTypes/t1';
-import RefDomElement from './Advanced-React-Components/Ref-a-DOM-Element/t4/parent';
+import RefDomElement from './Advanced-React-Components/Ref-a-DOM-Element/official-document/ref-forwarding/t4b';
+import LoadingMoreBtn from './Advanced-React-Components/Loading/t1';
+import HigherOrderComponents from './Advanced-React-Components/Higher-Order-Components/t1';
+import AdvancedSorting from './Advanced-React-Components/Advanced-Sorting/t3';
+import LiftingState from './State-Management/Lifting-State/t1';
 
 export default function () {
     // alert('aaa');
@@ -21,6 +25,10 @@ export default function () {
                     <Route path='/import-export/test' component={ImportExport} />
                     <Route path='/proptypes/test' component={PropTypesInterface} />
                     <Route path='/ref/test' component={RefDomElement} />
+                    <Route path='/loading/test' component={LoadingMoreBtn} />
+                    <Route path='/HigherOrderComponents/test' component={HigherOrderComponents} />
+                    <Route path='/AdvancedSorting/test' component={AdvancedSorting} />
+                    <Route path='/LiftingState/test' component={LiftingState} />
                 </Switch>
             </div>
         </Router>
@@ -49,6 +57,18 @@ function Home() {
                 </li>
                 <li>
                     <Link to="/ref/test">RefDomElement</Link>
+                </li>
+                <li>
+                    <Link to="/loading/test">loading</Link>
+                </li>
+                <li>
+                    <Link to="/HigherOrderComponents/test">Higher Order Components</Link>
+                </li>
+                <li>
+                    <Link to="/AdvancedSorting/test">Advanced Sorting</Link>
+                </li>
+                <li>
+                    <Link to="/LiftingState/test">Lifting State</Link>
                 </li>
             </ul>
         </div>

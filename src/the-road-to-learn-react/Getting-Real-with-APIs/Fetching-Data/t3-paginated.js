@@ -223,7 +223,7 @@ class App extends Component {
               {result && <div>
                   <Table
                       list={result.hits}
-                      pattern={searchTerm}
+
                       onDismiss={this.onDismiss}
                   ></Table>
                   <div className="interactions">

@@ -2,16 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a0a26dd-9acb-48d9-b83e-2218a4e3dc8e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/t1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/t2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/t3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/t4/child.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/t4/child2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/t4/parent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/Code-Organization-and-Testing/Component-Interface-with-PropTypes/t1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Advanced-Sorting/t1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Advanced-Sorting/t2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Advanced-Sorting/t3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Higher-Order-Components/t1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Loading/t1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/official-document/callback-ref/t1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/official-document/callback-ref/t2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/official-document/ref-forwarding/read.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/official-document/ref-forwarding/t1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/official-document/ref-forwarding/t2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/official-document/ref-forwarding/t3a.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/official-document/ref-forwarding/t3a2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/official-document/ref-forwarding/t3b.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/official-document/ref-forwarding/t4a.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/official-document/ref-forwarding/t4b.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/official-document/t1/MyComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/official-document/t2/AutoFocusTextInput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/official-document/t2/CustomTextInput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/State-Management/Lifting-State/t1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/State-Management/Revisited-setState/t1.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/t1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/t1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/t2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/t2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/t3.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/t3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/the-road-to-learn-react/Code-Organization-and-Testing/Component-Interface-with-PropTypes/t1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/Code-Organization-and-Testing/Component-Interface-with-PropTypes/t1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/the-road-to-learn-react/Code-Organization-and-Testing/Snapshot-Tests-with-Jest/t1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/Code-Organization-and-Testing/Snapshot-Tests-with-Jest/t1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/the-road-to-learn-react/Getting-Real-with-APIs/Axios-instead-of-Fetch/t1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/Getting-Real-with-APIs/Axios-instead-of-Fetch/t1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/the-road-to-learn-react/Getting-Real-with-APIs/Client-Cache/t1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/Getting-Real-with-APIs/Client-Cache/t1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/the-road-to-learn-react/Getting-Real-with-APIs/Fetching-Data/t1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/Getting-Real-with-APIs/Fetching-Data/t1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/the-road-to-learn-react/Getting-Real-with-APIs/Fetching-Data/t2-paginated.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/Getting-Real-with-APIs/Fetching-Data/t2-paginated.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/the-road-to-learn-react/Getting-Real-with-APIs/Fetching-Data/t3-paginated.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/Getting-Real-with-APIs/Fetching-Data/t3-paginated.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/the-road-to-learn-react/Getting-Real-with-APIs/Fetching-Data/t4-paginated.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/Getting-Real-with-APIs/Fetching-Data/t4-paginated.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/the-road-to-learn-react/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/app.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,10 +46,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.js">
+        <entry file="file://$PROJECT_DIR$/src/the-road-to-learn-react/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="893">
-              <caret line="59" selection-start-line="59" selection-end-line="62" selection-end-column="2" />
+            <state relative-caret-position="1847">
+              <caret line="70" column="58" selection-start-line="70" selection-start-column="58" selection-end-line="70" selection-end-column="58" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -35,58 +58,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/the-road-to-learn-react/app.js">
+        <entry file="file://$PROJECT_DIR$/src/the-road-to-learn-react/State-Management/Lifting-State/t1.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="7" column="82" selection-start-line="7" selection-start-column="82" selection-end-line="7" selection-end-column="82" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/t1.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-165">
-              <caret line="76" column="51" lean-forward="true" selection-start-line="76" selection-start-column="11" selection-end-line="76" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/t3.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1782">
-              <caret selection-end-column="39" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/t4/child.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="18" column="58" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/t4/child2.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+            <state relative-caret-position="821">
+              <caret line="268" column="23" lean-forward="true" selection-start-line="268" selection-start-column="23" selection-end-line="268" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/t4/parent.js">
+        <entry file="file://$PROJECT_DIR$/src/the-road-to-learn-react/State-Management/Revisited-setState/t1.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+            <state relative-caret-position="127">
+              <caret line="478" column="20" lean-forward="true" selection-start-line="478" selection-start-column="20" selection-end-line="478" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -104,10 +88,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>console.log(`r</find>
-      <find>searchKeys.</find>
-      <find>props.searchKeys.</find>
-      <find>console.log</find>
       <find>node_modules\antd\es\Table\table</find>
       <find>handleDeleteClick</find>
       <find>ResultRowsNumber</find>
@@ -134,6 +114,10 @@
       <find>PATH_BASE</find>
       <find>fetchSearchTopStories</find>
       <find>Search2</find>
+      <find>h</find>
+      <find>pattern={searchTerm}</find>
+      <find>isSortReverse</find>
+      <find>setState</find>
     </findStrings>
     <replaceStrings>
       <replace>fruit</replace>
@@ -148,9 +132,13 @@
       <replace>key_utf8</replace>
       <replace>iv_utf8</replace>
       <replace>//debugger</replace>
+      <replace />
     </replaceStrings>
     <dirStrings>
       <dir>node_modules\antd\es\Table\table</dir>
+      <dir>D:\dev\project\hello-react\src\the-road-to-learn-react</dir>
+      <dir>D:\dev\project\hello-react\src\the-road-to-learn-react\Code-Organization-and-Testing</dir>
+      <dir>D:\dev\project\hello-react\src\the-road-to-learn-react\State-Management</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -159,31 +147,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/the-road-to-learn-react/introduce-to-react/Bindings/t20191014c.js" />
-        <option value="$PROJECT_DIR$/src/the-road-to-learn-react/introduce-to-react/Interactions-with-Forms-and-Events/t20191014a.js" />
-        <option value="$PROJECT_DIR$/src/the-road-to-learn-react/introduce-to-react/Split-Up-Components/t20191014a.js" />
-        <option value="$PROJECT_DIR$/src/the-road-to-learn-react/introduce-to-react/Composable-Components/t20191016a.js" />
-        <option value="$PROJECT_DIR$/src/the-road-to-learn-react/introduce-to-react/Reusable-Components/t20191016a.js" />
-        <option value="$PROJECT_DIR$/src/the-road-to-learn-react/introduce-to-react/Reusable-Components/t20191016b.js" />
-        <option value="$PROJECT_DIR$/src/the-road-to-learn-react/css/index.css.js" />
-        <option value="$PROJECT_DIR$/src/the-road-to-learn-react/css/app.css.sass" />
-        <option value="$PROJECT_DIR$/src/the-road-to-learn-react/css/App.css" />
-        <option value="$PROJECT_DIR$/src/crypto-js/style.css" />
-        <option value="$PROJECT_DIR$/src/crypto-js/hello/test1.js" />
-        <option value="$PROJECT_DIR$/src/crypto-js/hello/test2.js" />
-        <option value="$PROJECT_DIR$/src/crypto-js/hello/test2-toString.js" />
-        <option value="$PROJECT_DIR$/src/crypto-js/hello/t3-AES1.js" />
-        <option value="$PROJECT_DIR$/src/crypto-js/hello/encode-convert-t1.js" />
-        <option value="$PROJECT_DIR$/src/crypto-js/hello/t5-AES-2.js" />
-        <option value="$PROJECT_DIR$/src/the-road-to-learn-react/introduce-to-react/Styling-Components/t20191016a.js" />
-        <option value="$PROJECT_DIR$/src/the-road-to-learn-react/introduce-to-react/Styling-Components/t2.js" />
-        <option value="$PROJECT_DIR$/src/moment-js/App.js" />
-        <option value="$PROJECT_DIR$/src/ex01/v7/app.js" />
         <option value="$PROJECT_DIR$/src/moment-js/app.js" />
         <option value="$PROJECT_DIR$/src/moment-js/getNow/getTimestamp/t20191021a.js" />
         <option value="$PROJECT_DIR$/src/moment-js/getNow/getTimestamp/t1.js" />
         <option value="$PROJECT_DIR$/src/the-road-to-learn-react/introduce-to-react/Styling-Components/t3.js" />
-        <option value="$PROJECT_DIR$/src/the-road-to-learn-react/Getting-Real-with-APIs/Fetching-Data/t1.js" />
         <option value="$PROJECT_DIR$/src/the-road-to-learn-react/Getting-Real-with-APIs/Fetching-Data/t2-paginated.js" />
         <option value="$PROJECT_DIR$/src/the-road-to-learn-react/Getting-Real-with-APIs/Fetching-Data/t3-paginated.js" />
         <option value="$PROJECT_DIR$/src/the-road-to-learn-react/Getting-Real-with-APIs/Fetching-Data/t4-paginated.js" />
@@ -203,13 +170,34 @@
         <option value="$PROJECT_DIR$/src/the-road-to-learn-react/Code-Organization-and-Testing/Import-and-Export/t1/file2.js" />
         <option value="$PROJECT_DIR$/src/the-road-to-learn-react/Code-Organization-and-Testing/Snapshot-Tests-with-Jest/t1.js" />
         <option value="$PROJECT_DIR$/src/the-road-to-learn-react/Code-Organization-and-Testing/Component-Interface-with-PropTypes/t1.js" />
-        <option value="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/t1.js" />
         <option value="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/t2.js" />
         <option value="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/t3.js" />
-        <option value="$PROJECT_DIR$/src/the-road-to-learn-react/app.js" />
         <option value="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/t4/child.js" />
         <option value="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/t4/child2.js" />
         <option value="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/t4/parent.js" />
+        <option value="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/t1.js" />
+        <option value="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/official-document/t2/CustomTextInput.js" />
+        <option value="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/official-document/t2/AutoFocusTextInput.js" />
+        <option value="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/official-document/callback-ref/t1.js" />
+        <option value="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/official-document/callback-ref/t2.js" />
+        <option value="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/official-document/t1/MyComponent.js" />
+        <option value="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/official-document/ref-forwarding/read.txt" />
+        <option value="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/official-document/ref-forwarding/t1.js" />
+        <option value="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/official-document/ref-forwarding/t2.js" />
+        <option value="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/official-document/ref-forwarding/t3a.js" />
+        <option value="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/official-document/ref-forwarding/t3b2.js" />
+        <option value="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/official-document/ref-forwarding/t3b.js" />
+        <option value="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/official-document/ref-forwarding/t4a.js" />
+        <option value="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/official-document/ref-forwarding/t4b.js" />
+        <option value="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/official-document/ref-forwarding/t3a2.js" />
+        <option value="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Loading/t1.js" />
+        <option value="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Advanced-Sorting/t3.js" />
+        <option value="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Advanced-Sorting/t2.js" />
+        <option value="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Advanced-Sorting/t1.js" />
+        <option value="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Higher-Order-Components/t1.js" />
+        <option value="$PROJECT_DIR$/src/the-road-to-learn-react/Getting-Real-with-APIs/Fetching-Data/t1.js" />
+        <option value="$PROJECT_DIR$/src/the-road-to-learn-react/State-Management/Lifting-State/t1.js" />
+        <option value="$PROJECT_DIR$/src/the-road-to-learn-react/app.js" />
       </list>
     </option>
   </component>
@@ -220,10 +208,10 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="163" />
-    <option name="y" value="86" />
-    <option name="width" value="1938" />
-    <option name="height" value="1049" />
+    <option name="x" value="240" />
+    <option name="y" value="129" />
+    <option name="width" value="1440" />
+    <option name="height" value="774" />
   </component>
   <component name="ProjectId" id="1PXUcFKvXnyoxqENKnf9F4qduoJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -237,7 +225,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -269,51 +256,43 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="the-road-to-learn-react" type="462c0819:PsiDirectoryNode" />
               <item name="Advanced-React-Components" type="462c0819:PsiDirectoryNode" />
-              <item name="Ref-a-DOM-Element" type="462c0819:PsiDirectoryNode" />
+              <item name="Advanced-Sorting" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hello-react" type="b2602c69:ProjectViewProjectNode" />
               <item name="hello-react" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="the-road-to-learn-react" type="462c0819:PsiDirectoryNode" />
-              <item name="Advanced-React-Components" type="462c0819:PsiDirectoryNode" />
-              <item name="Ref-a-DOM-Element" type="462c0819:PsiDirectoryNode" />
-              <item name="t4" type="462c0819:PsiDirectoryNode" />
+              <item name="State-Management" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hello-react" type="b2602c69:ProjectViewProjectNode" />
               <item name="hello-react" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="the-road-to-learn-react" type="462c0819:PsiDirectoryNode" />
-              <item name="Code-Organization-and-Testing" type="462c0819:PsiDirectoryNode" />
+              <item name="State-Management" type="462c0819:PsiDirectoryNode" />
+              <item name="Lifting-State" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hello-react" type="b2602c69:ProjectViewProjectNode" />
               <item name="hello-react" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="the-road-to-learn-react" type="462c0819:PsiDirectoryNode" />
-              <item name="Code-Organization-and-Testing" type="462c0819:PsiDirectoryNode" />
-              <item name="Component-Interface-with-PropTypes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hello-react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hello-react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="the-road-to-learn-react" type="462c0819:PsiDirectoryNode" />
-              <item name="Code-Organization-and-Testing" type="462c0819:PsiDirectoryNode" />
-              <item name="Snapshot-Tests-with-Jest" type="462c0819:PsiDirectoryNode" />
+              <item name="State-Management" type="462c0819:PsiDirectoryNode" />
+              <item name="Revisited-setState" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/t4" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/the-road-to-learn-react/State-Management/Revisited-setState" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -328,19 +307,19 @@
     <property name="ts.external.directory.path" value="C:\Program64\JetBrains\WebStorm 2019.1.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\dev\project\hello-react\src\the-road-to-learn-react\State-Management\Revisited-setState" />
+      <recent name="D:\dev\project\hello-react\src\the-road-to-learn-react\State-Management\Lifting-State" />
+      <recent name="D:\dev\project\hello-react\src\the-road-to-learn-react\Advanced-React-Components\Advanced-Sorting" />
+      <recent name="D:\dev\project\hello-react\src\the-road-to-learn-react\Advanced-React-Components\Higher-Order-Components" />
+      <recent name="D:\dev\project\hello-react\src\the-road-to-learn-react\Advanced-React-Components\Loading" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\dev\project\hello-react\src\the-road-to-learn-react" />
       <recent name="D:\dev\project\hello-react\src\site\game01" />
       <recent name="D:\dev\project\hello-react\src\ex01\v7\t1" />
       <recent name="D:\dev\project\hello-react\src\example" />
       <recent name="D:\dev\project\hello-react\src" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\dev\project\hello-react\src\the-road-to-learn-react\Advanced-React-Components\Ref-a-DOM-Element\t4" />
-      <recent name="D:\dev\project\hello-react\src\the-road-to-learn-react\Advanced-React-Components\Ref-a-DOM-Element" />
-      <recent name="D:\dev\project\hello-react\src\the-road-to-learn-react\Code-Organization-and-Testing\Component-Interface-with-PropTypes" />
-      <recent name="D:\dev\project\hello-react\src" />
-      <recent name="D:\dev\project\hello-react\src\the-road-to-learn-react\Code-Organization-and-Testing\Snapshot-Tests-with-Jest" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -480,7 +459,8 @@
       <workItem from="1571705763766" duration="14117000" />
       <workItem from="1571791026839" duration="17856000" />
       <workItem from="1571824670886" duration="258000" />
-      <workItem from="1571878835744" duration="12054000" />
+      <workItem from="1571878835744" duration="12315000" />
+      <workItem from="1571963333622" duration="27671000" />
     </task>
     <task id="LOCAL-00001" summary="ex01 draft">
       <created>1563022629692</created>
@@ -566,11 +546,18 @@
       <option name="project" value="LOCAL" />
       <updated>1571824865345</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="ref &amp; dom 1">
+      <created>1571911249283</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1571911249283</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="254344000" />
+    <option name="totallyTimeSpent" value="282276000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -582,17 +569,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <frame x="1911" y="-9" width="1938" height="1098" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="npm" order="0" sideWeight="0.47404063" side_tool="true" weight="0.17019027" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info id="Structure" order="2" sideWeight="0.5259594" visible="true" weight="0.17019027" />
-      <window_info active="true" content_ui="combo" id="Project" order="3" sideWeight="0.47404063" side_tool="true" visible="true" weight="0.17019027" />
+      <window_info id="Structure" order="2" sideWeight="0.52462524" visible="true" weight="0.17019027" />
+      <window_info content_ui="combo" id="Project" order="3" sideWeight="0.47537473" side_tool="true" visible="true" weight="0.17019027" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.3295711" />
       <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.30361173" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.32731378" />
+      <window_info active="true" anchor="bottom" id="Find" order="2" visible="true" weight="0.3940043" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.31049252" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.33182845" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -600,7 +587,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49937811" weight="0.32844242" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5006219" side_tool="true" weight="0.3295711" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.41309255" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.41220558" />
       <window_info anchor="bottom" id="TypeScript" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -665,255 +652,10 @@
     <MESSAGE value="game and DatePicker antd" />
     <MESSAGE value="add 20191021" />
     <MESSAGE value="the road to learn react 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="the road to learn react 1" />
+    <MESSAGE value="ref &amp; dom 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="ref &amp; dom 1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/crypto-js/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/crypto-js/hello/test2-toString.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/crypto-js/docs/QuickStartGuide.wiki">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/crypto-js/hello/t3-AES-1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/crypto-js/hello/t4-encode-convert-1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="17" column="58" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="58" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/the-road-to-learn-react/css/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/the-road-to-learn-react/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ex01/v2/app2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-486">
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ex01/v2/app1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-81">
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/antd/DatePicker/dateCanNotChoose/t20191010_a.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ex01/v7/style1.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/the-road-to-learn-react/introduce-to-react/Styling-Components/t20191016a.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="116" column="6" selection-start-line="116" selection-start-column="6" selection-end-line="116" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/the-road-to-learn-react/introduce-to-react/Styling-Components/t2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="127" column="27" lean-forward="true" selection-start-line="127" selection-start-column="27" selection-end-line="127" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/moment-js/getNow/getTimestamp/t1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="26" column="17" lean-forward="true" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ex01/v7/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="45" column="25" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/moment-js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="611">
-          <caret line="36" column="1" selection-start-line="4" selection-end-line="36" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/the-road-to-learn-react/Getting-Real-with-APIs/Fetching-Data/t2-paginated.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="188" column="53" selection-start-line="188" selection-start-column="53" selection-end-line="188" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-            <element signature="n#!!doc;n#Search1#0" />
-            <element signature="n#!!block;n#Search1#0" />
-            <element signature="e#1099#1434#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/the-road-to-learn-react/introduce-to-react/Styling-Components/t3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="133" column="53" selection-start-line="133" selection-start-column="33" selection-end-line="133" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/the-road-to-learn-react/Getting-Real-with-APIs/Fetching-Data/t1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="158" column="4" selection-start-line="158" selection-start-column="4" selection-end-line="158" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/the-road-to-learn-react/Getting-Real-with-APIs/Fetching-Data/t3-paginated.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="228" column="21" selection-start-line="228" selection-start-column="21" selection-end-line="228" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/the-road-to-learn-react/Getting-Real-with-APIs/Fetching-Data/t4-paginated.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="180" column="78" selection-start-line="180" selection-start-column="78" selection-end-line="180" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/crypto-js/hello/test1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="29" column="38" lean-forward="true" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/crypto-js/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/jsencrypt/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-2268" />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/crypto-js/hello/t5-AES-2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/crypto-js/jsentrypt/t1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1296">
-          <caret line="120" column="47" lean-forward="true" selection-start-line="120" selection-start-column="47" selection-end-line="121" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/the-road-to-learn-react/Getting-Real-with-APIs/Client-Cache/t1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/the-road-to-learn-react/Code-Organization-and-Testing/Import-and-Export/t1/file3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/the-road-to-learn-react/Code-Organization-and-Testing/Import-and-Export/t1/file2a.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/the-road-to-learn-react/Code-Organization-and-Testing/Import-and-Export/t2/file2.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
@@ -1012,13 +754,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/the-road-to-learn-react/Code-Organization-and-Testing/Snapshot-Tests-with-Jest/t1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-54">
@@ -1036,54 +771,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/the-road-to-learn-react/Code-Organization-and-Testing/Component-Interface-with-PropTypes/t1.js">
+    <entry file="file://$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/t3.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="313" column="37" lean-forward="true" selection-start-line="313" selection-start-column="37" selection-end-line="313" selection-end-column="37" />
+        <state>
+          <caret selection-end-line="5" selection-end-column="27" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="893">
-          <caret line="59" selection-start-line="59" selection-end-line="62" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/the-road-to-learn-react/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="82" selection-start-line="7" selection-start-column="82" selection-end-line="7" selection-end-column="82" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/t4/child.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
+        <state relative-caret-position="486">
           <caret line="18" column="58" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/t1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-165">
-          <caret line="76" column="51" lean-forward="true" selection-start-line="76" selection-start-column="11" selection-end-line="76" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/t3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1782">
-          <caret selection-end-column="39" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1096,8 +797,263 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/t4/parent.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/t1.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/official-document/t1/MyComponent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/official-document/callback-ref/t2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="56" column="9" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/official-document/ref-forwarding/read.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="773">
+          <caret line="59" selection-start-line="59" selection-end-line="62" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/official-document/ref-forwarding/t3a.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="45" column="10" lean-forward="true" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/official-document/ref-forwarding/t2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1593">
+          <caret line="55" column="16" lean-forward="true" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/official-document/ref-forwarding/t1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/official-document/t2/AutoFocusTextInput.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1476">
+          <caret line="63" column="25" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/official-document/t2/CustomTextInput.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="783">
+          <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/official-document/callback-ref/t1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/official-document/ref-forwarding/t3b2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/official-document/ref-forwarding/t3b.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/official-document/ref-forwarding/t4b.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/official-document/ref-forwarding/t4a.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/official-document/ref-forwarding/t3a2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="45" column="31" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/the-road-to-learn-react/Code-Organization-and-Testing/Component-Interface-with-PropTypes/t1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/the-road-to-learn-react/css/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1215" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Advanced-Sorting/t2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="505" column="31" selection-start-line="505" selection-start-column="31" selection-end-line="505" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Advanced-Sorting/t1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="461" column="21" lean-forward="true" selection-start-line="461" selection-start-column="21" selection-end-line="461" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Higher-Order-Components/t1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="363" column="31" selection-start-line="363" selection-start-column="31" selection-end-line="363" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/the-road-to-learn-react/introduce-to-react/Composable-Components/t20191016a.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1215">
+          <caret line="39" column="6" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/the-road-to-learn-react/introduce-to-react/Reusable-Components/t20191016a.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-46">
+          <caret line="62" column="6" selection-start-line="62" selection-start-column="6" selection-end-line="62" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/the-road-to-learn-react/introduce-to-react/Split-Up-Components/t20191014a.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-127">
+          <caret line="63" column="6" selection-start-line="63" selection-start-column="6" selection-end-line="63" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/the-road-to-learn-react/introduce-to-react/Styling-Components/t2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="116" column="6" selection-start-line="116" selection-start-column="6" selection-end-line="116" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/the-road-to-learn-react/Getting-Real-with-APIs/Fetching-Data/t1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="100" column="59" lean-forward="true" selection-start-line="100" selection-start-column="59" selection-end-line="100" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Loading/t1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="324" column="26" selection-start-line="324" selection-start-column="26" selection-end-line="324" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/the-road-to-learn-react/introduce-to-react/Styling-Components/t3.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Advanced-Sorting/t3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="509" column="37" selection-start-line="509" selection-start-column="37" selection-end-line="509" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/the-road-to-learn-react/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1847">
+          <caret line="70" column="58" selection-start-line="70" selection-start-column="58" selection-end-line="70" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/the-road-to-learn-react/State-Management/Lifting-State/t1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="821">
+          <caret line="268" column="23" lean-forward="true" selection-start-line="268" selection-start-column="23" selection-end-line="268" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/the-road-to-learn-react/State-Management/Revisited-setState/t1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="478" column="20" lean-forward="true" selection-start-line="478" selection-start-column="20" selection-end-line="478" selection-end-column="20" />
         </state>
       </provider>
     </entry>
