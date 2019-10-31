@@ -189,26 +189,21 @@ class Table extends Component {
 
     /**
      * 触发的更新表格排序动作
-     * @param sortKeyUpdate
+     * @param sortKey
      */
-    onSort = (sortKeyUpdate) => {
-        this.setState(preState => {
-            const {
-                sortKey,
-                isSortReverse,
-            } = preState;
-            /**
-             * 现在在排序方法中，可以评判列表是否被反向排序。
-             * 如果状态中的 sortKey 与传入的 sortKey相同，
-             * 并且反向状态 (isSortReverse) 尚未设置为 true，
-             * 则相反——反向状态 (isSortReverse) 设置为 true。
-             * 反之，已经反向排序时，相同关键字（按钮点击）设为false，即不反向排序
-             */
-            const isSortReverseUpdate = sortKeyUpdate === sortKey && ! isSortReverse;
-            return {
-                sortKey: sortKeyUpdate,
-                isSortReverse: isSortReverseUpdate,
-            };
+    onSort = (sortKey) => {
+        /**
+         * 现在在排序方法中，可以评判列表是否被反向排序。
+         * 如果状态中的 sortKey 与传入的 sortKey相同，
+         * 并且反向状态 (isSortReverse) 尚未设置为 true，
+         * 则相反——反向状态 (isSortReverse) 设置为 true。
+         * 反之，已经反向排序时，相同关键字（按钮点击）设为false，即不反向排序
+         */
+        const isSortReverse = this.state.sortKey === sortKey && !this.state.isSortReverse;
+
+        this.setState({
+            sortKey,
+            isSortReverse,
         });
     }
 
@@ -409,6 +404,28 @@ const Sort = ({
     );
 };
 
+const updateSearchTopStoriesState = (hits, page) => (preState) => {
+    const { searchKey, results } = preState;
+    const oldHits = results && results[searchKey]
+        ? results[searchKey].hits : [];
+    /**
+     * 在前一页10条记录下，增加出现新的10条记录
+     * @type {*[]}
+     */
+    const updatedHits = [...oldHits, ...hits];
+    console.log('setSearchTopStories updatedHits num:', updatedHits.length);
+    return {
+        results: {
+            ...results,
+            [searchKey]: {
+                hits: updatedHits,
+                page,
+            }
+        },
+        isLoading: false,
+    };
+};
+
 class App extends Component {
     constructor(props) {
         super(props);
@@ -465,20 +482,18 @@ class App extends Component {
     }
 
     onDismiss = (id) => {
-        this.setState(preState => {
         //debugger
-            const { searchKey, results } = preState;
-            const { hits, page } = results[searchKey];
-            const isNotId = item => item.objectID !== id;
-            const updateHits = hits.filter(isNotId);
-            return {
-                results: {
-                    ...results,
-                    [searchKey]: {hits: updateHits, page}
-                }
-            };
+        const { searchKey, results } = this.state
+        const { hits, page } = results[searchKey];
+        const isNotId = item => item.objectID !== id;
+        const updateHits = hits.filter(isNotId);
+        // 需要最后使用类方法setState() 来更新组件 satate 中的列表了
+        this.setState({
+            results: {
+                ...results,
+                [searchKey]: {hits: updateHits, page}
+            }
         });
-
 
     }
 
@@ -494,27 +509,8 @@ class App extends Component {
     setSearchTopStories = (result) => {
         //debugger
         const { hits, page } = result;
-        this.setState((preState) => {
-            const { searchKey, results } = preState;
-            const oldHits = results && results[searchKey]
-                ? results[searchKey].hits : [];
-            /**
-             * 在前一页10条记录下，增加出现新的10条记录
-             * @type {*[]}
-             */
-            const updatedHits = [...oldHits, ...hits];
-            console.log('setSearchTopStories updatedHits num:', updatedHits.length);
-            return {
-                results: {
-                    ...results,
-                    [searchKey]: {
-                        hits: updatedHits,
-                        page,
-                    }
-                },
-                isLoading: false,
-            };
-        });
+        this.setState(updateSearchTopStoriesState(hits, page));
+
 
     }
 
@@ -546,19 +542,18 @@ class App extends Component {
     }
 
     componentDidMount() {
-        this.setState(preState => ({
-            searchKey: preState.searchTerm,
-        }));
-        this.fetchSearchTopStories(this.state.searchTerm);
+        const { searchTerm } = this.state;
+        this.setState({
+            searchKey: searchTerm,
+        });
+        this.fetchSearchTopStories(searchTerm);
     }
 
     onSearchSubmit = (event) => {
         //debugger
         const { searchTerm } = this.state;
-        this.setState(preState => {
-            return {
-                searchKey: preState.searchTerm,
-            };
+        this.setState({
+           searchKey: searchTerm,
         });
         if(this.needToSearchTopStories(searchTerm)) {
             this.fetchSearchTopStories(searchTerm);

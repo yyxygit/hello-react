@@ -10,6 +10,7 @@ import LoadingMoreBtn from './Advanced-React-Components/Loading/t1';
 import HigherOrderComponents from './Advanced-React-Components/Higher-Order-Components/t1';
 import AdvancedSorting from './Advanced-React-Components/Advanced-Sorting/t3';
 import LiftingState from './State-Management/Lifting-State/t1';
+import RevisitedSetState from './State-Management/Revisited-setState/t2';
 
 export default function () {
     // alert('aaa');
@@ -29,6 +30,7 @@ export default function () {
                     <Route path='/HigherOrderComponents/test' component={HigherOrderComponents} />
                     <Route path='/AdvancedSorting/test' component={AdvancedSorting} />
                     <Route path='/LiftingState/test' component={LiftingState} />
+                    <Route path='/RevisitedSetState/test' component={RevisitedSetState} />
                 </Switch>
             </div>
         </Router>
@@ -69,6 +71,9 @@ function Home() {
                 </li>
                 <li>
                     <Link to="/LiftingState/test">Lifting State</Link>
+                </li>
+                <li>
+                    <Link to="/RevisitedSetState/test">Revisited SetState</Link>
                 </li>
             </ul>
         </div>

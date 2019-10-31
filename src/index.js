@@ -42,6 +42,7 @@ import Ex01 from './ex01/v7/app';
 // import App from './the-road-to-learn-react/introduce-to-react/Reusable-Components/t20191016b';
 // import App from './the-road-to-learn-react/introduce-to-react/Styling-Components/t2';
 import TRTLR from './the-road-to-learn-react/app';
+import RRIA from './react-redux-in-action/app';
 
 // import MomentJS from './moment-js/app';
 
@@ -57,11 +58,15 @@ import TRTLR from './the-road-to-learn-react/app';
 //     document.getElementById('root')
 // );
 
+// ReactDOM.render(
+//     <TRTLR />,
+//     document.getElementById('root')
+// );
+
 ReactDOM.render(
-    <TRTLR />,
+    <RRIA />,
     document.getElementById('root')
 );
-
 
 // ReactDOM.render(
 //     <HelloMessage name="Cathy" />,
