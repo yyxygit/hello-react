@@ -7,7 +7,7 @@ import classNames from 'classnames';
 import '../../css/index.css';
 import '../../css/App.css';
 
-const DEFAULT_QUERY = 'redux';
+const DEFAULT_QUERY = 'redux-basic';
 const DEFAULT_HPP = '5';
 
 const PATH_BASE = 'https://hn.algolia.com/api/v1';
@@ -417,7 +417,7 @@ class App extends Component {
          （results）而不是一个结果（result）。这些结果对象将会与搜索词映射成一个键值对。而
          每一个从 API 得到的结果会以搜索词为键（key）保存下来。
          results: {
-            redux: {
+            redux-basic: {
             hits: [ ... ],
             page: 2,
             },

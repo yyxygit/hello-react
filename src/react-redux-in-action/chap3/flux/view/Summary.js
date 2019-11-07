@@ -1,12 +1,17 @@
-import React, {Component} from 'react';
-import SummaryStore from '../store/SummaryStore';
+import React, { Component } from 'react';
+
+import SummaryStore from '../store/SummaryStore.js';
 
 class Summary extends Component {
+
     constructor(props) {
         super(props);
+
+        this.onUpdate = this.onUpdate.bind(this);
+
         this.state = {
-            sum: SummaryStore.getSummary(),
-        };
+            sum: SummaryStore.getSummary()
+        }
     }
 
     componentDidMount() {
@@ -20,7 +25,7 @@ class Summary extends Component {
     onUpdate() {
         this.setState({
             sum: SummaryStore.getSummary()
-        });
+        })
     }
 
     render() {
@@ -31,3 +36,6 @@ class Summary extends Component {
 }
 
 export default Summary;
+
+
+

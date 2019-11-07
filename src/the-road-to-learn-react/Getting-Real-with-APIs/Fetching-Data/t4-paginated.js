@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 import '../../css/index.css';
 import '../../css/App.css';
 
-const DEFAULT_QUERY = 'redux';
+const DEFAULT_QUERY = 'redux-basic';
 const DEFAULT_HPP = '20';
 
 const PATH_BASE = 'https://hn.algolia.com/api/v1';

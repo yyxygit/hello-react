@@ -7,6 +7,7 @@ const CHANGE_EVENT = 'changed';
 
 function computerSummary(counterValues) {
     let summary = 0;
+    // debugger;
     for (const key in counterValues) {
         if (counterValues.hasOwnProperty(key)) {
             summary += counterValues[key];
@@ -17,7 +18,7 @@ function computerSummary(counterValues) {
 
 const SummaryStore = Object.assign({}, EventEmitter.prototype, {
     getSummary: function () {
-        return computerSummary(CounterStore.getCounterValues);
+        return computerSummary(CounterStore.getCounterValues());
     },
     emitChange: function () {
         this.emit(CHANGE_EVENT);

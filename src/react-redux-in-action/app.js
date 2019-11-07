@@ -8,7 +8,11 @@ import ClickCounter from './chap1/click-counter/t2';
 // import ControlPanel from './chap2/t2/ControlPanel';
 // import ControlPanel from './chap2/t3/ControlPanel';
 import ControlPanel from './chap2/t4/ControlPanel';
-import Flux from './chap3/flux/view/ControlPanel';
+// import Chap3 from './chap3/flux/view/ControlPanel';
+import Chap3 from './chap3/redux-basic/view/ControlPanel';
+import Chap6 from './chap6/function-as-child/Use';
+// import Weather from './chap7/weather-react/weather';
+import Weather from './chap7/weather-redux/index';
 
 export default function () {
     return (
@@ -19,9 +23,9 @@ export default function () {
                     <Route exact path="/" component={Home} />
                     <Route path='/click-counter/test' component={ClickCounter} />
                     <Route path='/chap2/control-panel' component={ControlPanel} />
-                    <Route path='/chap3/flux' component={Flux} />
-                    {/*<Route path='/import-export/test' component={ImportExport} />*/}
-                    {/*<Route path='/proptypes/test' component={PropTypesInterface} />*/}
+                    <Route path='/chap3/flux' component={Chap3} />
+                    <Route path='/chap6/use' component={Chap6} />
+                    <Route path='/chap7/weather' component={Weather} />
                     {/*<Route path='/ref/test' component={RefDomElement} />*/}
                     {/*<Route path='/loading/test' component={LoadingMoreBtn} />*/}
                     {/*<Route path='/HigherOrderComponents/test' component={HigherOrderComponents} />*/}
@@ -46,14 +50,14 @@ function Home() {
                     <Link to="/chap2/control-panel">/chap2/control-panel</Link>
                 </li>
                 <li>
-                    <Link to="/chap3/flux">Chap3 flux</Link>
+                    <Link to="/chap3/flux">Chap3</Link>
                 </li>
-                {/*<li>*/}
-                {/*    <Link to="/import-export/test">import-export</Link>*/}
-                {/*</li>*/}
-                {/*<li>*/}
-                {/*    <Link to="/proptypes/test">proptypes</Link>*/}
-                {/*</li>*/}
+                <li>
+                    <Link to="/chap6/use">Chap6</Link>
+                </li>
+                <li>
+                    <Link to="/chap7/weather">Chap7 weather</Link>
+                </li>
                 {/*<li>*/}
                 {/*    <Link to="/ref/test">RefDomElement</Link>*/}
                 {/*</li>*/}
