@@ -2,60 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a0a26dd-9acb-48d9-b83e-2218a4e3dc8e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/react-redux-in-action/chap3/redux-basic/Reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-redux-in-action/chap3/redux-basic/Store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-redux-in-action/chap3/redux-basic/action/ActionTypes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-redux-in-action/chap3/redux-basic/action/Actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-redux-in-action/chap3/redux-basic/view/ControlPanel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-redux-in-action/chap3/redux-basic/view/Counter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-redux-in-action/chap3/redux-basic/view/Summary.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-redux-in-action/chap3/redux-smart-dumb/Reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-redux-in-action/chap3/redux-smart-dumb/Store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-redux-in-action/chap3/redux-smart-dumb/action/ActionTypes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-redux-in-action/chap3/redux-smart-dumb/action/Actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-redux-in-action/chap3/redux-smart-dumb/view/ControlPanel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-redux-in-action/chap3/redux-smart-dumb/view/Counter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-redux-in-action/chap3/redux-smart-dumb/view/Summary.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-redux-in-action/chap6/function-as-child/CountDown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-redux-in-action/chap6/function-as-child/Use.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-redux-in-action/chap7/weather-react/weather.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-redux-in-action/chap7/weather-redux/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-redux-in-action/chap7/weather-redux/Store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-redux-in-action/chap7/weather-redux/city_selector/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-redux-in-action/chap7/weather-redux/city_selector/view.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-redux-in-action/chap7/weather-redux/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-redux-in-action/chap7/weather-redux/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-redux-in-action/chap7/weather-redux/weather/actionTypes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-redux-in-action/chap7/weather-redux/weather/actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-redux-in-action/chap7/weather-redux/weather/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-redux-in-action/chap7/weather-redux/weather/reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-redux-in-action/chap7/weather-redux/weather/status.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-redux-in-action/chap7/weather-redux/weather/view.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/Store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/TodoApp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/filter/actionTypes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/filter/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/filter/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/filter/reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/filter/views/filter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/filter/views/link.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/filter/views/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/todos/actionTypes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/todos/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/todos/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/todos/reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/todos/views/addTodo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/todos/views/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/todos/views/todoItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/todos/views/todoList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/todos/views/todos.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/react-redux-in-action/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/react-redux-in-action/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/react-redux-in-action/chap3/flux/store/SummaryStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/react-redux-in-action/chap3/flux/store/SummaryStore.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/react-redux-in-action/chap3/flux/view/Summary.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/react-redux-in-action/chap3/flux/view/Summary.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Advanced-Sorting/t1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Advanced-Sorting/t1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Advanced-Sorting/t2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Advanced-Sorting/t2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Advanced-Sorting/t3.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Advanced-Sorting/t3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Higher-Order-Components/t1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Higher-Order-Components/t1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Loading/t1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Loading/t1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/t1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/t1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/t2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/t2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/t3.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/t3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/the-road-to-learn-react/Code-Organization-and-Testing/Component-Interface-with-PropTypes/t1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/Code-Organization-and-Testing/Component-Interface-with-PropTypes/t1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/the-road-to-learn-react/Code-Organization-and-Testing/Snapshot-Tests-with-Jest/t1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/Code-Organization-and-Testing/Snapshot-Tests-with-Jest/t1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/the-road-to-learn-react/Getting-Real-with-APIs/Axios-instead-of-Fetch/t1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/Getting-Real-with-APIs/Axios-instead-of-Fetch/t1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/the-road-to-learn-react/Getting-Real-with-APIs/Client-Cache/t1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/Getting-Real-with-APIs/Client-Cache/t1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/the-road-to-learn-react/Getting-Real-with-APIs/Fetching-Data/t1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/Getting-Real-with-APIs/Fetching-Data/t1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/the-road-to-learn-react/Getting-Real-with-APIs/Fetching-Data/t2-paginated.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/Getting-Real-with-APIs/Fetching-Data/t2-paginated.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/the-road-to-learn-react/Getting-Real-with-APIs/Fetching-Data/t3-paginated.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/Getting-Real-with-APIs/Fetching-Data/t3-paginated.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/the-road-to-learn-react/Getting-Real-with-APIs/Fetching-Data/t4-paginated.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/Getting-Real-with-APIs/Fetching-Data/t4-paginated.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/the-road-to-learn-react/State-Management/Lifting-State/t1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/State-Management/Lifting-State/t1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/the-road-to-learn-react/State-Management/Revisited-setState/t1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/State-Management/Revisited-setState/t1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/the-road-to-learn-react/State-Management/Revisited-setState/t2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/State-Management/Revisited-setState/t2.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,111 +30,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/react-redux-in-action/chap7/weather-redux/weather/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-              <folding>
-                <element signature="e#0#37#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/react-redux-in-action/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-                <element signature="e#514#572#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/react-redux-in-action/chap7/weather-redux/city_selector/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="2" column="14" lean-forward="true" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/react-redux-in-action/chap7/weather-redux/Store.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-              <folding>
-                <element signature="e#0#76#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/react-redux-in-action/chap7/weather-redux/weather/actions.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1674">
-              <caret line="97" column="27" selection-start-line="97" selection-start-column="27" selection-end-line="97" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/react-redux-in-action/chap7/weather-redux/App.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/react-redux-in-action/chap7/weather-redux/index.css">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/react-redux-in-action/chap7/weather-redux/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/react-redux-in-action/chap7/weather-redux/city_selector/view.js">
+        <entry file="file://$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/todos/actionTypes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="54" column="49" selection-start-line="54" selection-start-column="49" selection-end-line="54" selection-end-column="49" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/react-redux-in-action/chap7/weather-redux/weather/view.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="43" column="12" lean-forward="true" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="54">
+              <caret line="2" column="41" lean-forward="true" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -179,8 +46,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Sass File" />
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -247,25 +114,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Loading/t1.js" />
-        <option value="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Advanced-Sorting/t3.js" />
-        <option value="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Advanced-Sorting/t2.js" />
-        <option value="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Advanced-Sorting/t1.js" />
-        <option value="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Higher-Order-Components/t1.js" />
-        <option value="$PROJECT_DIR$/src/the-road-to-learn-react/Getting-Real-with-APIs/Fetching-Data/t1.js" />
-        <option value="$PROJECT_DIR$/src/the-road-to-learn-react/State-Management/Lifting-State/t1.js" />
-        <option value="$PROJECT_DIR$/src/the-road-to-learn-react/State-Management/Revisited-setState/t2.js" />
-        <option value="$PROJECT_DIR$/src/the-road-to-learn-react/app.js" />
-        <option value="$PROJECT_DIR$/src/the-road-to-learn-react/State-Management/Revisited-setState/t1.js" />
-        <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/react-redux-in-action/chap1/click-counter/t2.js" />
-        <option value="$PROJECT_DIR$/src/react-redux-in-action/css/app.css" />
-        <option value="$PROJECT_DIR$/src/react-redux-in-action/chap1/click-counter/t1.js" />
-        <option value="$PROJECT_DIR$/src/react-redux-in-action/chap2/t1/Counter.js" />
-        <option value="$PROJECT_DIR$/src/react-redux-in-action/chap2/t2/Counter.js" />
-        <option value="$PROJECT_DIR$/src/react-redux-in-action/chap2/t3/ControlPanel.js" />
-        <option value="$PROJECT_DIR$/src/react-redux-in-action/chap2/t1/ControlPanel.js" />
-        <option value="$PROJECT_DIR$/src/react-redux-in-action/chap2/t4/ControlPanel.js" />
         <option value="$PROJECT_DIR$/src/react-redux-in-action/chap2/t4/Counter.js" />
         <option value="$PROJECT_DIR$/src/react-redux-in-action/chap3/flux/AppDispatcher.js" />
         <option value="$PROJECT_DIR$/src/react-redux-in-action/chap3/flux/action/ActionTypes.js" />
@@ -294,10 +142,29 @@
         <option value="$PROJECT_DIR$/src/react-redux-in-action/chap7/weather-redux/city_selector/index.js" />
         <option value="$PROJECT_DIR$/src/react-redux-in-action/chap7/weather-redux/App.js" />
         <option value="$PROJECT_DIR$/src/react-redux-in-action/chap7/weather-redux/index.js" />
-        <option value="$PROJECT_DIR$/src/react-redux-in-action/app.js" />
         <option value="$PROJECT_DIR$/src/react-redux-in-action/chap7/weather-redux/Store.js" />
         <option value="$PROJECT_DIR$/src/react-redux-in-action/chap7/weather-redux/weather/actions.js" />
         <option value="$PROJECT_DIR$/src/react-redux-in-action/chap7/weather-redux/city_selector/view.js" />
+        <option value="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/TodoApp.js" />
+        <option value="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/Store.js" />
+        <option value="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/constants.js" />
+        <option value="$PROJECT_DIR$/src/react-redux-in-action/app.js" />
+        <option value="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/todos/actions.js" />
+        <option value="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/todos/index.js" />
+        <option value="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/todos/reducer.js" />
+        <option value="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/todos/views/todos.js" />
+        <option value="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/todos/views/addTodo.js" />
+        <option value="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/todos/views/todoList.js" />
+        <option value="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/todos/views/todoItem.js" />
+        <option value="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/todos/views/style.css" />
+        <option value="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/filter/actions.js" />
+        <option value="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/filter/actionTypes.js" />
+        <option value="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/filter/index.js" />
+        <option value="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/filter/reducer.js" />
+        <option value="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/filter/views/filter.js" />
+        <option value="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/filter/views/link.js" />
+        <option value="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/filter/views/style.css" />
+        <option value="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/todos/actionTypes.js" />
       </list>
     </option>
   </component>
@@ -335,17 +202,6 @@
             <path>
               <item name="hello-react" type="b2602c69:ProjectViewProjectNode" />
               <item name="hello-react" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hello-react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hello-react" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="events" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hello-react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hello-react" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -358,48 +214,6 @@
               <item name="hello-react" type="b2602c69:ProjectViewProjectNode" />
               <item name="hello-react" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ex01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hello-react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hello-react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ex01" type="462c0819:PsiDirectoryNode" />
-              <item name="v3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hello-react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hello-react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ex01" type="462c0819:PsiDirectoryNode" />
-              <item name="v4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hello-react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hello-react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ex01" type="462c0819:PsiDirectoryNode" />
-              <item name="v5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hello-react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hello-react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ex01" type="462c0819:PsiDirectoryNode" />
-              <item name="v7" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hello-react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hello-react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ex01" type="462c0819:PsiDirectoryNode" />
-              <item name="v7" type="462c0819:PsiDirectoryNode" />
-              <item name="t1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hello-react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hello-react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="react-redux-in-action" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -407,103 +221,53 @@
               <item name="hello-react" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="react-redux-in-action" type="462c0819:PsiDirectoryNode" />
-              <item name="chap3" type="462c0819:PsiDirectoryNode" />
+              <item name="chap4" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hello-react" type="b2602c69:ProjectViewProjectNode" />
               <item name="hello-react" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="react-redux-in-action" type="462c0819:PsiDirectoryNode" />
-              <item name="chap3" type="462c0819:PsiDirectoryNode" />
-              <item name="flux" type="462c0819:PsiDirectoryNode" />
+              <item name="chap4" type="462c0819:PsiDirectoryNode" />
+              <item name="todo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hello-react" type="b2602c69:ProjectViewProjectNode" />
               <item name="hello-react" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="react-redux-in-action" type="462c0819:PsiDirectoryNode" />
-              <item name="chap3" type="462c0819:PsiDirectoryNode" />
-              <item name="flux" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="chap4" type="462c0819:PsiDirectoryNode" />
+              <item name="todo" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hello-react" type="b2602c69:ProjectViewProjectNode" />
               <item name="hello-react" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="react-redux-in-action" type="462c0819:PsiDirectoryNode" />
-              <item name="chap3" type="462c0819:PsiDirectoryNode" />
-              <item name="redux-basic" type="462c0819:PsiDirectoryNode" />
+              <item name="chap4" type="462c0819:PsiDirectoryNode" />
+              <item name="todo" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hello-react" type="b2602c69:ProjectViewProjectNode" />
               <item name="hello-react" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="react-redux-in-action" type="462c0819:PsiDirectoryNode" />
-              <item name="chap3" type="462c0819:PsiDirectoryNode" />
-              <item name="redux-basic" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="chap4" type="462c0819:PsiDirectoryNode" />
+              <item name="todo" type="462c0819:PsiDirectoryNode" />
+              <item name="todos" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hello-react" type="b2602c69:ProjectViewProjectNode" />
               <item name="hello-react" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="react-redux-in-action" type="462c0819:PsiDirectoryNode" />
-              <item name="chap7" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hello-react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hello-react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="react-redux-in-action" type="462c0819:PsiDirectoryNode" />
-              <item name="chap7" type="462c0819:PsiDirectoryNode" />
-              <item name="weather-react" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hello-react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hello-react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="react-redux-in-action" type="462c0819:PsiDirectoryNode" />
-              <item name="chap7" type="462c0819:PsiDirectoryNode" />
-              <item name="weather-redux" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hello-react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hello-react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="react-redux-in-action" type="462c0819:PsiDirectoryNode" />
-              <item name="chap7" type="462c0819:PsiDirectoryNode" />
-              <item name="weather-redux" type="462c0819:PsiDirectoryNode" />
-              <item name="city_selector" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hello-react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hello-react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="react-redux-in-action" type="462c0819:PsiDirectoryNode" />
-              <item name="chap7" type="462c0819:PsiDirectoryNode" />
-              <item name="weather-redux" type="462c0819:PsiDirectoryNode" />
-              <item name="weather" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hello-react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hello-react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="the-road-to-learn-react" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hello-react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hello-react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="the-road-to-learn-react" type="462c0819:PsiDirectoryNode" />
-              <item name="Code-Organization-and-Testing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hello-react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hello-react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="the-road-to-learn-react" type="462c0819:PsiDirectoryNode" />
-              <item name="Code-Organization-and-Testing" type="462c0819:PsiDirectoryNode" />
-              <item name="Component-Interface-with-PropTypes" type="462c0819:PsiDirectoryNode" />
+              <item name="chap4" type="462c0819:PsiDirectoryNode" />
+              <item name="todo" type="462c0819:PsiDirectoryNode" />
+              <item name="todos" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -699,7 +463,11 @@
       <workItem from="1572828328556" duration="5040000" />
       <workItem from="1573006364450" duration="778000" />
       <workItem from="1573023464109" duration="7346000" />
-      <workItem from="1573088234377" duration="18257000" />
+      <workItem from="1573088234377" duration="18951000" />
+      <workItem from="1573177460298" duration="1730000" />
+      <workItem from="1573459639744" duration="42000" />
+      <workItem from="1573463109388" duration="1717000" />
+      <workItem from="1573545207510" duration="1293000" />
     </task>
     <task id="LOCAL-00001" summary="ex01 draft">
       <created>1563022629692</created>
@@ -806,11 +574,18 @@
       <option name="project" value="LOCAL" />
       <updated>1572505879683</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="react &amp; redux in action 2">
+      <created>1573120472504</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1573120472504</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="357800000" />
+    <option name="totallyTimeSpent" value="363276000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -823,15 +598,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="npm" order="0" sideWeight="0.47404063" side_tool="true" weight="0.17019027" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info id="Structure" order="2" sideWeight="0.5112867" visible="true" weight="0.17230444" />
-      <window_info content_ui="combo" id="Project" order="3" sideWeight="0.48871332" side_tool="true" visible="true" weight="0.17230444" />
+      <window_info id="Structure" order="2" sideWeight="0.506772" visible="true" weight="0.17230444" />
+      <window_info active="true" content_ui="combo" id="Project" order="3" sideWeight="0.493228" side_tool="true" visible="true" weight="0.17230444" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.3295711" />
       <window_info anchor="bottom" id="Message" order="1" />
-      <window_info active="true" anchor="bottom" id="Find" order="2" visible="true" weight="0.4108352" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.29345372" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.4108352" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.29345372" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.33182845" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -907,157 +683,10 @@
     <MESSAGE value="ref &amp; dom 1" />
     <MESSAGE value="the road to learn react 2" />
     <MESSAGE value="react &amp; redux in action 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="react &amp; redux in action 1" />
+    <MESSAGE value="react &amp; redux in action 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="react &amp; redux in action 2" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/react-redux-in-action/chap3/flux/view/Summary.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-162">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/react-redux-in-action/chap3/flux/store/SummaryStore.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-91">
-          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/react-redux-in-action/chap3/flux/action/Actions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/react-redux-in-action/chap3/redux-basic/action/ActionTypes.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/react-redux-in-action/chap3/redux-basic/action/Actions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/react-redux-in-action/chap3/redux-basic/view/ControlPanel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/react-redux-in-action/chap3/redux-basic/view/Summary.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="39" column="3" lean-forward="true" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/react-redux-in-action/chap3/redux-basic/Reducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="50" selection-start-column="50" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/react-redux-in-action/chap3/redux-basic/Store.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="32" selection-start-column="32" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/react-redux-in-action/chap3/redux-smart-dumb/view/ControlPanel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/react-redux-in-action/chap3/redux-smart-dumb/view/Counter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/react-redux-in-action/chap3/redux-smart-dumb/view/Summary.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ex01/v6-antd/Form6.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1701">
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ex01/v7/t1/Form1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="122" column="29" selection-start-line="122" selection-start-column="29" selection-end-line="122" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ex01/v3/Form3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="195" column="11" lean-forward="true" selection-start-line="195" selection-start-column="11" selection-end-line="195" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Higher-Order-Components/t1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="231" column="23" lean-forward="true" selection-start-line="231" selection-start-column="23" selection-end-line="231" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/official-document/t2/CustomTextInput.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/official-document/callback-ref/t1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-162" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/official-document/t2/AutoFocusTextInput.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-64">
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/official-document/t1/MyComponent.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1458" />
@@ -1134,13 +763,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/react-redux-in-action/chap3/flux/view/Counter.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1186,16 +808,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="2" column="37" lean-forward="true" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/react-redux-in-action/chap7/weather-redux/weather/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1248,13 +860,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/react-redux-in-action/chap7/weather-redux/weather/view.js">
+    <entry file="file://$PROJECT_DIR$/src/react-redux-in-action/chap7/weather-redux/weather/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="43" column="12" lean-forward="true" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
+        <state relative-caret-position="108">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#37#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/react-redux-in-action/chap7/weather-redux/city_selector/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/react-redux-in-action/chap7/weather-redux/Store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/react-redux-in-action/chap7/weather-redux/weather/actions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2619">
+          <caret line="97" column="27" selection-start-line="97" selection-start-column="27" selection-end-line="97" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -1281,48 +914,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/react-redux-in-action/app.js">
+    <entry file="file://$PROJECT_DIR$/src/react-redux-in-action/chap7/weather-redux/weather/view.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        <state relative-caret-position="1161">
+          <caret line="43" column="12" lean-forward="true" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#514#572#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/react-redux-in-action/chap7/weather-redux/Store.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#76#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/react-redux-in-action/chap7/weather-redux/weather/actions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1674">
-          <caret line="97" column="27" selection-start-line="97" selection-start-column="27" selection-end-line="97" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/react-redux-in-action/chap7/weather-redux/city_selector/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="14" lean-forward="true" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/react-redux-in-action/chap7/weather-redux/city_selector/view.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="54" column="49" selection-start-line="54" selection-start-column="49" selection-end-line="54" selection-end-column="49" />
+        <state relative-caret-position="297">
+          <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/TodoApp.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/Store.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/constants.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/react-redux-in-action/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="13" column="40" lean-forward="true" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/todos/actions.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/todos/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/todos/reducer.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/todos/views/todos.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/todos/views/addTodo.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/todos/views/todoList.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/todos/views/todoItem.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/todos/views/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/filter/actions.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/filter/actionTypes.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/filter/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/filter/reducer.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/filter/views/filter.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/filter/views/link.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/filter/views/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/todos/actionTypes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="41" lean-forward="true" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
         </state>
       </provider>
     </entry>
