@@ -21,7 +21,7 @@ import ReactDOM from 'react-dom';
 // import Ex01 from './ex01/v4/app1';
 // import Ex01 from './ex01/v5/app1';
 // import Ex01 from './ex01/v6-antd/app';
-import Ex01 from './ex01/v7/app';
+// import Ex01 from './ex01/v7/app';
 
 // import Game from './site/game01/game3';
 
@@ -42,7 +42,8 @@ import Ex01 from './ex01/v7/app';
 // import App from './the-road-to-learn-react/introduce-to-react/Reusable-Components/t20191016b';
 // import App from './the-road-to-learn-react/introduce-to-react/Styling-Components/t2';
 import TRTLR from './the-road-to-learn-react/app';
-import RRIA from './react-redux-in-action/app';
+// import RRIA from './react-redux-in-action/app';
+import PdfDist from './pdf/pdf-dist/app';
 
 // import MomentJS from './moment-js/app';
 
@@ -63,8 +64,13 @@ import RRIA from './react-redux-in-action/app';
 //     document.getElementById('root')
 // );
 
+// ReactDOM.render(
+//     <RRIA />,
+//     document.getElementById('root')
+// );
+
 ReactDOM.render(
-    <RRIA />,
+    <PdfDist />,
     document.getElementById('root')
 );
 

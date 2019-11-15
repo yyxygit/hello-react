@@ -1,0 +1,19 @@
+.pdf {
+    border: 1px solid black;
+    /*width: 600px;*/
+    /*height: 600px;*/
+
+}
+
+#the-canvas {
+    /**
+     * 设置视口宽高100%
+     * 会等比例拉伸pdf显示
+     */
+    /*width: 100vw;*/
+    /*height: 100vh;*/
+}
+
+.downloadBtn {
+    background-color: #61dafb;
+}

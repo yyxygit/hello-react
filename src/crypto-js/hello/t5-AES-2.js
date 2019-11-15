@@ -46,7 +46,7 @@ export default function() {
     console.log('ciphertext', ciphertext);
 
     /**
-     * from BSM project
+     * from project
      * encryptAES方法
      * 将加密产生的密文，序列化为Base64编码
      */
