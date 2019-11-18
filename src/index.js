@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import ReactDOM from 'react-dom';
 
 // import App from './basic/example';
-// import App from './hello/helloworld';
+// import App from './hello-react-formio/helloworld';
 // import HelloMessage from './site/official/simple-component';
 // import Timer from './site/official/status-component';
 // import TodoApp from './site/official/todo-app';
@@ -29,7 +29,7 @@ import ReactDOM from 'react-dom';
 
 // import Sider from './antd/menu/onOpenChange1';
 
-// import App from './crypto-js/hello/t5-AES-2';
+// import App from './crypto-js/hello-react-formio/t5-AES-2';
 // import App from './crypto-js/jsentrypt/t1';
 
 // import Date from './antd/DatePicker/dateCanNotChoose/t20191010_a';
@@ -43,7 +43,8 @@ import ReactDOM from 'react-dom';
 // import App from './the-road-to-learn-react/introduce-to-react/Styling-Components/t2';
 import TRTLR from './the-road-to-learn-react/app';
 // import RRIA from './react-redux-in-action/app';
-import PdfDist from './pdf/pdf-dist/app';
+// import PdfDist from './pdf/app';
+import FormIO from './formio/app';
 
 // import MomentJS from './moment-js/app';
 
@@ -69,8 +70,13 @@ import PdfDist from './pdf/pdf-dist/app';
 //     document.getElementById('root')
 // );
 
+// ReactDOM.render(
+//     <PdfDist />,
+//     document.getElementById('root')
+// );
+
 ReactDOM.render(
-    <PdfDist />,
+    <FormIO />,
     document.getElementById('root')
 );
 

@@ -82,7 +82,7 @@ class HelloBase64 extends React.Component {
                 /**
                  * 结果是，在 package.json 内
                  * 使用 proxy代理访问外站 pdf url
-                 * "name": "hello-react",
+                 * "name": "hello-react-formio-react",
                  "version": "0.1.0",
                  "private": true,
                  "proxy": "https://resources.jetbrains.com/",

@@ -1,13 +1,14 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
-// import HelloBase64 from "./hello/Base64/test1";
-// import HelloBase64 from "./hello/Base64/test2";
-// import HelloBase64 from "./hello/Base64/test3";
-// import HelloBase64 from "./hello/Base64/test4";
-// import HelloBase64 from "./hello/Base64/test5";
-// import HelloBase64 from "./hello/Base64/test6";
-// import HelloBase64 from "./hello/Base64/test7";
-import HelloBase64 from "./hello/Base64/test8";
+// import HelloBase64 from "./pdf-dist/hello-react-formio/Base64/test1";
+// import HelloBase64 from "./pdf-dist/hello-react-formio/Base64/test2";
+// import HelloBase64 from "./pdf-dist/hello-react-formio/Base64/test3";
+// import HelloBase64 from "./pdf-dist/hello-react-formio/Base64/test4";
+// import HelloBase64 from "./pdf-dist/hello-react-formio/Base64/test5";
+// import HelloBase64 from "./pdf-dist/hello-react-formio/Base64/test6";
+// import HelloBase64 from "./pdf-dist/hello-react-formio/Base64/test7";
+import HelloBase64 from "./pdf-dist/hello/Base64/test8";
+import DownloadTest from './download/test1';
 
 
 export default function () {
@@ -18,7 +19,7 @@ export default function () {
                 <Switch>
                     <Route exact path="/" component={Home} />
                     <Route path='/hello/base64' component={HelloBase64} />
-                    {/*<Route path='/chap2/control-panel' component={ControlPanel} />*/}
+                    <Route path='/download/test' component={DownloadTest} />
                     {/*<Route path='/chap3/flux' component={Chap3} />*/}
                     {/*<Route path='/chap6/use' component={Chap6} />*/}
                     {/*<Route path='/chap7/weather' component={Weather} />*/}
@@ -42,9 +43,9 @@ function Home() {
                 <li>
                     <Link to="/hello/base64">/hello/Base64</Link>
                 </li>
-                {/*<li>*/}
-                {/*    <Link to="/chap2/control-panel">/chap2/control-panel</Link>*/}
-                {/*</li>*/}
+                <li>
+                    <Link to="/download/test">/download/test</Link>
+                </li>
                 {/*<li>*/}
                 {/*    <Link to="/chap3/flux">Chap3</Link>*/}
                 {/*</li>*/}
