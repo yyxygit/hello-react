@@ -1,12 +1,12 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
-// import HelloBase64 from "./pdf-dist/hello-react-formio/Base64/test1";
-// import HelloBase64 from "./pdf-dist/hello-react-formio/Base64/test2";
-// import HelloBase64 from "./pdf-dist/hello-react-formio/Base64/test3";
-// import HelloBase64 from "./pdf-dist/hello-react-formio/Base64/test4";
-// import HelloBase64 from "./pdf-dist/hello-react-formio/Base64/test5";
-// import HelloBase64 from "./pdf-dist/hello-react-formio/Base64/test6";
-// import HelloBase64 from "./pdf-dist/hello-react-formio/Base64/test7";
+// import HelloBase64 from "./pdf-dist/react-formio/Base64/test1";
+// import HelloBase64 from "./pdf-dist/react-formio/Base64/test2";
+// import HelloBase64 from "./pdf-dist/react-formio/Base64/test3";
+// import HelloBase64 from "./pdf-dist/react-formio/Base64/test4";
+// import HelloBase64 from "./pdf-dist/react-formio/Base64/test5";
+// import HelloBase64 from "./pdf-dist/react-formio/Base64/test6";
+// import HelloBase64 from "./pdf-dist/react-formio/Base64/test7";
 import HelloBase64 from "./pdf-dist/hello/Base64/test8";
 import DownloadTest from './download/test1';
 

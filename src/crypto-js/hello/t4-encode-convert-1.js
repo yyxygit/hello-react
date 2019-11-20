@@ -10,7 +10,7 @@ export default function() {
      CryptoJS can convert from encoding formats such as Base64,
      Latin1 or Hex to WordArray objects and vice-versa.
      */
-    const str = 'hello-react-formio world';
+    const str = 'react-formio world';
     // 生成utf8编码的WordArray对象
     const str_utf8_parse = CryptoJS.enc.Utf8.parse(str);
     console.log('str_utf8_parse', str_utf8_parse);
@@ -20,7 +20,7 @@ export default function() {
 
     /**
      * https://www.sojson.com/hexadecimal.html
-     * hello-react-formio world 字符串 转 十六进制
+     * react-formio world 字符串 转 十六进制
      * 68656c6c6f20776f726c64
      * parse 方法 解析特定编码
      * 参数为字符串格式
@@ -35,7 +35,7 @@ export default function() {
     /**
      * https://www.sojson.com/base64.html
      * 字符串 与 Base64 编码转换
-     * hello-react-formio world
+     * react-formio world
      * aGVsbG8gd29ybGQ=
      */
     const str_base64_parse = CryptoJS.enc.Base64.parse('aGVsbG8gd29ybGQ=');

@@ -11,7 +11,7 @@ export default function() {
      * https://www.vxzsk.com/1348.html
      */
 
-    const str = 'hello-react-formio world';
+    const str = 'react-formio world';
     // 密钥 16 位 为编辑器的utf8格式
     const key_utf8 = '0123456789abcdef';
     // 初始向量 initial vector 16 位

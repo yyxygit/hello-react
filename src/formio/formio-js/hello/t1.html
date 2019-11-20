@@ -7,9 +7,19 @@
     <link rel='stylesheet' href='https://unpkg.com/formiojs@latest/dist/formio.full.min.css'>
     <script src='https://unpkg.com/formiojs@latest/dist/formio.full.min.js'></script>
     <script>
+        /**
+         * Uncaught TypeError: Cannot read property 'display' of undefined
+            at t.value (formio.full.min.js:19)
+         * 相比t2.html正常显示示例
+         * formiojs@latest/dist/formio.full.min.js
+         * formiojs@latest/dist/formio.full.min.css
+         * 都是取最新版的formio js与css
+         */
         window.onload = function() {
             Formio.builder(document.getElementById('builder'));
         };
+
+        var json;
     </script>
 </head>
 <body>

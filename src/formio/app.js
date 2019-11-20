@@ -1,8 +1,20 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
-import EmbedT1 from './hello-react-formio/Embed/t1';
-import EmbedT2 from './hello-react-formio/Embed/t2';
-
+import EmbedT1 from './react-formio/Embed/t1';
+import EmbedT2 from './react-formio/Embed/t2';
+import loadForm from './formio-js/wiki/JavaScript-API/t1';
+import loadProject from './formio-js/wiki/JavaScript-API/t2';
+import HelloRenderer from './formio-js/wiki/Form-Renderer/t1';
+import JsonRenderer from './formio-js/wiki/Form-Renderer/t2';
+import SettingSubmission from './formio-js/wiki/Form-Renderer/Setting-the-Submission/t1';
+import Events from './formio-js/wiki/Form-Renderer/Events/t1';
+import utilsHello from './formio-js/wiki/FormioUtils/t1';
+// import utilsHello from './formio-js/wiki/FormioUtils/path1';
+// import getComponent from './formio-js/wiki/FormioUtils/getComponent1';
+import getComponent from './formio-js/wiki/FormioUtils/getComponent2';
+import findComponentT1 from './formio-js/wiki/FormioUtils/findComponent1';
+import FlattenComponents from './formio-js/wiki/FormioUtils/flattenComponents/t1';
+import GetValue from './formio-js/wiki/FormioUtils/getValue/t1';
 
 export default function () {
     return (
@@ -11,17 +23,19 @@ export default function () {
 
                 <Switch>
                     <Route exact path="/" component={Home} />
-                    <Route path='/hello/embed/t1' component={EmbedT1} />
-                    <Route path='/hello/embed/t2' component={EmbedT2} />
-                    {/*<Route path='/chap3/flux' component={Chap3} />*/}
-                    {/*<Route path='/chap6/use' component={Chap6} />*/}
-                    {/*<Route path='/chap7/weather' component={Weather} />*/}
-                    {/*<Route path='/ref/test' component={RefDomElement} />*/}
-                    {/*<Route path='/loading/test' component={LoadingMoreBtn} />*/}
-                    {/*<Route path='/HigherOrderComponents/test' component={HigherOrderComponents} />*/}
-                    {/*<Route path='/AdvancedSorting/test' component={AdvancedSorting} />*/}
-                    {/*<Route path='/LiftingState/test' component={LiftingState} />*/}
-                    {/*<Route path='/RevisitedSetState/test' component={RevisitedSetState} />*/}
+                    <Route path='/react/embed/t1' component={EmbedT1} />
+                    <Route path='/react/embed/t2' component={EmbedT2} />
+                    <Route path='/basic/wiki/js-api/loadForm' component={loadForm} />
+                    <Route path='/basic/wiki/js-api/loadProject' component={loadProject} />
+                    <Route path='/basic/wiki/form-renderer/hello' component={HelloRenderer} />
+                    <Route path='/basic/wiki/form-renderer/json' component={JsonRenderer} />
+                    <Route path='/basic/wiki/form-renderer/setting-submission' component={SettingSubmission} />
+                    <Route path='/basic/wiki/form-renderer/events' component={Events} />
+                    <Route path='/basic/wiki/form-utils/hello' component={utilsHello} />
+                    <Route path='/basic/wiki/form-utils/get-component' component={getComponent} />
+                    <Route path='/basic/wiki/form-utils/find-component/hello' component={findComponentT1} />
+                    <Route path='/basic/wiki/form-utils/flattenComponents' component={FlattenComponents} />
+                    <Route path='/basic/wiki/form-utils/get-value' component={GetValue} />
                 </Switch>
             </div>
         </Router>
@@ -34,38 +48,44 @@ function Home() {
             <h1>form-io</h1>
             <ul className="Menu-list">
                 <li>
-                    <Link to="/hello/embed/t1">/hello/embed/t1</Link>
+                    <Link to="/react/embed/t1">/react/embed/t1</Link>
                 </li>
                 <li>
-                    <Link to="/hello/embed/t2">/hello/embed/t2</Link>
+                    <Link to="/react/embed/t2">/react/embed/t2</Link>
                 </li>
-                {/*<li>*/}
-                {/*    <Link to="/chap3/flux">Chap3</Link>*/}
-                {/*</li>*/}
-                {/*<li>*/}
-                {/*    <Link to="/chap6/use">Chap6</Link>*/}
-                {/*</li>*/}
-                {/*<li>*/}
-                {/*    <Link to="/chap7/weather">Chap7 weather</Link>*/}
-                {/*</li>*/}
-                {/*<li>*/}
-                {/*    <Link to="/ref/test">RefDomElement</Link>*/}
-                {/*</li>*/}
-                {/*<li>*/}
-                {/*    <Link to="/loading/test">loading</Link>*/}
-                {/*</li>*/}
-                {/*<li>*/}
-                {/*    <Link to="/HigherOrderComponents/test">Higher Order Components</Link>*/}
-                {/*</li>*/}
-                {/*<li>*/}
-                {/*    <Link to="/AdvancedSorting/test">Advanced Sorting</Link>*/}
-                {/*</li>*/}
-                {/*<li>*/}
-                {/*    <Link to="/LiftingState/test">Lifting State</Link>*/}
-                {/*</li>*/}
-                {/*<li>*/}
-                {/*    <Link to="/RevisitedSetState/test">Revisited SetState</Link>*/}
-                {/*</li>*/}
+                <li>
+                    <Link to="/basic/wiki/js-api/loadForm">/basic/wiki/js-api/loadForm</Link>
+                </li>
+                <li>
+                    <Link to="/basic/wiki/js-api/loadProject">/basic/wiki/js-api/loadProject</Link>
+                </li>
+                <li>
+                    <Link to="/basic/wiki/form-renderer/hello">/basic/wiki/form-renderer/hello</Link>
+                </li>
+                <li>
+                    <Link to="/basic/wiki/form-renderer/json">/basic/wiki/form-renderer/json</Link>
+                </li>
+                <li>
+                    <Link to="/basic/wiki/form-renderer/setting-submission">/basic/wiki/form-renderer/setting-submission</Link>
+                </li>
+                <li>
+                    <Link to="/basic/wiki/form-renderer/events">/basic/wiki/form-renderer/events</Link>
+                </li>
+                <li>
+                    <Link to="/basic/wiki/form-utils/hello">/basic/wiki/form-utils/hello</Link>
+                </li>
+                <li>
+                    <Link to="/basic/wiki/form-utils/get-component">/basic/wiki/form-utils/get-component</Link>
+                </li>
+                <li>
+                    <Link to="/basic/wiki/form-utils/find-component/hello">/basic/wiki/form-utils/find-component/hello</Link>
+                </li>
+                <li>
+                    <Link to="/basic/wiki/form-utils/flattenComponents">/basic/wiki/form-utils/flattenComponents</Link>
+                </li>
+                <li>
+                    <Link to="/basic/wiki/form-utils/get-value">/basic/wiki/form-utils/get-value</Link>
+                </li>
             </ul>
         </div>
     );

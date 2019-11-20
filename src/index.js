@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import ReactDOM from 'react-dom';
 
 // import App from './basic/example';
-// import App from './hello-react-formio/helloworld';
+// import App from './react-formio/helloworld';
 // import HelloMessage from './site/official/simple-component';
 // import Timer from './site/official/status-component';
 // import TodoApp from './site/official/todo-app';
@@ -29,7 +29,7 @@ import ReactDOM from 'react-dom';
 
 // import Sider from './antd/menu/onOpenChange1';
 
-// import App from './crypto-js/hello-react-formio/t5-AES-2';
+// import App from './crypto-js/react-formio/t5-AES-2';
 // import App from './crypto-js/jsentrypt/t1';
 
 // import Date from './antd/DatePicker/dateCanNotChoose/t20191010_a';
