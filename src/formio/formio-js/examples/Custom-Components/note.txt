@@ -1,0 +1,9 @@
+隐藏某个component：
+Builder里勾选hidden，在component对象内，设置属性 hidden: true
+
+条件显示component:
+在Builder里，Conditional Tab， Advanced选项，例子：show = (data['myKey'] > 1);
+比如，前一个select list 选择有值，后一个select list 才显示：
+show = (data['selectL1']); // 没有值show = false
+如果打印出components的json数据，设置：
+"customConditional": "show = (data['selectL1A']);",

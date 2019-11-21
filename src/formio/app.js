@@ -14,7 +14,12 @@ import utilsHello from './formio-js/wiki/FormioUtils/t1';
 import getComponent from './formio-js/wiki/FormioUtils/getComponent2';
 import findComponentT1 from './formio-js/wiki/FormioUtils/findComponent1';
 import FlattenComponents from './formio-js/wiki/FormioUtils/flattenComponents/t1';
-import GetValue from './formio-js/wiki/FormioUtils/getValue/t1';
+// import GetValue from './formio-js/wiki/FormioUtils/getValue/t1';
+// import GetValue from './formio-js/wiki/FormioUtils/getValue/t2';
+import GetValue from './formio-js/wiki/JavaScript-API/event/submit/t3';
+import ChangeEvent from './formio-js/wiki/JavaScript-API/event/change/t1';
+// import BrsHello from './formio-js/examples/Custom-Components/t1';
+import BrsHello from './formio-js/examples/Custom-Components/t2';
 
 export default function () {
     return (
@@ -36,6 +41,8 @@ export default function () {
                     <Route path='/basic/wiki/form-utils/find-component/hello' component={findComponentT1} />
                     <Route path='/basic/wiki/form-utils/flattenComponents' component={FlattenComponents} />
                     <Route path='/basic/wiki/form-utils/get-value' component={GetValue} />
+                    <Route path='/basic/wiki/js-api/event/change' component={ChangeEvent} />
+                    <Route path='/basic/examples/builder-render-submission/hello' component={BrsHello} />
                 </Switch>
             </div>
         </Router>
@@ -85,6 +92,12 @@ function Home() {
                 </li>
                 <li>
                     <Link to="/basic/wiki/form-utils/get-value">/basic/wiki/form-utils/get-value</Link>
+                </li>
+                <li>
+                    <Link to="/basic/wiki/js-api/event/change">/basic/wiki/js-api/event/change</Link>
+                </li>
+                <li>
+                    <Link to="/basic/examples/builder-render-submission/hello">/basic/examples/builder-render-submission/hello</Link>
                 </li>
             </ul>
         </div>
