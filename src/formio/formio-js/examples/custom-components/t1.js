@@ -29,7 +29,7 @@ class BuilderRenderSubmission extends React.Component {
             }
         }).then(function(builder) {
             Formio.createForm(document.getElementById('formio'), {}).then(function(instance) {
-                var json = document.getElementById('json');
+                const json = document.getElementById('json');
                 instance.on('change', function() {
                     json.innerHTML = '';
                     json.appendChild(document.createTextNode(JSON.stringify(instance.submission, null, 4)));

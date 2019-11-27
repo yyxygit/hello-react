@@ -18,8 +18,27 @@ import FlattenComponents from './formio-js/wiki/FormioUtils/flattenComponents/t1
 // import GetValue from './formio-js/wiki/FormioUtils/getValue/t2';
 import GetValue from './formio-js/wiki/JavaScript-API/event/submit/t3';
 import ChangeEvent from './formio-js/wiki/JavaScript-API/event/change/t1';
-// import BrsHello from './formio-js/examples/Custom-Components/t1';
-import BrsHello from './formio-js/examples/Custom-Components/t2';
+// import BrsHello from './formio-js/examples/custom-components/t1';
+import BrsHello from './formio-js/examples/custom-components/t2';
+import DSFt1 from './formio-js/examples/dynamic-select-filtering/t1';
+import CWt1 from './formio-js/examples/conditional-wizard/t1';
+import CWt2 from './formio-js/examples/conditional-wizard/t2';
+import CWt3 from './formio-js/examples/conditional-wizard/t3';
+// import WizardUrl from './formio-js/examples/wizard/t1';
+import WizardUrl from './formio-js/examples/wizard/t2';
+import WizardJson from './formio-js/examples/wizard/t3';
+// import WizardJson from './formio-js/examples/wizard/t4';
+// import SeBuilder from './formio-js/examples/simple-embedding/builder/builder1';
+import SeBuilder from './formio-js/examples/simple-embedding/builder/builder2';
+// import SeBuilder from './formio-js/examples/simple-embedding/builder/builder3';
+// import SeBuilder from './formio-js/examples/simple-embedding/builder/builder4';
+// import TfT1 from './formio-js/examples/simple-embedding/text-field/t1';
+import TfT1 from './formio-js/examples/simple-embedding/text-field/t2';
+// import TfT1 from './formio-js/examples/simple-embedding/text-field/t3';
+// import TfT1 from './formio-js/examples/simple-embedding/text-field/t4';
+// import SelectT1 from './formio-js/examples/simple-embedding/select/t0';
+// import SelectT1 from './formio-js/examples/simple-embedding/select/t1';
+import SelectT1 from './formio-js/examples/simple-embedding/select/t2';
 
 export default function () {
     return (
@@ -43,6 +62,15 @@ export default function () {
                     <Route path='/basic/wiki/form-utils/get-value' component={GetValue} />
                     <Route path='/basic/wiki/js-api/event/change' component={ChangeEvent} />
                     <Route path='/basic/examples/builder-render-submission/hello' component={BrsHello} />
+                    <Route path='/basic/examples/dynamic-select-filtering/t1' component={DSFt1} />
+                    <Route path='/basic/examples/conditional-wizard/t1' component={CWt1} />
+                    <Route path='/basic/examples/conditional-wizard/t2' component={CWt2} />
+                    <Route path='/basic/examples/conditional-wizard/t3' component={CWt3} />
+                    <Route path='/basic/examples/wizard/url' component={WizardUrl} />
+                    <Route path='/basic/examples/wizard/json' component={WizardJson} />
+                    <Route path='/basic/examples/simple-embedding/builder' component={SeBuilder} />
+                    <Route path='/basic/examples/simple-embedding/text-field/t1' component={TfT1} />
+                    <Route path='/basic/examples/simple-embedding/select/t1' component={SelectT1} />
                 </Switch>
             </div>
         </Router>
@@ -98,6 +126,33 @@ function Home() {
                 </li>
                 <li>
                     <Link to="/basic/examples/builder-render-submission/hello">/basic/examples/builder-render-submission/hello</Link>
+                </li>
+                <li>
+                    <Link to="/basic/examples/dynamic-select-filtering/t1">/basic/examples/dynamic-select-filtering/t1</Link>
+                </li>
+                <li>
+                    <Link to="/basic/examples/conditional-wizard/t1">/basic/examples/conditional-wizard/t1</Link>
+                </li>
+                <li>
+                    <Link to="/basic/examples/conditional-wizard/t2">/basic/examples/conditional-wizard/t2</Link>
+                </li>
+                <li>
+                    <Link to="/basic/examples/conditional-wizard/t3">/basic/examples/conditional-wizard/t3</Link>
+                </li>
+                <li>
+                    <Link to="/basic/examples/wizard/url">/basic/examples/wizard/url</Link>
+                </li>
+                <li>
+                    <Link to="/basic/examples/wizard/json">/basic/examples/wizard/json</Link>
+                </li>
+                <li>
+                    <Link to="/basic/examples/simple-embedding/builder">/basic/examples/simple-embedding/builder</Link>
+                </li>
+                <li>
+                    <Link to="/basic/examples/simple-embedding/text-field/t1">/basic/examples/simple-embedding/text-field/t1</Link>
+                </li>
+                <li>
+                    <Link to="/basic/examples/simple-embedding/select/t1">/basic/examples/simple-embedding/select/t1</Link>
                 </li>
             </ul>
         </div>

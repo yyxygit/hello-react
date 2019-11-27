@@ -1,6 +1,6 @@
-import React from 'react';
 import {Formio} from 'formiojs';
-import FormioUtils from 'formiojs/utils';
+import React from 'react';
+// import FormioUtils from 'formiojs/utils';
 
 import 'formiojs/dist/formio.full.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -28,12 +28,21 @@ class BuilderRenderSubmission extends React.Component {
                 // }
             }
         }).then(function(builder) {
-            Formio.createForm(document.getElementById('formio'), {}).then(function(instance) {
-                var jsonSubmissionData = document.getElementById('json-submissionData');
-                var jsonComponent = document.getElementById('json-component');
+            let form = Formio.createForm(document.getElementById('formio'), {}).then(function(instance) {
+                var jsonSubmissionData =
+                    document.getElementById('json-submissionData');
+                var jsonComponent =
+                    document.getElementById('json-component');
                 instance.on('change', function() {
                     jsonComponent.innerHTML = '';
-                    jsonComponent.appendChild(document.createTextNode(JSON.stringify(instance.component, null, 4)));
+                    jsonComponent.appendChild(
+                        document.createTextNode(
+                            JSON.stringify(
+                                instance.component,
+                                null,
+                                4
+                            )
+                        ));
                     console.log('instance:', instance);
                     jsonSubmissionData.innerHTML = '';
                     jsonSubmissionData.appendChild(document.createTextNode(JSON.stringify(instance.submission, null, 4)));
@@ -41,6 +50,8 @@ class BuilderRenderSubmission extends React.Component {
                 builder.on('change', function(schema) {
                     if (schema.components) {
                         instance.form = schema;
+                        console.log('instance:', instance);
+                        console.log('form:', form);
                         // console.log('flattenComponents:', FormioUtils.flattenComponents(instance.components));
                     }
                 });

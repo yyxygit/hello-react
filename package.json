@@ -15,6 +15,7 @@
     "formiojs": "^4.7.7",
     "jsencrypt": "^3.0.0-rc.1",
     "lodash": "^4.17.15",
+    "node-sass": "^4.13.0",
     "pdfjs-dist": "^2.2.228",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
@@ -25,7 +26,7 @@
     "react-scripts": "3.0.0",
     "redux": "^4.0.4",
     "redux-thunk": "^2.3.0",
-    "sass": "^1.23.6"
+    "sass": "^1.23.7"
   },
   "scripts": {
     "start": "react-scripts start",
