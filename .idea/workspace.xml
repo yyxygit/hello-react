@@ -1,34 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a0a26dd-9acb-48d9-b83e-2218a4e3dc8e" name="Default Changelist" comment="hello formio 3">
-      <change afterPath="$PROJECT_DIR$/src/formio/formio-js/examples/conditional-wizard/t1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/formio/formio-js/examples/conditional-wizard/t2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/formio/formio-js/examples/conditional-wizard/t3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/formio/formio-js/examples/dynamic-select-filtering/t1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/formio/formio-js/examples/simple-embedding/builder/builder1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/formio/formio-js/examples/simple-embedding/builder/builder2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/formio/formio-js/examples/simple-embedding/builder/builder3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/formio/formio-js/examples/simple-embedding/builder/builder4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/formio/formio-js/examples/simple-embedding/select/t0.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/formio/formio-js/examples/simple-embedding/select/t1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/formio/formio-js/examples/simple-embedding/select/t2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/formio/formio-js/examples/simple-embedding/text-field/t1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/formio/formio-js/examples/simple-embedding/text-field/t2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/formio/formio-js/examples/simple-embedding/text-field/t3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/formio/formio-js/examples/simple-embedding/text-field/t4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/formio/formio-js/examples/wizard/t1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/formio/formio-js/examples/wizard/t2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/formio/formio-js/examples/wizard/t3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/formio/formio-js/examples/wizard/t4.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="4a0a26dd-9acb-48d9-b83e-2218a4e3dc8e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/formio/formio-js/css/examples/btn1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formio/formio-js/examples/JSON-Powered-Forms/button/t1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formio/formio-js/examples/JSON-Powered-Forms/checkbox/t1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formio/formio-js/examples/JSON-Powered-Forms/data-grid/t1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formio/formio-js/examples/JSON-Powered-Forms/data-grid/t2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formio/formio-js/examples/JSON-Powered-Forms/data-grid/t3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formio/formio-js/examples/JSON-Powered-Forms/email/t1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formio/formio-js/examples/JSON-Powered-Forms/language/t1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formio/formio-js/examples/JSON-Powered-Forms/number/t1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formio/formio-js/examples/JSON-Powered-Forms/select/t1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formio/formio-js/examples/JSON-Powered-Forms/select/t2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formio/formio-js/examples/JSON-Powered-Forms/select/t3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formio/formio-js/examples/JSON-Powered-Forms/select/t4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formio/formio-js/examples/JSON-Powered-Forms/select/t5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formio/formio-js/examples/JSON-Powered-Forms/t1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formio/formio-js/examples/custom-wizard/example-json.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formio/formio-js/examples/custom-wizard/t1.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/formio/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/formio/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/formio/formio-js/examples/Custom-Components/note.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/formio/formio-js/examples/custom-components/note.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/formio/formio-js/examples/Custom-Components/t1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/formio/formio-js/examples/custom-components/t1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/formio/formio-js/examples/Custom-Components/t2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/formio/formio-js/examples/custom-components/t2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/formio/formio-js/examples/custom-components/note.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/formio/formio-js/examples/custom-components/note.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,10 +33,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Sass File" />
-        <option value="CSS File" />
         <option value="tsconfig.json" />
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -71,7 +64,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/formio/formio-js/examples/simple-embedding/select" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/formio/formio-js/examples/JSON-Powered-Forms/checkbox" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -82,7 +75,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
@@ -97,11 +90,11 @@
       <recent name="D:\dev\project\hello-react\src\formio\hello\Embed" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/formio/formio-js/examples/simple-embedding/select" />
-      <recent name="$PROJECT_DIR$/src/formio/formio-js/examples/simple-embedding/text-field" />
-      <recent name="$PROJECT_DIR$/src/formio/formio-js/examples/simple-embedding" />
-      <recent name="$PROJECT_DIR$/src/formio/formio-js/examples/wizard" />
-      <recent name="$PROJECT_DIR$/src/formio/formio-js/examples/conditional-wizard" />
+      <recent name="$PROJECT_DIR$/src/formio/formio-js/examples/JSON-Powered-Forms/checkbox" />
+      <recent name="$PROJECT_DIR$/src/formio/formio-js/examples/JSON-Powered-Forms/language" />
+      <recent name="$PROJECT_DIR$/src/formio/formio-js/examples/JSON-Powered-Forms/number" />
+      <recent name="$PROJECT_DIR$/src/formio/formio-js/examples/JSON-Powered-Forms/select" />
+      <recent name="$PROJECT_DIR$/src/formio/formio-js/examples/JSON-Powered-Forms/data-grid" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -285,7 +278,9 @@
       <workItem from="1574474651502" duration="2057000" />
       <workItem from="1574643544981" duration="6330000" />
       <workItem from="1574729124469" duration="8322000" />
-      <workItem from="1574817192784" duration="15574000" />
+      <workItem from="1574817192784" duration="15653000" />
+      <workItem from="1574851157564" duration="9888000" />
+      <workItem from="1574989047596" duration="8908000" />
     </task>
     <task id="LOCAL-00001" summary="ex01 draft">
       <created>1563022629692</created>
@@ -427,7 +422,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574244187133</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="hello formio 3">
+      <created>1574851131295</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1574851131295</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -494,6 +496,18 @@
     <MESSAGE value="hello formio 2" />
     <MESSAGE value="hello formio 3" />
     <option name="LAST_COMMIT_MESSAGE" value="hello formio 3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/formio/formio-js/examples/JSON-Powered-Forms/data-grid/t2.js</url>
+          <line>134</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="masterDetails">
     <states>

@@ -1,0 +1,7 @@
+.cBtnSubmit {
+    margin-left: 10px;
+}
+
+.cBtnSubmit div.has-success {
+    display: none;
+}

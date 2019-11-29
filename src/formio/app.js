@@ -39,6 +39,21 @@ import TfT1 from './formio-js/examples/simple-embedding/text-field/t2';
 // import SelectT1 from './formio-js/examples/simple-embedding/select/t0';
 // import SelectT1 from './formio-js/examples/simple-embedding/select/t1';
 import SelectT1 from './formio-js/examples/simple-embedding/select/t2';
+import CwT1 from './formio-js/examples/custom-wizard/t1';
+import JpfT1 from './formio-js/examples/JSON-Powered-Forms/t1';
+import JpfB1 from './formio-js/examples/JSON-Powered-Forms/button/t1';
+import JpfE1 from './formio-js/examples/JSON-Powered-Forms/email/t1';
+// import JpfS1 from './formio-js/examples/JSON-Powered-Forms/select/t1';
+// import JpfS1 from './formio-js/examples/JSON-Powered-Forms/select/t2';
+// import JpfS1 from './formio-js/examples/JSON-Powered-Forms/select/t3';
+import JpfS1 from './formio-js/examples/JSON-Powered-Forms/select/t4';
+import JpfS2 from './formio-js/examples/JSON-Powered-Forms/select/t5';
+// import JpfDg1 from './formio-js/examples/JSON-Powered-Forms/data-grid/t1';
+// import JpfDg1 from './formio-js/examples/JSON-Powered-Forms/data-grid/t2';
+import JpfDg1 from './formio-js/examples/JSON-Powered-Forms/data-grid/t3';
+import JpfN1 from './formio-js/examples/JSON-Powered-Forms/number/t1';
+import JpfL1 from './formio-js/examples/JSON-Powered-Forms/language/t1';
+import JpfCheckbox1 from './formio-js/examples/JSON-Powered-Forms/checkbox/t1';
 
 export default function () {
     return (
@@ -71,6 +86,16 @@ export default function () {
                     <Route path='/basic/examples/simple-embedding/builder' component={SeBuilder} />
                     <Route path='/basic/examples/simple-embedding/text-field/t1' component={TfT1} />
                     <Route path='/basic/examples/simple-embedding/select/t1' component={SelectT1} />
+                    <Route path='/basic/examples/custom-wizard/t1' component={CwT1} />
+                    <Route path='/basic/examples/json-powered-forms/t1' component={JpfT1} />
+                    <Route path='/basic/examples/json-powered-forms/button/t1' component={JpfB1} />
+                    <Route path='/basic/examples/json-powered-forms/email/t1' component={JpfE1} />
+                    <Route path='/basic/examples/json-powered-forms/select/t1' component={JpfS1} />
+                    <Route path='/basic/examples/json-powered-forms/data-grid/t1' component={JpfDg1} />
+                    <Route path='/basic/examples/json-powered-forms/select/t5' component={JpfS2} />
+                    <Route path='/basic/examples/json-powered-forms/number/t1' component={JpfN1} />
+                    <Route path='/basic/examples/json-powered-forms/language/t1' component={JpfL1} />
+                    <Route path='/basic/examples/json-powered-forms/checkbox/t1' component={JpfCheckbox1} />
                 </Switch>
             </div>
         </Router>
@@ -153,6 +178,36 @@ function Home() {
                 </li>
                 <li>
                     <Link to="/basic/examples/simple-embedding/select/t1">/basic/examples/simple-embedding/select/t1</Link>
+                </li>
+                <li>
+                    <Link to="/basic/examples/custom-wizard/t1">/basic/examples/wizard/json</Link>
+                </li>
+                <li>
+                    <Link to="/basic/examples/json-powered-forms/t1">/basic/examples/json-powered-forms/t1</Link>
+                </li>
+                <li>
+                    <Link to="/basic/examples/json-powered-forms/button/t1">/basic/examples/json-powered-forms/button/t1</Link>
+                </li>
+                <li>
+                    <Link to="/basic/examples/json-powered-forms/email/t1">/basic/examples/json-powered-forms/email/t1</Link>
+                </li>
+                <li>
+                    <Link to="/basic/examples/json-powered-forms/select/t1">/basic/examples/json-powered-forms/select/t1</Link>
+                </li>
+                <li>
+                    <Link to="/basic/examples/json-powered-forms/data-grid/t1">/basic/examples/json-powered-forms/data-grid/t1</Link>
+                </li>
+                <li>
+                    <Link to="/basic/examples/json-powered-forms/select/t5">/basic/examples/json-powered-forms/select/t5</Link>
+                </li>
+                <li>
+                    <Link to="/basic/examples/json-powered-forms/number/t1">/basic/examples/json-powered-forms/number/t1</Link>
+                </li>
+                <li>
+                    <Link to="/basic/examples/json-powered-forms/language/t1">/basic/examples/json-powered-forms/language/t1</Link>
+                </li>
+                <li>
+                    <Link to="/basic/examples/json-powered-forms/checkbox/t1">/basic/examples/json-powered-forms/checkbox/t1</Link>
                 </li>
             </ul>
         </div>
