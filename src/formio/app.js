@@ -48,12 +48,15 @@ import JpfE1 from './formio-js/examples/JSON-Powered-Forms/email/t1';
 // import JpfS1 from './formio-js/examples/JSON-Powered-Forms/select/t3';
 import JpfS1 from './formio-js/examples/JSON-Powered-Forms/select/t4';
 import JpfS2 from './formio-js/examples/JSON-Powered-Forms/select/t5';
+import JpfCustomS1 from './formio-js/examples/JSON-Powered-Forms/select/custom/t1';
+import JpfCustomS2 from './formio-js/examples/JSON-Powered-Forms/select/custom/t2';
 // import JpfDg1 from './formio-js/examples/JSON-Powered-Forms/data-grid/t1';
 // import JpfDg1 from './formio-js/examples/JSON-Powered-Forms/data-grid/t2';
 import JpfDg1 from './formio-js/examples/JSON-Powered-Forms/data-grid/t3';
 import JpfN1 from './formio-js/examples/JSON-Powered-Forms/number/t1';
 import JpfL1 from './formio-js/examples/JSON-Powered-Forms/language/t1';
 import JpfCheckbox1 from './formio-js/examples/JSON-Powered-Forms/checkbox/t1';
+import WorkT1 from './formio-js/work/h5/t1';
 
 export default function () {
     return (
@@ -96,6 +99,10 @@ export default function () {
                     <Route path='/basic/examples/json-powered-forms/number/t1' component={JpfN1} />
                     <Route path='/basic/examples/json-powered-forms/language/t1' component={JpfL1} />
                     <Route path='/basic/examples/json-powered-forms/checkbox/t1' component={JpfCheckbox1} />
+                    <Route path='/basic/work/h5/t1' component={WorkT1} />
+                    <Route path='/basic/examples/select/custom/t1' component={JpfCustomS1} />
+                    <Route path='/basic/examples/select/custom/t2' component={JpfCustomS2} />
+
                 </Switch>
             </div>
         </Router>
@@ -208,6 +215,15 @@ function Home() {
                 </li>
                 <li>
                     <Link to="/basic/examples/json-powered-forms/checkbox/t1">/basic/examples/json-powered-forms/checkbox/t1</Link>
+                </li>
+                <li>
+                    <Link to="/basic/work/h5/t1">/basic/work/h5/t1</Link>
+                </li>
+                <li>
+                    <Link to="/basic/examples/select/custom/t1">/basic/examples/select/custom/t1</Link>
+                </li>
+                <li>
+                    <Link to="/basic/examples/select/custom/t2">/basic/examples/select/custom/t2</Link>
                 </li>
             </ul>
         </div>

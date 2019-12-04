@@ -2,32 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a0a26dd-9acb-48d9-b83e-2218a4e3dc8e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/formio/formio-js/css/examples/btn1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/formio/formio-js/examples/JSON-Powered-Forms/button/t1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/formio/formio-js/examples/JSON-Powered-Forms/checkbox/t1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/formio/formio-js/examples/JSON-Powered-Forms/data-grid/t1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/formio/formio-js/examples/JSON-Powered-Forms/data-grid/t2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/formio/formio-js/examples/JSON-Powered-Forms/data-grid/t3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/formio/formio-js/examples/JSON-Powered-Forms/email/t1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/formio/formio-js/examples/JSON-Powered-Forms/language/t1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/formio/formio-js/examples/JSON-Powered-Forms/number/t1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/formio/formio-js/examples/JSON-Powered-Forms/select/t1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/formio/formio-js/examples/JSON-Powered-Forms/select/t2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/formio/formio-js/examples/JSON-Powered-Forms/select/t3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/formio/formio-js/examples/JSON-Powered-Forms/select/t4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/formio/formio-js/examples/JSON-Powered-Forms/select/t5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/formio/formio-js/examples/JSON-Powered-Forms/t1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/formio/formio-js/examples/custom-wizard/example-json.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/formio/formio-js/examples/custom-wizard/t1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formio/formio-js/examples/JSON-Powered-Forms/select/custom/address.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formio/formio-js/examples/JSON-Powered-Forms/select/custom/t1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formio/formio-js/examples/JSON-Powered-Forms/select/custom/t2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formio/formio-js/work/h5/jsonform-json.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formio/formio-js/work/h5/t1.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/formio/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/formio/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/formio/formio-js/examples/custom-components/note.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/formio/formio-js/examples/custom-components/note.txt" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="hello-react" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -35,8 +24,8 @@
         <option value="Sass File" />
         <option value="tsconfig.json" />
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -49,22 +38,23 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1050" />
-  </component>
   <component name="ProjectId" id="1PXUcFKvXnyoxqENKnf9F4qduoJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/formio/formio-js/examples/JSON-Powered-Forms/checkbox" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/formio/formio-js/examples/JSON-Powered-Forms/select/custom" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -82,6 +72,13 @@
     <key name="OPEN_URL_DIALOG">
       <recent name="https://github.com/mocheng/react-and-redux.git" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/formio/formio-js/examples/JSON-Powered-Forms/select/custom" />
+      <recent name="$PROJECT_DIR$/src/formio/formio-js/work/h5" />
+      <recent name="$PROJECT_DIR$/src/formio/formio-js/examples/JSON-Powered-Forms/checkbox" />
+      <recent name="$PROJECT_DIR$/src/formio/formio-js/examples/JSON-Powered-Forms/language" />
+      <recent name="$PROJECT_DIR$/src/formio/formio-js/examples/JSON-Powered-Forms/number" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/formio/formio-js/examples/simple-embedding/builder" />
       <recent name="$PROJECT_DIR$/src/formio/formio-js/examples/simple-embedding/select" />
@@ -89,25 +86,6 @@
       <recent name="D:\dev\project\hello-react\src\formio\formio-js\wiki\FormioUtils\flattenComponents" />
       <recent name="D:\dev\project\hello-react\src\formio\hello\Embed" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/formio/formio-js/examples/JSON-Powered-Forms/checkbox" />
-      <recent name="$PROJECT_DIR$/src/formio/formio-js/examples/JSON-Powered-Forms/language" />
-      <recent name="$PROJECT_DIR$/src/formio/formio-js/examples/JSON-Powered-Forms/number" />
-      <recent name="$PROJECT_DIR$/src/formio/formio-js/examples/JSON-Powered-Forms/select" />
-      <recent name="$PROJECT_DIR$/src/formio/formio-js/examples/JSON-Powered-Forms/data-grid" />
-    </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="npm.start">
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -138,13 +116,15 @@
     </recent_temporary>
   </component>
   <component name="ServiceViewManager">
-    <option name="allServicesViewState">
-      <serviceView>
-        <treeState>
-          <expand />
-          <select />
-        </treeState>
-      </serviceView>
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
     </option>
   </component>
   <component name="StructureViewFactory">
@@ -280,7 +260,12 @@
       <workItem from="1574729124469" duration="8322000" />
       <workItem from="1574817192784" duration="15653000" />
       <workItem from="1574851157564" duration="9888000" />
-      <workItem from="1574989047596" duration="8908000" />
+      <workItem from="1574989047596" duration="9539000" />
+      <workItem from="1575183426897" duration="218000" />
+      <workItem from="1575184369580" duration="5679000" />
+      <workItem from="1575273453244" duration="2085000" />
+      <workItem from="1575351747982" duration="8778000" />
+      <workItem from="1575420972888" duration="3972000" />
     </task>
     <task id="LOCAL-00001" summary="ex01 draft">
       <created>1563022629692</created>
@@ -429,7 +414,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574851131295</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="hello formio 4">
+      <created>1575020703964</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1575020703964</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -495,7 +487,47 @@
     <MESSAGE value="hello formio 1" />
     <MESSAGE value="hello formio 2" />
     <MESSAGE value="hello formio 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="hello formio 3" />
+    <MESSAGE value="hello formio 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="hello formio 4" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1659" height="154" key="GridCell.Tab.0.bottom" timestamp="1575367265245">
+      <screen x="0" y="23" width="1630" height="1027" />
+    </state>
+    <state width="1659" height="154" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1575366124383" />
+    <state width="1659" height="154" key="GridCell.Tab.0.bottom/0.23.1630.1027@0.23.1630.1027" timestamp="1575367265245" />
+    <state width="1659" height="154" key="GridCell.Tab.0.center" timestamp="1575367265245">
+      <screen x="0" y="23" width="1630" height="1027" />
+    </state>
+    <state width="1659" height="154" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1575366124381" />
+    <state width="1659" height="154" key="GridCell.Tab.0.center/0.23.1630.1027@0.23.1630.1027" timestamp="1575367265245" />
+    <state width="1659" height="154" key="GridCell.Tab.0.left" timestamp="1575367265244">
+      <screen x="0" y="23" width="1630" height="1027" />
+    </state>
+    <state width="1659" height="154" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1575366124381" />
+    <state width="1659" height="154" key="GridCell.Tab.0.left/0.23.1630.1027@0.23.1630.1027" timestamp="1575367265244" />
+    <state width="1659" height="154" key="GridCell.Tab.0.right" timestamp="1575367265245">
+      <screen x="0" y="23" width="1630" height="1027" />
+    </state>
+    <state width="1659" height="154" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1575366124382" />
+    <state width="1659" height="154" key="GridCell.Tab.0.right/0.23.1630.1027@0.23.1630.1027" timestamp="1575367265245" />
+    <state width="506" height="445" key="SwitcherDM" timestamp="1575249172564">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="506" height="445" key="SwitcherDM/0.0.1680.1050@0.0.1680.1050" timestamp="1575249172564" />
+    <state x="523" y="354" key="com.intellij.ide.util.TipDialog" timestamp="1575420986412">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="523" y="354" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1575420986412" />
+    <state x="507" y="369" key="com.intellij.ide.util.TipDialog/0.23.1630.1027@0.23.1630.1027" timestamp="1575184416615" />
+    <state x="618" y="460" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1575184523750">
+      <screen x="0" y="23" width="1630" height="1027" />
+    </state>
+    <state x="618" y="460" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1630.1027@0.23.1630.1027" timestamp="1575184523750" />
+    <state x="521" y="293" width="637" height="464" key="find.popup" timestamp="1575366168347">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="521" y="293" width="637" height="464" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1575366168347" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -503,7 +535,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/formio/formio-js/examples/JSON-Powered-Forms/data-grid/t2.js</url>
           <line>134</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
