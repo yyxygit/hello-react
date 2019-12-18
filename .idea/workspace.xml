@@ -2,18 +2,69 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a0a26dd-9acb-48d9-b83e-2218a4e3dc8e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/formio/formio-js/examples/JSON-Powered-Forms/select/custom/address.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/formio/formio-js/examples/JSON-Powered-Forms/select/custom/t1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/formio/formio-js/examples/JSON-Powered-Forms/select/custom/t2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/formio/formio-js/work/h5/jsonform-json.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/formio/formio-js/work/h5/t1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-pull-load/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-pull-load/hello/t1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-pull-load/hello/t2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-pull-load/note.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/todos/views/addTodo2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex01/v4/Form1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex01/v4/Form1.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/formio/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/formio/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react-redux-in-action/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/react-redux-in-action/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/Store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/Store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/TodoApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/TodoApp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/constants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/filter/actionTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/filter/actionTypes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/filter/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/filter/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/filter/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/filter/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/filter/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/filter/reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/filter/views/filter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/filter/views/filter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/filter/views/link.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/filter/views/link.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/filter/views/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/filter/views/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/todos/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/todos/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/todos/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/todos/reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/todos/views/addTodo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/todos/views/addTodo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/todos/views/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/todos/views/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/todos/views/todoItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/todos/views/todoItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/todos/views/todoList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/todos/views/todoList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/todos/views/todos.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/todos/views/todos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Advanced-Sorting/t1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Advanced-Sorting/t1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Advanced-Sorting/t2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Advanced-Sorting/t2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Advanced-Sorting/t3.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Advanced-Sorting/t3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Higher-Order-Components/t1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Higher-Order-Components/t1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Loading/t1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Loading/t1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/t1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/t1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/t2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/t2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/t3.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/Advanced-React-Components/Ref-a-DOM-Element/t3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/the-road-to-learn-react/Code-Organization-and-Testing/Component-Interface-with-PropTypes/t1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/Code-Organization-and-Testing/Component-Interface-with-PropTypes/t1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/the-road-to-learn-react/Code-Organization-and-Testing/Snapshot-Tests-with-Jest/t1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/Code-Organization-and-Testing/Snapshot-Tests-with-Jest/t1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/the-road-to-learn-react/Getting-Real-with-APIs/Axios-instead-of-Fetch/t1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/Getting-Real-with-APIs/Axios-instead-of-Fetch/t1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/the-road-to-learn-react/Getting-Real-with-APIs/Client-Cache/t1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/Getting-Real-with-APIs/Client-Cache/t1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/the-road-to-learn-react/Getting-Real-with-APIs/Fetching-Data/t1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/Getting-Real-with-APIs/Fetching-Data/t1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/the-road-to-learn-react/Getting-Real-with-APIs/Fetching-Data/t2-paginated.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/Getting-Real-with-APIs/Fetching-Data/t2-paginated.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/the-road-to-learn-react/Getting-Real-with-APIs/Fetching-Data/t3-paginated.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/Getting-Real-with-APIs/Fetching-Data/t3-paginated.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/the-road-to-learn-react/Getting-Real-with-APIs/Fetching-Data/t4-paginated.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/Getting-Real-with-APIs/Fetching-Data/t4-paginated.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/the-road-to-learn-react/State-Management/Lifting-State/t1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/State-Management/Lifting-State/t1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/the-road-to-learn-react/State-Management/Revisited-setState/t1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/State-Management/Revisited-setState/t1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/the-road-to-learn-react/State-Management/Revisited-setState/t2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/State-Management/Revisited-setState/t2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/the-road-to-learn-react/introduce-to-react/Styling-Components/t2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/introduce-to-react/Styling-Components/t2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/the-road-to-learn-react/introduce-to-react/Styling-Components/t20191016a.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/introduce-to-react/Styling-Components/t20191016a.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/the-road-to-learn-react/introduce-to-react/Styling-Components/t3.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/the-road-to-learn-react/introduce-to-react/Styling-Components/t3.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
   </component>
   <component name="FavoritesManager">
     <favorites_list name="hello-react" />
@@ -43,7 +94,6 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
-    <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -54,7 +104,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/formio/formio-js/examples/JSON-Powered-Forms/select/custom" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/todos/views" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -73,11 +123,11 @@
       <recent name="https://github.com/mocheng/react-and-redux.git" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/react-redux-in-action/chap4/todo/todos/views" />
+      <recent name="$PROJECT_DIR$/src/react-pull-load/hello" />
       <recent name="$PROJECT_DIR$/src/formio/formio-js/examples/JSON-Powered-Forms/select/custom" />
       <recent name="$PROJECT_DIR$/src/formio/formio-js/work/h5" />
       <recent name="$PROJECT_DIR$/src/formio/formio-js/examples/JSON-Powered-Forms/checkbox" />
-      <recent name="$PROJECT_DIR$/src/formio/formio-js/examples/JSON-Powered-Forms/language" />
-      <recent name="$PROJECT_DIR$/src/formio/formio-js/examples/JSON-Powered-Forms/number" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/formio/formio-js/examples/simple-embedding/builder" />
@@ -265,7 +315,16 @@
       <workItem from="1575184369580" duration="5679000" />
       <workItem from="1575273453244" duration="2085000" />
       <workItem from="1575351747982" duration="8778000" />
-      <workItem from="1575420972888" duration="3972000" />
+      <workItem from="1575420972888" duration="4073000" />
+      <workItem from="1575507228573" duration="13460000" />
+      <workItem from="1575557941472" duration="1430000" />
+      <workItem from="1575593095162" duration="6316000" />
+      <workItem from="1575943948049" duration="936000" />
+      <workItem from="1576030095665" duration="3604000" />
+      <workItem from="1576113892529" duration="9082000" />
+      <workItem from="1576478737992" duration="2839000" />
+      <workItem from="1576547966362" duration="8813000" />
+      <workItem from="1576652299113" duration="1495000" />
     </task>
     <task id="LOCAL-00001" summary="ex01 draft">
       <created>1563022629692</created>
@@ -421,7 +480,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575020703964</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="hello formio 4.1">
+      <created>1575453696616</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1575453696616</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -488,46 +554,88 @@
     <MESSAGE value="hello formio 2" />
     <MESSAGE value="hello formio 3" />
     <MESSAGE value="hello formio 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="hello formio 4" />
+    <MESSAGE value="hello formio 4.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="hello formio 4.1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1659" height="154" key="GridCell.Tab.0.bottom" timestamp="1575367265245">
-      <screen x="0" y="23" width="1630" height="1027" />
-    </state>
-    <state width="1659" height="154" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1575366124383" />
-    <state width="1659" height="154" key="GridCell.Tab.0.bottom/0.23.1630.1027@0.23.1630.1027" timestamp="1575367265245" />
-    <state width="1659" height="154" key="GridCell.Tab.0.center" timestamp="1575367265245">
-      <screen x="0" y="23" width="1630" height="1027" />
-    </state>
-    <state width="1659" height="154" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1575366124381" />
-    <state width="1659" height="154" key="GridCell.Tab.0.center/0.23.1630.1027@0.23.1630.1027" timestamp="1575367265245" />
-    <state width="1659" height="154" key="GridCell.Tab.0.left" timestamp="1575367265244">
-      <screen x="0" y="23" width="1630" height="1027" />
-    </state>
-    <state width="1659" height="154" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1575366124381" />
-    <state width="1659" height="154" key="GridCell.Tab.0.left/0.23.1630.1027@0.23.1630.1027" timestamp="1575367265244" />
-    <state width="1659" height="154" key="GridCell.Tab.0.right" timestamp="1575367265245">
-      <screen x="0" y="23" width="1630" height="1027" />
-    </state>
-    <state width="1659" height="154" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1575366124382" />
-    <state width="1659" height="154" key="GridCell.Tab.0.right/0.23.1630.1027@0.23.1630.1027" timestamp="1575367265245" />
-    <state width="506" height="445" key="SwitcherDM" timestamp="1575249172564">
+    <state x="440" y="190" key="#Notifications" timestamp="1575532500080">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="506" height="445" key="SwitcherDM/0.0.1680.1050@0.0.1680.1050" timestamp="1575249172564" />
-    <state x="523" y="354" key="com.intellij.ide.util.TipDialog" timestamp="1575420986412">
+    <state x="440" y="190" key="#Notifications/0.0.1680.1050@0.0.1680.1050" timestamp="1575532500080" />
+    <state x="675" y="247" key="#com.intellij.ide.ui.customization.CustomizableActionsPanel.FindAvailableActionsDialog" timestamp="1575534997607">
       <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="675" y="247" key="#com.intellij.ide.ui.customization.CustomizableActionsPanel.FindAvailableActionsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1575534997607" />
+    <state x="452" y="199" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1575532491525">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="452" y="199" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1575532491525" />
+    <state x="441" y="125" key="CommitChangelistDialog2" timestamp="1575453696508">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="441" y="125" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1575453696508" />
+    <state x="84" y="115" width="1480" height="850" key="DiffContextDialog" timestamp="1575598240955">
+      <screen x="0" y="23" width="1630" height="1027" />
+    </state>
+    <state x="100" y="100" width="1480" height="850" key="DiffContextDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1575536472202" />
+    <state x="84" y="115" width="1480" height="850" key="DiffContextDialog/0.23.1630.1027@0.23.1630.1027" timestamp="1575598240955" />
+    <state width="1609" height="235" key="GridCell.Tab.0.bottom" timestamp="1576576832120">
+      <screen x="0" y="23" width="1630" height="1027" />
+    </state>
+    <state width="1659" height="145" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1576130296443" />
+    <state width="1609" height="235" key="GridCell.Tab.0.bottom/0.23.1630.1027@0.23.1630.1027" timestamp="1576576832120" />
+    <state width="1609" height="235" key="GridCell.Tab.0.center" timestamp="1576576832120">
+      <screen x="0" y="23" width="1630" height="1027" />
+    </state>
+    <state width="1659" height="145" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1576130296442" />
+    <state width="1609" height="235" key="GridCell.Tab.0.center/0.23.1630.1027@0.23.1630.1027" timestamp="1576576832120" />
+    <state width="1609" height="235" key="GridCell.Tab.0.left" timestamp="1576576832120">
+      <screen x="0" y="23" width="1630" height="1027" />
+    </state>
+    <state width="1659" height="145" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1576130296441" />
+    <state width="1609" height="235" key="GridCell.Tab.0.left/0.23.1630.1027@0.23.1630.1027" timestamp="1576576832120" />
+    <state width="1609" height="235" key="GridCell.Tab.0.right" timestamp="1576576832120">
+      <screen x="0" y="23" width="1630" height="1027" />
+    </state>
+    <state width="1659" height="145" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1576130296443" />
+    <state width="1609" height="235" key="GridCell.Tab.0.right/0.23.1630.1027@0.23.1630.1027" timestamp="1576576832120" />
+    <state x="339" y="183" key="SettingsEditor" timestamp="1576117334310">
+      <screen x="0" y="23" width="1630" height="1027" />
+    </state>
+    <state x="349" y="164" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1575559231809" />
+    <state x="339" y="183" key="SettingsEditor/0.23.1630.1027@0.23.1630.1027" timestamp="1576117334310" />
+    <state width="506" height="445" key="SwitcherDM" timestamp="1576568822868">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="506" height="445" key="SwitcherDM/0.0.1680.1050@0.0.1680.1050" timestamp="1576568822868" />
+    <state width="500" height="436" key="SwitcherDM/0.23.1630.1027@0.23.1630.1027" timestamp="1575599902083" />
+    <state x="678" y="402" key="VCS.EditChangelistDialog" timestamp="1576548071404">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="678" y="402" key="VCS.EditChangelistDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1576548071404" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1575453763618">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1575453763618" />
+    <state x="507" y="369" key="com.intellij.ide.util.TipDialog" timestamp="1576548000018">
+      <screen x="0" y="23" width="1630" height="1027" />
     </state>
     <state x="523" y="354" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1575420986412" />
-    <state x="507" y="369" key="com.intellij.ide.util.TipDialog/0.23.1630.1027@0.23.1630.1027" timestamp="1575184416615" />
-    <state x="618" y="460" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1575184523750">
+    <state x="507" y="369" key="com.intellij.ide.util.TipDialog/0.23.1630.1027@0.23.1630.1027" timestamp="1576548000018" />
+    <state x="618" y="460" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1576120511820">
       <screen x="0" y="23" width="1630" height="1027" />
     </state>
-    <state x="618" y="460" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1630.1027@0.23.1630.1027" timestamp="1575184523750" />
-    <state x="521" y="293" width="637" height="464" key="find.popup" timestamp="1575366168347">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="618" y="460" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1630.1027@0.23.1630.1027" timestamp="1576120511820" />
+    <state x="505" y="310" width="716" height="464" key="find.popup" timestamp="1576655483742">
+      <screen x="0" y="23" width="1630" height="1027" />
     </state>
-    <state x="521" y="293" width="637" height="464" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1575366168347" />
+    <state x="521" y="293" width="776" height="526" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1576568837234" />
+    <state x="505" y="310" width="716" height="464" key="find.popup/0.23.1630.1027@0.23.1630.1027" timestamp="1576655483742" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1576548404467">
+      <screen x="0" y="23" width="1630" height="1027" />
+    </state>
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1575559811752" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.23.1630.1027@0.23.1630.1027" timestamp="1576548404467" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

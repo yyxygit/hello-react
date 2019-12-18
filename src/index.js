@@ -41,10 +41,13 @@ import ReactDOM from 'react-dom';
 // import App from './the-road-to-learn-react/introduce-to-react/Composable-Components/t20191016a';
 // import App from './the-road-to-learn-react/introduce-to-react/Reusable-Components/t20191016b';
 // import App from './the-road-to-learn-react/introduce-to-react/Styling-Components/t2';
-import TRTLR from './the-road-to-learn-react/app';
-// import RRIA from './react-redux-in-action/app';
+// import TRTLR from './the-road-to-learn-react/app';
+import RRIA from './react-redux-in-action/app';
 // import PdfDist from './pdf/app';
-import FormIO from './formio/app';
+// import FormIO from './formio/app';
+
+// import ReactPullLoad from './react-pull-load/app';
+
 
 // import MomentJS from './moment-js/app';
 
@@ -65,20 +68,25 @@ import FormIO from './formio/app';
 //     document.getElementById('root')
 // );
 
-// ReactDOM.render(
-//     <RRIA />,
-//     document.getElementById('root')
-// );
+ReactDOM.render(
+    <RRIA />,
+    document.getElementById('root')
+);
 
 // ReactDOM.render(
 //     <PdfDist />,
 //     document.getElementById('root')
 // );
 
-ReactDOM.render(
-    <FormIO />,
-    document.getElementById('root')
-);
+// ReactDOM.render(
+//     <FormIO />,
+//     document.getElementById('root')
+// );
+
+// ReactDOM.render(
+//     <ReactPullLoad />,
+//     document.getElementById('root')
+// );
 
 // ReactDOM.render(
 //     <HelloMessage name="Cathy" />,

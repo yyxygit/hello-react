@@ -2,8 +2,8 @@ import React, {Component} from 'react';
 import axios from 'axios';
 import PropTypes from 'prop-types';
 
-import '../../css/index.css';
-import '../../css/App.css';
+// import '../../css/index.css';
+// import '../../css/App.css';
 
 const DEFAULT_QUERY = 'redux-basic';
 const DEFAULT_HPP = '5';

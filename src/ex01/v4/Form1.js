@@ -53,7 +53,9 @@ class FruitRow extends React.Component {
                 <td>{fruit.name}</td>
                 <td>{fruit.price}</td>
                 <td>{fruit.storage}</td>
-                <td><button onClick={this.handleDeleteClick}>Delete</button></td>
+                <td>
+                    <button onClick={this.handleDeleteClick}>Delete</button>
+                </td>
             </tr>
         );
     }
@@ -63,24 +65,24 @@ class FruitsTable extends React.Component {
     render() {
         let resList = this.props.fruits;
 
-        if(this.props.searchKeys.sId) {
+        if (this.props.searchKeys.sId) {
             resList = resList.filter(item =>
                 item.id == this.props.searchKeys.sId);
         }
 
         const name = this.props.searchKeys.sName;
-        if(name) {
+        if (name) {
             // resList = resList.filter(item => item.name == name);
             resList = resList.filter(item =>
                 item.name.indexOf(name) !== -1);
         }
 
-        if(this.props.searchKeys.sPrice) {
+        if (this.props.searchKeys.sPrice) {
             resList = resList.filter(item =>
                 item.price == this.props.searchKeys.sPrice);
         }
 
-        if(this.props.searchKeys.sStorage) {
+        if (this.props.searchKeys.sStorage) {
             resList = resList.filter(item =>
                 item.storage == this.props.searchKeys.sStorage);
         }
@@ -89,7 +91,7 @@ class FruitsTable extends React.Component {
             <FruitRow
                 fruit={ele}
                 key={ele.id}
-                onDeleteClick = {this.props.onDeleteClick}
+                onDeleteClick={this.props.onDeleteClick}
             />
         ));
         // debugger;
@@ -108,7 +110,7 @@ class FruitsTable extends React.Component {
                     {rows}
                     </tbody>
                 </table>
-                <ResultRowsNumber totalNum={rows.length}  />
+                <ResultRowsNumber totalNum={rows.length}/>
             </div>
         );
     }
@@ -133,13 +135,13 @@ class SearchResult extends React.Component {
             (
                 <div>
                     <SearchConditions
-                        searchKeys = {this.props.searchKeys}
+                        searchKeys={this.props.searchKeys}
                     />
                     <FruitsTable
                         fruits={this.props.tableData}
-                        searchKeys = {this.props.searchKeys}
-                        handleDelete = {this.props.handleDelete}
-                        onDeleteClick = {this.props.onDeleteClick}
+                        searchKeys={this.props.searchKeys}
+                        handleDelete={this.props.handleDelete}
+                        onDeleteClick={this.props.onDeleteClick}
                     />
                 </div>
             ) : null;
@@ -213,7 +215,7 @@ class SearchBar extends React.Component {
     }
 }
 
-export default  class extends React.Component {
+export default class extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -233,7 +235,7 @@ export default  class extends React.Component {
     handleSearchKeyChange = (key, value) => {
         this.setState((preState) => {
             return {
-                searchKeys : {...preState.searchKeys, [key]:value}
+                searchKeys: {...preState.searchKeys, [key]: value}
             };
         });
     }

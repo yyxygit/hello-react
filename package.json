@@ -19,8 +19,10 @@
     "pdfjs-dist": "^2.2.228",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
+    "react-addons-perf": "^15.4.2",
     "react-dom": "^16.8.6",
     "react-formio": "^4.2.3",
+    "react-pullload": "^1.2.0",
     "react-redux": "^7.1.1",
     "react-router-dom": "^5.0.0",
     "react-scripts": "3.0.0",
@@ -50,6 +52,7 @@
     ]
   },
   "devDependencies": {
-    "react-test-renderer": "^16.11.0"
+    "react-test-renderer": "^16.11.0",
+    "redux-immutable-state-invariant": "^2.1.0"
   }
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+
 import EmbedT1 from './react-formio/Embed/t1';
 import EmbedT2 from './react-formio/Embed/t2';
 import loadForm from './formio-js/wiki/JavaScript-API/t1';
@@ -65,8 +66,10 @@ export default function () {
 
                 <Switch>
                     <Route exact path="/" component={Home} />
+
                     <Route path='/react/embed/t1' component={EmbedT1} />
                     <Route path='/react/embed/t2' component={EmbedT2} />
+
                     <Route path='/basic/wiki/js-api/loadForm' component={loadForm} />
                     <Route path='/basic/wiki/js-api/loadProject' component={loadProject} />
                     <Route path='/basic/wiki/form-renderer/hello' component={HelloRenderer} />
@@ -79,6 +82,7 @@ export default function () {
                     <Route path='/basic/wiki/form-utils/flattenComponents' component={FlattenComponents} />
                     <Route path='/basic/wiki/form-utils/get-value' component={GetValue} />
                     <Route path='/basic/wiki/js-api/event/change' component={ChangeEvent} />
+
                     <Route path='/basic/examples/builder-render-submission/hello' component={BrsHello} />
                     <Route path='/basic/examples/dynamic-select-filtering/t1' component={DSFt1} />
                     <Route path='/basic/examples/conditional-wizard/t1' component={CWt1} />
@@ -99,7 +103,9 @@ export default function () {
                     <Route path='/basic/examples/json-powered-forms/number/t1' component={JpfN1} />
                     <Route path='/basic/examples/json-powered-forms/language/t1' component={JpfL1} />
                     <Route path='/basic/examples/json-powered-forms/checkbox/t1' component={JpfCheckbox1} />
+
                     <Route path='/basic/work/h5/t1' component={WorkT1} />
+
                     <Route path='/basic/examples/select/custom/t1' component={JpfCustomS1} />
                     <Route path='/basic/examples/select/custom/t2' component={JpfCustomS2} />
 

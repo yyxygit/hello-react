@@ -1,0 +1,72 @@
+国际化
+拷贝 node_modules/react-pullload/dist/ReactPullLoad.css 样式文件
+将其中的中文提示语，用不同语言，不同的父容器类名，来设置不同的提示语
+
+.state-pulling .pull-load-head-default:after {
+  content: '下拉刷新';
+}
+.state-pulling.enough .pull-load-head-default:after {
+  content: '松开刷新';
+}
+.state-refreshing .pull-load-head-default:after {
+  content: '正在刷新...';
+}
+.state-refreshed .pull-load-head-default:after {
+  content: '刷新成功';
+}
+
+sass 加父类名
+
+.zhCN {
+    .state-pulling .pull-load-head-default:after {
+      content: '下拉刷新';
+    }
+    .state-pulling.enough .pull-load-head-default:after {
+      content: '松开刷新';
+    }
+    .state-refreshing .pull-load-head-default:after {
+      content: '正在刷新...';
+    }
+    .state-refreshed .pull-load-head-default:after {
+      content: '刷新成功';
+    }
+}
+
+.enUS {
+    .state-pulling .pull-load-head-default:after {
+      content: 'Pull to refresh';
+    }
+    .state-pulling.enough .pull-load-head-default:after {
+      content: 'Release to refresh';
+    }
+    .state-refreshing .pull-load-head-default:after {
+      content: 'Refreshing...';
+    }
+    .state-refreshed .pull-load-head-default:after {
+      content: 'Refresh successfully';
+    }
+}
+
+<ReactPullLoad>外面包父容器+类名
+
+-----------------
+可以自定义刷新/加载更多的提示样式，不止国际化，eg：加载时的图片
+
+.state-pulling .pull-load-head-default i {
+  display: inline-block;
+  font-size: 2em;
+  margin-right: .6em;
+  vertical-align: middle;
+  height: 1em;
+  //border-left: 1px solid;
+  //position: relative;
+  //transition: transform .3s ease;
+}
+edit:
+{
+    background: url("loading.gif") no-repeat center;
+    animation: circle .8 infinite linear; ??
+    width: 1em;
+    height: 1em;
+
+}

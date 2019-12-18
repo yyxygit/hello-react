@@ -7,7 +7,22 @@ import {addTodo} from "../actions";
 class AddTodo extends Component {
     constructor(props, context) {
         super(props, context);
-        this.refInput = React.createRef();
+        /**
+         * 本来addTodo组件，不从父容器组件state获得prop
+         * 没有自身的状态state
+         * 现在让它保存自身状态，即输入值
+         * 这个值随时可能改变，在未存入数据库之前，不需要redux来管理
+         * 可以由组件自身控制
+         */
+        this.state = {
+            value: ''
+        };
+    }
+
+    onInputChange = (ev) => {
+        this.setState({
+           value: ev.target.value
+        });
     }
 
     /**
@@ -41,8 +56,8 @@ class AddTodo extends Component {
          */
         evt.preventDefault();
         // debugger;
-        const input = this.refInput.current;
-        if (!input.value.trim()) {
+        const input = this.state.value;
+        if (!input.trim()) {
             /**
              * 没有输入
              * 不触发添加动作
@@ -54,11 +69,13 @@ class AddTodo extends Component {
          * 派发事件，传出输入文本
          * 动作事件回调函数由props外部传入
          */
-        this.props.onAdd(input.value);
+        this.props.onAdd(input);
         /**
          * 提交数据后清空输入框
          */
-        input.value = '';
+        this.setState({
+            value: ''
+        });
     }
 
     render() {
@@ -68,7 +85,8 @@ class AddTodo extends Component {
                   <input
                     type="text"
                     className="new-todo"
-                    ref={this.refInput}
+                    value={this.state.value}
+                    onChange={this.onInputChange}
                     />
                     <button className="add-btn" type="submit">
                         add

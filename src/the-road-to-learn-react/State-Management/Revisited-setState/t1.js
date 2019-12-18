@@ -4,8 +4,8 @@ import PropTypes from 'prop-types';
 import {sortBy} from 'lodash';
 import classNames from 'classnames';
 
-import '../../css/index.css';
-import '../../css/App.css';
+// import '../../css/index.css';
+// import '../../css/App.css';
 
 const DEFAULT_QUERY = 'redux-basic';
 const DEFAULT_HPP = '5';

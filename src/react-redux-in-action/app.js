@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
-import './css/app.css';
+// import './css/app.css';
 
 // import ClickCounter from './chap1/click-counter/t1';
 import ClickCounter from './chap1/click-counter/t2';
@@ -13,6 +13,7 @@ import Chap3 from './chap3/redux-basic/view/ControlPanel';
 import Chap6 from './chap6/function-as-child/Use';
 // import Weather from './chap7/weather-react/weather';
 import Weather from './chap7/weather-redux/index';
+import  Chap4T1 from './chap4/todo/index';
 
 export default function () {
     return (
@@ -26,7 +27,7 @@ export default function () {
                     <Route path='/chap3/flux' component={Chap3} />
                     <Route path='/chap6/use' component={Chap6} />
                     <Route path='/chap7/weather' component={Weather} />
-                    {/*<Route path='/ref/test' component={RefDomElement} />*/}
+                    <Route path='/chap4/t1' component={Chap4T1} />
                     {/*<Route path='/loading/test' component={LoadingMoreBtn} />*/}
                     {/*<Route path='/HigherOrderComponents/test' component={HigherOrderComponents} />*/}
                     {/*<Route path='/AdvancedSorting/test' component={AdvancedSorting} />*/}
@@ -58,9 +59,9 @@ function Home() {
                 <li>
                     <Link to="/chap7/weather">Chap7 weather</Link>
                 </li>
-                {/*<li>*/}
-                {/*    <Link to="/ref/test">RefDomElement</Link>*/}
-                {/*</li>*/}
+                <li>
+                    <Link to="/chap4/t1">/chap4/t1</Link>
+                </li>
                 {/*<li>*/}
                 {/*    <Link to="/loading/test">loading</Link>*/}
                 {/*</li>*/}
