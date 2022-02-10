@@ -15,7 +15,7 @@
     "formiojs": "^4.7.7",
     "jsencrypt": "^3.0.0-rc.1",
     "lodash": "^4.17.15",
-    "node-sass": "^4.13.0",
+    "node-sass": "^7.0.0",
     "pdfjs-dist": "^2.2.228",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
